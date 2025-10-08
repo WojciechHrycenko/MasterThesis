@@ -1,0 +1,81 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+            &\multicolumn{2}{c}{Short-term health}&\multicolumn{2}{c}{Long-term health}&\multicolumn{2}{c}{Well-being}\\
+            &\multicolumn{1}{c}{BMI}&\multicolumn{1}{c}{Obesity (1,0)}&\multicolumn{1}{c}{Chronically ill (1,0)}&\multicolumn{1}{c}{No. of chronic illnesses}&\multicolumn{1}{c}{CASP index}&\multicolumn{1}{c}{Depression scale}\\
+\hline
+\textit{Hunger $\times$ Transition period $\times$ Regime change}  &  & & & & &  \\ 
+
+Total &     -0.048         &     0.049         &    0.006         &   -0.008         &    -0.030         &     -0.675\sym{**} \\
+            &    (0.958)         &    (0.104)         &    (0.002)         &    (0.058)         &    (1.108)         &    (0.136)         \\
+
+
+\(N\)       &       37783         &       37783         &       37783         &       35834         &       36818         &       37467         \\
+\\
+Males only&    -0.664         &    -0.035         &    -0.058         &      0.209         &     -3.977\sym{**} &     -0.447         \\
+            &    (0.783)         &    (0.075)         &    (0.059)         &    (0.180)         &    (0.418)         &    (0.219)         \\
+
+\(N\)       &       16640         &       16640         &       16933         &       16893         &       16038         &       16310         \\
+
+Females only  &    0.309         &     0.097         &    -0.077\sym{**} &      0.195\sym{*}  &      1.650         &     -0.729         \\
+            &    (0.885)         &    (0.108)         &    (0.013)         &    (0.046)         &    (1.448)         &    (0.274)         \\
+
+\(N\)       &       21143         &       21143         &       21815         &       21767         &       20780         &       21157         \\
+
+
+
+
+\hline
+
+\textit{Dispossession $\times$ Transition period $\times$ Regime change}   &  & & & & &  \\
+Total &       -0.503         &     0.0298         &   0.001         &     0.02113         &     -6.235         &      0.420         \\
+            &    (1.529)         &    (0.137)         &    (0.006)         &    (0.038)         &    (2.544)         &    (0.221)         \\
+
+\(N\)       &       38081         &       38081         &       38081         &       35979         &       36987         &       37634         \\
+\\
+Males only&  1.390\sym{**} &      0.138\sym{**} &      0.175\sym{**} &      0.141         &     -5.186\sym{**} &     0.080         \\
+            &    (0.172)         &    (0.024)         &    (0.026)         &    (0.086)         &    (0.895)         &    (0.065)         \\
+
+\(N\)       &       16826         &       16826         &       17126         &       17086         &       16136         &       16411         \\
+
+
+
+Females only &     -1.545         &    -0.036         &    0.002         &      0.317         &     -7.148         &      0.715         \\
+            &    (1.928)         &    (0.200)         &    (0.074)         &    (0.267)         &    (3.419)         &    (0.373)         \\
+
+\(N\)       &       21255         &       21255         &       21932         &       21883         &       20851         &       21223         \\
+
+
+
+
+\hline
+\textit{Period of particular stress $\times$ Transition period $\times$ Regime change} & & & & & &  \\
+Total &       0.342\sym{*}  &     0.020         & -0.000         &    -0.031\sym{**} &     -0.741         &     0.038         \\
+            &    (0.107)         &    (0.011)         &    (0.002)         &    (0.007)         &    (0.308)         &    (0.053)         \\
+
+
+\(N\)       &       37532         &       37532         &       37532         &       35651         &       36621         &       37258         \\
+\\
+Males only &      0.230         &     0.019         &    -0.013         &     0.049\sym{**} &     -0.542         &     0.022         \\
+            &    (0.134)         &    (0.011)         &    (0.013)         &    (0.007)         &    (0.502)         &    (0.064)         \\
+
+\(N\)       &       16520         &       16520         &       16799         &       16762         &       15941         &       16207         \\
+
+Females only&      0.371\sym{*}  &     0.027         &    -0.012         &    -0.018         &     -0.823\sym{*}  &     0.065         \\
+            &    (0.123)         &    (0.015)         &    (0.005)         &    (0.025)         &    (0.257)         &    (0.090)         \\
+
+\(N\)       &       21012         &       21012         &       21662         &       21616         &       20680         &       21051         \\
+\hline\\
+Age & YES & YES& YES& YES& YES& YES \\ 
+Sex & YES & YES& YES& YES& YES& YES \\ 
+Childhood SES & YES & YES& YES& YES& YES& YES \\ 
+Childhood health & YES & YES& YES& YES& YES& YES \\ 
+Individual FE & YES & YES& YES& YES& YES& YES \\ 
+
+\bottomrule
+\multicolumn{7}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0. }\\
+\multicolumn{7}{l}{\footnotesize \textit{Notes}: Robust standard errors clustered at individual level in parentheses. Transition denotes period between 1983 and 1995. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\end{tabular}
+\label{tab:during}
+}

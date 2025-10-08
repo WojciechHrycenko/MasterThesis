@@ -1,0 +1,64 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+
+\toprule
+             &\multicolumn{1}{c}{Hospitalization (0-1)}&\multicolumn{1}{c}{Out-of-pocket health care expenditures (0-1)}\\
+
+\hline 
+Hunger $\times$ Regime change&     0.045\sym{*}  &    -0.029         \\
+            &    (0.014)         &    (0.051)         \\
+            \\
+Regime change&     0.021\sym{**} &    -0.043         \\
+            &    (0.004)         &    (0.058)         \\
+
+
+Hunger&    0.017         &    -0.026         \\
+            &    (0.013)         &    (0.043)         \\
+\(N\)         &       38737         &       34466         \\
+
+\hline
+Dispossession $\times$ Regime change&       0.033\sym{**} &    -0.018         \\
+            &    (0.007)         &    (0.065)         \\
+\\
+Regime change&      0.021\sym{**} &    -0.044         \\
+            &    (0.004)         &    (0.059)         \\
+Dispossession&      0.056\sym{*}  &     0.083\sym{**} \\
+            &    (0.017)         &    (0.005)         \\
+
+\(N\)        &       39047         &       34746         \\
+
+\hline
+Persecution $\times$ Regime change&     0.029\sym{**} &   -0.006         \\
+            &    (0.005)         &    (0.077)         \\
+\\
+Regime change&      0.022\sym{**} &    -0.044         \\
+            &    (0.005)         &    (0.057)         \\
+Persecution&      0.054\sym{*}  &     0.087         \\
+            &    (0.018)         &    (0.014)         \\
+
+\(N\)       &       39079         &       34775         \\
+
+\hline
+Period of particular stress $\times$ Regime change&      0.048\sym{*}  &     0.010         \\
+            &    (0.012)         &    (0.057)         \\
+            \\
+Regime change&    0.029\sym{*}  &    -0.018         \\
+            &    (0.008)         &    (0.059)         \\
+Period of particular stress &      0.030         &     0.071\sym{**} \\
+            &    (0.011)         &    (0.004)         \\
+\(N\)      &       38451         &       34246 \\
+
+
+%Age (linear) & YES & YES \\ 
+%Gender & YES & YES \\ 
+%Childhood SES & YES & YES \\ 
+%Childhood health & YES & YES\\ 
+%Individual FE & YES & YES\\ 
+\bottomrule
+\multicolumn{3}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0.}\\
+\multicolumn{3}{l}{\footnotesize   \textit{Notes}: Robust standard errors clustered at individual level in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\label{tab:hexp}
+\end{tabular}
+}
+

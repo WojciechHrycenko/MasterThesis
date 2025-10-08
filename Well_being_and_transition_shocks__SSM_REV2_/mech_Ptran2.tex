@@ -1,0 +1,77 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+            &\multicolumn{1}{c}{Net wealth in logs}&\multicolumn{1}{c}{Retirement age}&\multicolumn{1}{c}{Education}&\multicolumn{1}{c}{Married}\\
+\hline
+Hunger $\times$ Regime change&        -1.732\sym{***}&    -0.060         &   -0.010         &     -0.124\sym{***}\\
+            &    (0.045)         &    (0.196)         &    (0.049)         &    (0.008)         \\
+
+\\
+
+Regime change &      -1.489\sym{***}&    0.008         &      0.190\sym{**} &    -0.061\sym{***}\\
+            &    (0.051)         &    (0.152)         &    (0.035)         &    (0.005)         \\
+
+Hunger&         -0.516\sym{**} &     -0.616\sym{**} &     -0.417\sym{**} &    -0.064\sym{**} \\
+            &    (0.062)         &    (0.080)         &    (0.062)         &    (0.007)         \\
+
+
+\(N\)       &       37369         &       38747         &       38184         &       38748         \\
+
+
+\hline
+Dispossession $\times$ Regime change &    -1.389\sym{***}&      0.249         &      0.455\sym{**} &    -0.082\sym{**} \\
+            &    (0.053)         &    (0.152)         &    (0.083)         &    (0.010)         \\
+
+            \\
+Regime change&     -1.484\sym{***}&     0.0134         &      0.178\sym{**} &    -0.060\sym{***}\\
+            &    (0.048)         &    (0.159)         &    (0.030)         &    (0.006)         \\
+
+
+Dispossession &        0.401\sym{*}  &      0.387         &      0.430\sym{***}&    -0.059\sym{**} \\
+            &    (0.114)         &    (0.228)         &    (0.007)         &    (0.010)         \\
+
+
+\(N\)       &       37667         &       39057         &       38492         &       39058         \\
+
+\hline
+
+Persecution $\times$ Regime change  &  -1.409\sym{***}&      0.499         &      0.494\sym{**} &    -0.089\sym{**} \\
+            &    (0.124)         &    (0.251)         &    (0.050)         &    (0.011)         \\
+
+
+\\
+Regime change&       -1.490\sym{***}&    -0.020         &      0.184\sym{**} &    -0.061\sym{***}\\
+            &    (0.042)         &    (0.138)         &    (0.040)         &    (0.005)         \\
+
+
+
+Persecution &      -0.035         &    0.006         &      0.434\sym{*}  &    -0.098\sym{**} \\
+            &    (0.073)         &    (0.077)         &    (0.104)         &    (0.010)         \\
+
+
+
+\(N\)       &       37699         &       39089         &       38519         &       39090         \\
+
+
+\hline
+
+Period of particular stress $\times$ Regime change &        -1.460\sym{***}&     -0.113         &      0.423\sym{**} &     -0.136\sym{***}\\
+            &    (0.040)         &    (0.099)         &    (0.063)         &    (0.003)         \\
+
+
+\\
+Regime change&       -1.423\sym{***}&    -0.033         &      0.340\sym{***}&    -0.060\sym{***}\\
+            &    (0.050)         &    (0.073)         &    (0.030)         &    (0.005)         \\
+
+Period of particular stress&    0.076\sym{**} &     -0.201         &      0.350\sym{***}&    -0.065\sym{***}\\
+            &    (0.012)         &    (0.139)         &    (0.016)         &    (0.006)         \\
+
+\(N\)       &       37093         &       38460         &       37910         &       38461         \\
+
+\bottomrule
+\multicolumn{5}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0.}\\
+\multicolumn{5}{l}{\footnotesize \textit{Notes}: Robust standard errors clustered at individual level in parentheses.  \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\label{tab:mech2}
+\end{tabular}
+}

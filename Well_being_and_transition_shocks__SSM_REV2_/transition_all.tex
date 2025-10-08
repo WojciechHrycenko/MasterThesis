@@ -1,0 +1,30 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+            &\multicolumn{2}{c}{Short-term health}&\multicolumn{2}{c}{Long-term health}&\multicolumn{2}{c}{Well-being}\\
+            &\multicolumn{1}{c}{BMI}&\multicolumn{1}{c}{Obesity (1,0)}&\multicolumn{1}{c}{Chronically ill (1,0)}&\multicolumn{1}{c}{No. of chronic illnesses}&\multicolumn{1}{c}{CASP index}&\multicolumn{1}{c}{Depression scale}\\
+\hline
+\textit{Regime change} &  & & & & &  \\ 
+Total  &      1.396\sym{***}&     0.098\sym{***}&       0.062\sym{***}&      0.207\sym{***}&     -1.565\sym{***}&      0.198\sym{***}\\
+            &    (0.072)         &    (0.006)         &     (0.006)         &    (0.018)     &    (0.180)         &    (0.043)         \\
+\(N\)       &       41258         &       41258         &       41258         &         42443         &       42339         &       40547         \\
+Males only  &      0.984\sym{***}&     0.088\sym{***}&    0.057\sym{***}&      0.183\sym{***}&     -1.722\sym{***}&      0.242\sym{***}\\
+            &    (0.082)         &    (0.007)         &   (0.008)         &    (0.022)        &    (0.188)         &    (0.045)         \\
+\(N\)       &       18271         &       18271         &     18640         &       18592       &       17375         &       17700         \\
+Females only &      1.694\sym{***}&      0.105\sym{***}&     0.065\sym{***}&      0.224\sym{***}&     -1.444\sym{***}&      0.164\sym{***}\\
+            &    (0.096)         &    (0.008)         &     (0.007)         &    (0.021)          &    (0.196)         &    (0.052)         \\
+\(N\)       &       22987         &       22987         &        23803         &       23747              &       22403         &       22847         \\
+\hline
+Age & YES & YES& YES& YES& YES& YES \\ 
+Sex & YES & YES& YES& YES& YES& YES \\ 
+Childhood SES & NO  & NO & NO & NO & NO & NO \\ 
+Childhood health & NO & NO & NO & NO & NO & NO \\ 
+Individual FE & NO & NO & NO & NO & NO & NO \\ 
+\bottomrule
+\multicolumn{7}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0.}\\
+\multicolumn{7}{l}{\footnotesize \textit{Notes}: Robust standard errors clustered at individual level in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\label{tab:trans}
+\end{tabular}
+}
+

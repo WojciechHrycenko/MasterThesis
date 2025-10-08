@@ -1,0 +1,76 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+            &\multicolumn{2}{c}{Short-term health}&\multicolumn{2}{c}{Long-term health}&\multicolumn{2}{c}{Well-being}\\
+            &\multicolumn{1}{c}{BMI}&\multicolumn{1}{c}{Obesity (1,0)}&\multicolumn{1}{c}{Chronically ill (1,0)}&\multicolumn{1}{c}{No. of chronic illnesses}&\multicolumn{1}{c}{CASP index}&\multicolumn{1}{c}{Depression scale}\\
+\hline 
+\\ Total
+\\
+Placebo shock $\times$ Regime change&    0.064         &    0.001         &    0.008         &     0.011         &    -0.098         &    -0.045         \\
+            &    (0.028)         &    (0.002)         &    (0.004)         &    (0.009)         &    (0.062)         &    (0.025)         \\
+
+
+
+\\
+Regime change&   -0.038         &   -0.001         &    0.005         &   -0.002         &    -0.0404         &     0.021         \\
+            &    (0.019)         &    (0.003)         &    (0.004)         &    (0.012)         &    (0.051)         &    (0.011)         \\
+
+
+Placebo shock &   -0.062         &   0.000         &    0.002         &    0.003151         &    -0.080         &     0.015         \\
+            &    (0.066)         &    (0.003)         &    (0.003)         &    (0.005)         &    (0.097)         &    (0.013)         \\
+
+\(N\)       &       38152         &       38152         &       39132         &       39042         &       37041         &       37694         \\
+
+\hline
+\\Men
+\\
+
+Placebo shock $\times$ Regime change&      0.150\sym{*}  &    0.004         &    0.006         &    0.006         &     0.033         &    -0.016         \\
+            &    (0.048)         &    (0.007)         &    (0.005)         &    (0.014)         &    (0.096)         &    (0.018)         \\
+
+\\
+Regime change&     0.074         &    0.003         &   -0.009         &    -0.01231         &     0.040         &     0.016         \\
+            &    (0.077)         &    (0.010)         &    (0.006)         &    (0.022)         &    (0.123)         &    (0.026)         \\
+
+
+
+Placebo shock&     -0.047         &   -0.003         &   -0.009         &    0.003740         &    -0.038         &     0.039         \\
+            &    (0.070)         &    (0.008)         &    (0.010)         &    (0.032)         &    (0.084)         &    (0.017)         \\
+
+\(N\)       &       16860         &       16860         &       17161         &       17120         &       16163         &       16440         \\
+
+
+\hline
+\\Women
+\\
+
+Placebo shock $\times$ Regime change&     -0.007         &  -0.001         &     0.01058         &     0.014         &     -0.205\sym{*}  &    -0.067         \\
+            &    (0.067)         &    (0.006)         &    (0.005)         &    (0.012)         &    (0.053)         &    (0.031)         \\
+
+\\
+Regime change&     -0.125         &   -0.005         &     0.016\sym{**} &    0.006385         &     -0.108         &     0.026         \\
+            &    (0.078)         &    (0.008)         &    (0.003)         &    (0.005)         &    (0.085)         &    (0.028)         \\
+
+
+Placebo shock &    -0.077         &    0.002         &     0.010         &    0.002         &     -0.110         &   -0.005         \\
+            &    (0.153)         &    (0.010)         &    (0.004)         &    (0.021)         &    (0.112)         &    (0.024)         \\
+
+
+\(N\)       &       21292         &       21292         &       21971         &       21922         &       20878         &       21254         \\
+
+
+
+\hline
+Age & YES & YES& YES& YES& YES& YES \\ 
+Gender & YES & YES& YES& YES& YES& YES \\ 
+Childhood SES & YES & YES& YES& YES& YES& YES  \\ 
+Childhood health & YES & YES& YES& YES& YES& YES  \\ 
+Individual FE & YES & YES& YES& YES& YES& YES  \\ 
+\bottomrule
+\multicolumn{67}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0.}\\
+\multicolumn{6}{l}{\footnotesize   \textit{Notes}: Robust standard errors clustered at individual level in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\label{tab:plac}
+\end{tabular}
+}
+

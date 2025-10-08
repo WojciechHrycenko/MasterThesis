@@ -1,0 +1,85 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+            &\multicolumn{2}{c}{Short-term health}&\multicolumn{2}{c}{Long-term health}&\multicolumn{2}{c}{Well-being}\\
+            &\multicolumn{1}{c}{BMI}&\multicolumn{1}{c}{Obesity (1,0)}&\multicolumn{1}{c}{Chronically ill (1,0)}&\multicolumn{1}{c}{No. of chronic illnesses}&\multicolumn{1}{c}{CASP index}&\multicolumn{1}{c}{Depression scale}\\
+\hline 
+\\
+Hunger $\times$ Regime change&     1.514\sym{***}&      0.129\sym{***}&     0.074\sym{**} &      0.447\sym{***}&     -4.059\sym{***}&      0.817\sym{**} \\
+            &    (0.144)         &    (0.004)         &    (0.011)         &    (0.028)         &    (0.324)         &    (0.168)         \\
+
+\\
+Regime change&     1.378\sym{***}&      0.102\sym{***}&     0.052\sym{**} &      0.198\sym{***} &     -2.281\sym{***} &     0.065         \\
+            &    (0.034)         &    (0.003)         &    (0.011)         &    (0.037)         &    (0.559)         &    (0.182)         \\
+
+
+Hunger&      0.644\sym{***}&     0.058\sym{***}&     0.072\sym{**} &      0.307\sym{***} &     -2.622\sym{***} &      0.878\sym{***} \\
+            &    (0.045)         &    (0.006)         &    (0.011)         &    (0.047)         &    (0.338)         &    (0.102)         \\
+
+\(N\)       &       37783         &       37783         &       38748         &       38660         &       36818         &       37467         \\
+
+\hline
+\\
+Dispossession $\times$ Regime change&   1.486\sym{***}&     0.100\sym{***}&     0.059\sym{***}&      0.266\sym{***}&     -2.250\sym{***} &      0.171         \\
+            &    (0.068)         &    (0.004)         &    (0.005)         &    (0.007)         &    (0.400)         &    (0.138)         \\
+
+
+\\
+Regime change&       1.340\sym{***}&     0.100\sym{***}&     0.049\sym{***} &      0.186\sym{***} &     -2.230\sym{***} &     0.050         \\
+            &    (0.030)         &    (0.002)         &    (0.010)         &    (0.039)         &    (0.574)         &    (0.185)         \\
+
+
+Dispossession&   0.151\sym{*}         &    0.004         &     0.053\sym{***}  &      0.171\sym{***}         &     -0.229         &      0.261\sym{***} \\
+            &    (0.078)         &    (0.005)         &    (0.015)         &    (0.062)         &    (0.474)         &    (0.068)         \\
+
+
+
+\(N\)       &       38081         &       38081         &       39058         &       38969         &       36987         &       37634         \\
+
+\hline
+\\
+Persecution $\times$ Regime change&     1.467\sym{***}&      0.114\sym{***}&     0.078\sym{***} &      0.343\sym{***}&     -2.900\sym{***} &      0.332\sym{*}         \\
+            &    (0.037)         &    (0.003)         &    (0.013)         &    (0.025)         &    (0.452)         &    (0.188)         \\
+
+
+\\
+Regime change&      1.358\sym{***}&     0.100\sym{***}&     0.047\sym{***} &      0.182\sym{***} &     -2.211\sym{***} &     0.053         \\
+            &    (0.029)         &    (0.003)         &    (0.010)         &    (0.036)         &    (0.571)         &    (0.183)         \\
+
+Persecution&      0.459\sym{***}&     0.025\sym{**}         &     0.085\sym{***}&      0.260\sym{***} &     -1.443\sym{***} &      0.761\sym{***}\\
+            &    (0.037)         &    (0.010)         &    (0.006)         &    (0.030)         &    (0.176)         &    (0.062)         \\
+
+
+\(N\)       &       38113         &       38113         &       39090         &       39000         &       37010         &       37663         \\
+
+
+\hline
+
+\\
+Period of particular stress $\times$ Regime change&      1.529\sym{***}&      0.120\sym{***}&      0.117\sym{***}&      0.424\sym{***}&     -3.293\sym{***} &      0.700\sym{***} \\
+            &    (0.044)         &    (0.006)         &    (0.005)         &    (0.029)         &    (0.620)         &    (0.192)         \\
+
+
+\\
+Regime change&     1.226\sym{***}&     0.091\sym{***}&     0.052\sym{***} &      0.168\sym{***} &     -1.930\sym{*}  &     0.076         \\
+            &    (0.051)         &    (0.001)         &    (0.008)         &    (0.036)         &    (0.632)         &    (0.184)         \\
+
+
+Period of particular stress &    0.022         &    0.008\sym{**}         &     0.063\sym{***} &      0.175\sym{***}&     -0.594\sym{***} &      0.593\sym{***}\\
+            &    (0.041)         &    (0.004)         &    (0.009)         &    (0.013)         &    (0.104)         &    (0.021)         \\
+
+\(N\)       &       37532         &       37532         &       38461         &       38378         &       36621         &       37258         \\
+\hline
+Age & YES & YES& YES& YES& YES& YES \\ 
+Sex & YES & YES& YES& YES& YES& YES \\ 
+Childhood SES & YES & YES& YES& YES& YES& YES  \\ 
+Childhood health & YES & YES& YES& YES& YES& YES  \\ 
+Random effects & YES & YES& YES& YES& YES& YES  \\ 
+\bottomrule
+\multicolumn{6}{l}{\footnotesize  \textit{Source}: SHARE (waves 4, 5, 6) and SHARELIFE (waves 3, 7), release 7.0.0.}\\
+\multicolumn{6}{l}{\footnotesize   \textit{Notes}: Robust standard errors clustered at individual in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
+\label{tab:RE}
+\end{tabular}
+}
+
