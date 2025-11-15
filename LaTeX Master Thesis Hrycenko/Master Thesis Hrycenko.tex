@@ -36,8 +36,8 @@
 \usepackage{changepage}
 
 % --- CITATION AND HYPERLINKS SETUP ---
-% Load natbib for author-year citations
-\usepackage{natbib} 
+% ZMIANA 1: Dodaj opcję [numbers] do pakietu natbib
+\usepackage[numbers]{natbib} 
 
 % Load hyperref LAST (with a few exceptions) and with all options
 \usepackage[hyperfootnotes=false]{hyperref} 
@@ -64,11 +64,14 @@
 \captionsetup{format=default,font=small}
 
 \pagenumbering{arabic}
-\bibliographystyle{apalike}
+
+% ZMIANA 2: Zmień styl bibliografii na numeryczny (np. plainnat)
+\bibliographystyle{unsrtnat}
 \doublespacing
 
 
-\title{\normalsize{\textbf{\Large{Privatization’s Unequal Toll: Explaining Cross-Country Variation in Mortality and Health Outcomes After Post-Communist Transition}}} }
+\title{\normalsize{\textbf{\Large{Privatization’s Unequal Toll: Explaining Cross-Country
+Variation in Mortality and Health Outcomes After Transition From Comunism}}} }
 \date{\vspace{-5ex}}
 
 
@@ -87,11 +90,53 @@
 
 % \section*{\Large{\textbf{Introduction}}}
 
-\section*{Placeholder}\
+\section*{Introduction}\
 
+The collapse of communism in Central and Eastern Europe as well as in the former Soviet Union in the late 1980s 
+and early 1990s marked a significant turning point in global political and economic history. 
+The complexity of carrying out political, territorial, and economic reforms simultaneously is often termed 
+the "dilemma of synchronicity" \citep{A_Ramet2010} . A cornerstone of this economic paradigm 
+shift was privatization, which entailed the replacement of planned economies with free-market principles.
+That process was expected to lead to increased efficiency, economic growth, and improved living standards. 
+However, the outcomes of this transition have been far from uniform across countries, with some nations experiencing 
+significant improvements in health and mortality rates, while others have faced deteriorating conditions \citep{B_Brainerd1998}.
+
+This paper draws on ...
+% do wykorzystania przy literaturze:
+% into distinct types: models of "negotiated system reform" (Poland), 
+% "enforced reform" (Czech Republic, Croatia), and "reform without negotiation" or 
+% "imposed transformation" (Bulgaria, Serbia), a category that often includes Russia 
+% and other former Soviet states, which also experienced systemic "implosion" \citep{BujwidKurek_Transformacja2015}. 
+
+\section*{Relevant Literature}\
+
+\subsection*{}\
+
+\subsection*{}\
+
+\subsection*{}\
+
+\subsection*{}\
+
+% The sources classify these transitions in various ways \citep{C_BujwidKurek_Transformacja2015}, however the most commonly referenced
+% typology of transformation processes divides countries into three categories based on the nature of their reforms:
+% "transformation" (e.g., Soviet Union, Bulgaria, Hungary), "transplacement" (e.g., Czechoslovakia, Poland), and "replacement" 
+% (e.g., East Germany) \citep{D_Huntington1991}. These categories reflect the degree of domestic consensus and external pressure 
+% influencing the reform processes. The privatization methods varied widely across the region. In Poland, 
+% privatization occurred primarily through "capital" and "liquidation" tracks. 
+% In the Czech Republic, the campaign of "mass privatization" was implemented but later criticized for contributing 
+% to modest economic performance, financial scandals, a weak banking sector, and a loss of political orientation. 
+% In Russia, a high percentage of enterprises chose "Option 2," leading to insider dominance, where employee ownership 
+% was the majority in many privatized companies by early 1994. 
+% These diverse methods and outcomes illustrate that privatization was a process that often diverged steeply from 
+% original expectations.
+
+% ... Tutaj reszta tekstu ...
+
+
+%%% --- DODANO SEKCJA BIBLIOGRAFII ---
+\clearpage 
+\singlespacing 
+\bibliography{myreferences} 
 
 \end{document}
-
-
-
-

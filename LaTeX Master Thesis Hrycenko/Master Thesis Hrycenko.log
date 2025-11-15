@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  13 OCT 2025 03:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  15 NOV 2025 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -901,30 +901,30 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 52.
  (c:/texlive/2025/texmf-dist/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame and Bracket extension v.3.14 not reloaded)
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 78.
  (c:/texlive/2025/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ) (./Master Thesis Hrycenko.aux)
 \openout1 = `"Master Thesis Hrycenko.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -982,20 +982,20 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.47998pt on input line 75.
+Package xypdf Info: Line width: 0.47998pt on input line 78.
  (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 75.
-Package hyperref Info: Link coloring ON on input line 75.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 78.
+Package hyperref Info: Link coloring ON on input line 78.
  (./Master Thesis Hrycenko.out) (./Master Thesis Hrycenko.out)
 \@outlinefile=\write5
 \openout5 = `"Master Thesis Hrycenko.out"'.
@@ -1014,8 +1014,12 @@ LaTeX Warning: No \author given.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{document}
-                    [1
+l.138 \clearpage
+                 [1
+
+] (./Master Thesis Hrycenko.bbl)
+
+[2
 
 ] (./Master Thesis Hrycenko.aux)
  ***********
@@ -1026,18 +1030,18 @@ Package rerunfilecheck Info: File `"Master Thesis Hrycenko".out' has not changed
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33496 strings out of 467748
- 647736 string characters out of 5431138
- 1130498 words of memory out of 5000000
- 61586 multiletter control sequences out of 15000+600000
- 648128 words of font info for 91 fonts, out of 8000000 for 9000
+ 33532 strings out of 467748
+ 648346 string characters out of 5431138
+ 1131566 words of memory out of 5000000
+ 61607 multiletter control sequences out of 15000+600000
+ 652114 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,117p,3333b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Master Thesis Hrycenko.pdf" (2 pages, 24083 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Master Thesis Hrycenko.pdf" (3 pages, 51014 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 51 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

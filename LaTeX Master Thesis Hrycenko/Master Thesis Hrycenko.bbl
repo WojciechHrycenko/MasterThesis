@@ -1,0 +1,19 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ramet(2010)]{A_Ramet2010}
+Sabrina~P. Ramet, editor.
+\newblock \emph{Central and Southeast European Politics Since 1989}.
+\newblock Cambridge University Press, Cambridge, 2010.
+
+\bibitem[Brainerd(1998)]{B_Brainerd1998}
+Elizabeth Brainerd.
+\newblock Market reform and mortality in transition economies.
+\newblock \emph{World Development}, 26\penalty0 (11):\penalty0 2013--2027, 1998.
+\newblock \doi{10.1016/S0305-750X(98)00108-8}.
+
+\end{thebibliography}
