@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,5 +37,82 @@ Jerzy~J. Wiatr.
 Herbert Kitschelt.
 \newblock Divergent paths of postcommunist democracies.
 \newblock In Larry Diamond and Marc~F. Plattner, editors, \emph{The Global Divergence of Democracies}, pages 307--331. Johns Hopkins University Press, Baltimore, 2001.
+
+\bibitem[Estrin(1994)]{Estrin1994}
+Saul Estrin.
+\newblock \emph{Privatisation in Central and Eastern Europe}.
+\newblock Longman, London, 1994.
+
+\bibitem[Berg and Sachs(1992)]{Berg1992}
+Andrew Berg and Jeffrey Sachs.
+\newblock Structural adjustment and international trade in eastern europe: The case of poland.
+\newblock \emph{Economic Policy}, 7\penalty0 (14):\penalty0 117--174, 1992.
+
+\bibitem[Hamm et~al.(2012)Hamm, King, and Stuckler]{Hamm2012}
+Patrick Hamm, Lawrence~P. King, and David Stuckler.
+\newblock Mass privatization, state capacity, and economic growth in post-communist countries.
+\newblock \emph{American Sociological Review}, 77\penalty0 (2):\penalty0 295--324, 2012.
+\newblock \doi{10.1177/0003122412437648}.
+
+\bibitem[Stuckler et~al.(2009)Stuckler, King, and McKee]{Stuckler2009}
+David Stuckler, Lawrence King, and Martin McKee.
+\newblock Mass privatisation and the post-communist mortality crisis: a cross-national analysis.
+\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009.
+\newblock \doi{10.1016/S0140-6736(09)60005-2}.
+
+\bibitem[Roh{\'a}{\v{c}}(2016)]{Rohac2016}
+Dalibor Roh{\'a}{\v{c}}.
+\newblock What are the lessons from post-communist transition?
+\newblock \emph{Economic Affairs}, 36\penalty0 (3):\penalty0 324--334, 2016.
+\newblock \doi{10.1111/ecaf.12202}.
+
+\bibitem[Estrin et~al.(2004)Estrin, Bennett, Maw, and Urga]{Estrin2004}
+Saul Estrin, John Bennett, James Maw, and Giovanni Urga.
+\newblock Privatization methods and economic growth in transition economies.
+\newblock Discussion Paper 4291, Centre for Economic Policy Research (CEPR), 2004.
+
+\bibitem[Marcin{\v{c}}in and van Wijnbergen(1997)]{Marcincin1997}
+Anton Marcin{\v{c}}in and Sweder van Wijnbergen.
+\newblock The impact of czech privatization methods on enterprise performance incorporating initial selection bias correction.
+\newblock Discussion Paper 1640, Centre for Economic Policy Research (CEPR), 1997.
+
+\bibitem[Djankov and Murrell(2002)]{Djankov2002}
+Simeon Djankov and Peter Murrell.
+\newblock Enterprise restructuring in transition: A quantitative survey.
+\newblock \emph{Journal of Economic Literature}, 40\penalty0 (3):\penalty0 739--792, 2002.
+\newblock \doi{10.1257/002205102760199933}.
+
+\bibitem[So{\'o}s(1997)]{Soos1997}
+K{\'a}roly~Attila So{\'o}s.
+\newblock Primary and secondary privatisation in central europe: The case of hungary, poland, and the czech republic.
+\newblock In Roman Frydman, Andrzej Rapaczynski, and Joel Turkewitz, editors, \emph{Privatisation in the Visegrad Countries}. Central European University Press, London, 1997.
+
+\bibitem[Kaufmann and Siegelbaum(1997)]{Kaufmann1997}
+Daniel Kaufmann and Paul Siegelbaum.
+\newblock Privatization and corruption in the transition economies.
+\newblock \emph{Journal of International Affairs}, 50\penalty0 (2):\penalty0 433--458, 1997.
+
+\bibitem[Hoff and Stiglitz(2004)]{Hoff2004}
+Karla Hoff and Joseph~E. Stiglitz.
+\newblock After the big bang? obstacles to the emergence of the rule of law in post-communist societies.
+\newblock \emph{American Economic Review}, 94\penalty0 (3):\penalty0 754--763, 2004.
+\newblock \doi{10.1257/0002828041464521}.
+
+\bibitem[Stiglitz(1999)]{Stiglitz1999}
+Joseph~E. Stiglitz.
+\newblock Whither reform: Ten years of the transition.
+\newblock In \emph{Annual World Bank Conference on Development Economics}, Washington, DC, April 1999.
+
+\bibitem[Cie{\'s}lik and Goczek(2018)]{Cieslik2018}
+Andrzej Cie{\'s}lik and {\L}ukasz Goczek.
+\newblock Corruption, privatisation and economic growth in post-communist countries.
+\newblock \emph{Europe-Asia Studies}, 70\penalty0 (8):\penalty0 1303--1325, 2018.
+\newblock \doi{10.1080/09668136.2018.1511771}.
+
+\bibitem[Denisova et~al.(2012)Denisova, Eller, Frye, and Zhuravskaya]{Denisova2012}
+Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
+\newblock Everyone hates privatization, but why? survey evidence from 28 post-communist countries.
+\newblock \emph{Journal of Comparative Economics}, 40\penalty0 (1):\penalty0 44--61, 2012.
+\newblock \doi{10.1016/j.jce.2011.08.001}.
 
 \end{thebibliography}
