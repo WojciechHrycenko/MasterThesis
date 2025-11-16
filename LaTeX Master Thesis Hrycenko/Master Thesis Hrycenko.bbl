@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,5 +15,27 @@ Elizabeth Brainerd.
 \newblock Market reform and mortality in transition economies.
 \newblock \emph{World Development}, 26\penalty0 (11):\penalty0 2013--2027, 1998.
 \newblock \doi{10.1016/S0305-750X(98)00108-8}.
+
+\bibitem[Bujwid-Kurek and Mikucka-Wójtowicz(2015)]{C_BujwidKurek_Transformacja2015}
+Ewa Bujwid-Kurek and Dominika Mikucka-Wójtowicz.
+\newblock \emph{Transformacja ustroju politycznego wybranych państw Europy Środkowej i Południowo-Wschodniej: Podręcznik akademicki}.
+\newblock Wydawnictwo LIBRON - Filip Lohner, Kraków, 2015.
+\newblock ISBN 978-83-65148-56-8.
+
+\bibitem[Huntington(1991)]{D_Huntington1991}
+Samuel~P. Huntington.
+\newblock \emph{The Third Wave: Democratization in the Late Twentieth Century}.
+\newblock University of Oklahoma Press, Norman, 1991.
+
+\bibitem[Wiatr(2020)]{Wiatr2020}
+Jerzy~J. Wiatr.
+\newblock The crisis of democracy: An east-central european perspective.
+\newblock \emph{Politics in Central Europe}, 16\penalty0 (2):\penalty0 353--365, 2020.
+\newblock \doi{10.2478/pce-2020-0016}.
+
+\bibitem[Kitschelt(2001)]{Kitschelt2001}
+Herbert Kitschelt.
+\newblock Divergent paths of postcommunist democracies.
+\newblock In Larry Diamond and Marc~F. Plattner, editors, \emph{The Global Divergence of Democracies}, pages 307--331. Johns Hopkins University Press, Baltimore, 2001.
 
 \end{thebibliography}

@@ -1,20 +1,22 @@
 # Fdb version 4
-["bibtex Master Thesis Hrycenko"] 1763225028.67908 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1763225034.16945 0
-  "./myreferences.bib" 1763224516 1261 0769f5e13e3f39c47d3fb630c6b23515 ""
-  "Master Thesis Hrycenko.aux" 1763225032 507 57e2e26e72415ea131906e92c2bcfe00 "pdflatex"
+["bibtex Master Thesis Hrycenko"] 1763254764.46695 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1763255117.04193 0
+  "./myreferences.bib" 1763254749 1909 f06a904f39330ebdadbd2ca1da3fb6a0 ""
+  "Master Thesis Hrycenko.aux" 1763255114 915 53a3f565a86a47e2c2e8acad1eeb7b53 "pdflatex"
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1759969198 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
   (generated)
   "Master Thesis Hrycenko.bbl"
   "Master Thesis Hrycenko.blg"
   (rewritten before read)
-["pdflatex"] 1763225029.46411 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1763225034.17066 0
-  "Master Thesis Hrycenko.aux" 1763225032 507 57e2e26e72415ea131906e92c2bcfe00 "pdflatex"
-  "Master Thesis Hrycenko.bbl" 1763225029 714 ca264ad8e140aeb2059ce10e3620096e "bibtex Master Thesis Hrycenko"
-  "Master Thesis Hrycenko.out" 1763225032 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Master Thesis Hrycenko.tex" 1763225017 5094 afbf5c3ebf4fd0f48b8e2e50f42c827c ""
-  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1763225017 5094 afbf5c3ebf4fd0f48b8e2e50f42c827c ""
+["pdflatex"] 1763255111.23228 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1763255117.04314 0
+  "Master Thesis Hrycenko.aux" 1763255114 915 53a3f565a86a47e2c2e8acad1eeb7b53 "pdflatex"
+  "Master Thesis Hrycenko.bbl" 1763254765 1818 28b650b85fbccd0fdfc400d9691b563c "bibtex Master Thesis Hrycenko"
+  "Master Thesis Hrycenko.out" 1763255114 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Master Thesis Hrycenko.tex" 1763255109 14445 9faaa25abafa40496441a442653de519 ""
+  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1763255109 14445 9faaa25abafa40496441a442653de519 ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1759954307 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1759961863 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1759960074 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1759960074 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aeb10.tfm" 1759950949 6132 78e5594f4fe2bad148a7cb22806d1f42 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aer12.tfm" 1759950949 6084 d3a937b1dfbe4f0e2c719f2d6acacced ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aer17.tfm" 1759950949 6104 412e349a5a6e3f1445fb2b73d9eaf6b9 ""
@@ -51,8 +53,10 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/xypic/xyluat10.tfm" 1759975154 608 a3a3bc08980c5126ff2a7a68fb5a64ff ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/xypic/xylubt10.tfm" 1759975154 608 a3a3bc08980c5126ff2a7a68fb5a64ff ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb" 1759951151 31983 5d427b4625a4a5976c1b1c43cab14bba ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1759951151 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1759951151 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1759951151 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1759954308 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/vf/public/ae/aeb10.vf" 1759950949 3204 33087d8d1b5ca03fcc323578bd8c2ab9 ""
   "c:/texlive/2025/texmf-dist/fonts/vf/public/ae/aer12.vf" 1759950949 3160 f7f3709db083d82a972749c3a663ea58 ""
   "c:/texlive/2025/texmf-dist/fonts/vf/public/ae/aeti12.vf" 1759950949 3164 58298bde53748f6cb67a8f7c9cc2a252 ""
