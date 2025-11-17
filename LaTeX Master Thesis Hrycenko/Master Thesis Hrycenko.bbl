@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -114,5 +114,103 @@ Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
 \newblock Everyone hates privatization, but why? survey evidence from 28 post-communist countries.
 \newblock \emph{Journal of Comparative Economics}, 40\penalty0 (1):\penalty0 44--61, 2012.
 \newblock \doi{10.1016/j.jce.2011.08.001}.
+
+\bibitem[Cornia(2016{\natexlab{a}})]{Cornia2014}
+Giovanni~Andrea Cornia.
+\newblock The mortality crisis in transition economies.
+\newblock \emph{IZA World of Labor}, \penalty0 (298), October 2016{\natexlab{a}}.
+\newblock \doi{10.15185/izawol.298}.
+
+\bibitem[Eberstadt(1999)]{Eberstadt1999}
+Nicholas Eberstadt.
+\newblock The enigma of russian mortality.
+\newblock \emph{The Public Interest}, 135:\penalty0 3--28, 1999.
+
+\bibitem[Cornia(2016{\natexlab{b}})]{Cornia2016}
+Giovanni~Andrea Cornia.
+\newblock Transition, recession and mortality crisis in the former soviet bloc: an update to the year 2014.
+\newblock Discussion Paper 10/2016, Dipartimento di Scienze per l'Economia e l'Impresa, Universit{\`a} di Firenze, 2016{\natexlab{b}}.
+
+\bibitem[Azarova et~al.(2018)Azarova, Irdam, Gugushvili, Fazekas, Horn, B\k{e}dzia-Kawa, Sotg\k{e}tges, Sereda, Mckee, King, and Stuckler]{Azarova2018}
+Aytalina Azarova, Dmirtij Irdam, Alexi Gugushvili, Mihaly Fazekas, R.~V. Horn, Magdalena B\k{e}dzia-Kawa, G\k{e}nther Sotg\k{e}tges, Yulia Sereda, Martin Mckee, Lawrence~P. King, and David Stuckler.
+\newblock The effect of rapid privatisation on mortality in mono-industrial towns in post-soviet countries: a serial cross-sectional study.
+\newblock \emph{The Lancet Public Health}, 3\penalty0 (10):\penalty0 e485--e493, 2018.
+\newblock \doi{10.1016/S2468-2667(18)30172-8}.
+
+\bibitem[Fihel(2011)]{Fihel2011}
+Agnieszka Fihel.
+\newblock Between 'pioneers' of the cardiovascular revolution and its 'late followers': Mortality changes in the cee region.
+\newblock \emph{Studia Demograficzne}, 1\penalty0 (159):\penalty0 3--26, 2011.
+
+\bibitem[King et~al.(2009)King, Hamm, and Stuckler]{King2009}
+Lawrence King, Patrick Hamm, and David Stuckler.
+\newblock Rapid large-scale privatization and death rates in ex-communist countries: An analysis of stress-related and health system mechanisms.
+\newblock \emph{International Journal of Health Services}, 39\penalty0 (3):\penalty0 443--459, 2009.
+\newblock \doi{10.2190/HS.39.3.c}.
+
+\bibitem[Azarova et~al.(2019)Azarova, Stuckler, McKee, Gugushvili, Roberts, and King]{Azarova2019}
+Aytalina Azarova, David Stuckler, Martin McKee, Alexi Gugushvili, T.~Roberts, and Lawrence King.
+\newblock Did alcohol policy really cause the postsocialist mortality crisis? a re-examination of stuckler et al.
+\newblock \emph{European Sociological Review}, 35\penalty0 (6):\penalty0 902--910, 2019.
+\newblock \doi{10.1093/esr/jcz041}.
+
+\bibitem[Scheiring et~al.(2018)Scheiring, Stefler, Irdam, Fazekas, Azarova, Kolesnikova, K{\"o}ll{\H{o}}, Popov, Szelenyi, and Marmot]{Scheiring2018}
+Gabor Scheiring, Denes Stefler, Darja Irdam, Mihaly Fazekas, Aytalina Azarova, Irina Kolesnikova, J{\'a}nos K{\"o}ll{\H{o}}, Vladimir Popov, Ivan Szelenyi, and Michael Marmot.
+\newblock The gendered effects of foreign investment and prolonged state ownership on mortality in hungary: an indirect demographic, retrospective cohort study.
+\newblock \emph{The Lancet Global Health}, 6\penalty0 (1):\penalty0 e78--e88, 2018.
+\newblock \doi{10.1016/S2214-109X(17)30391-1}.
+
+\bibitem[Earle and Gehlbach(2010)]{Earle2010}
+John~S. Earle and Scott Gehlbach.
+\newblock Mass privatisation and the post-communist mortality crisis: Is there really a relationship?
+\newblock Discussion Paper 5155, Institute for the Study of Labor (IZA), 2010.
+
+\bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
+Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.
+\newblock Did mass privatisation really increase post-communist mortality?
+\newblock \emph{The Lancet}, 375\penalty0 (9712):\penalty0 371, 2010.
+\newblock \doi{10.1016/S0140-6736(10)60158-4}.
+
+\bibitem[Earle and Gehlbach(2013)]{Earle2013}
+John~S. Earle and Scott Gehlbach.
+\newblock Did post-communist privatization increase mortality?
+\newblock \emph{The B.E. Journal of Economic Analysis And Policy}, 13\penalty0 (2):\penalty0 647--679, 2013.
+\newblock \doi{10.1515/bejeap-2012-0008}.
+
+\bibitem[Bhattacharya et~al.(2013)Bhattacharya, Gathmann, and Miller]{Bhattacharya2013}
+Jay Bhattacharya, Christina Gathmann, and Grant Miller.
+\newblock The gorbachev anti-alcohol campaign and russia's mortality crisis.
+\newblock \emph{American Economic Journal: Applied Economics}, 5\penalty0 (2):\penalty0 232--260, 2013.
+\newblock \doi{10.1257/app.5.2.232}.
+
+\bibitem[Treisman(2010)]{Treisman2010}
+Daniel Treisman.
+\newblock Death and prices: The political economy of russia's alcohol crisis.
+\newblock \emph{Economics of Transition}, 18\penalty0 (2):\penalty0 281--331, 2010.
+\newblock \doi{10.1111/j.1468-0351.2010.00388.x}.
+
+\bibitem[Scheiring et~al.(2019)Scheiring, Irdam, and King]{Scheiring2019}
+Gabor Scheiring, Darja Irdam, and Lawrence~P. King.
+\newblock Cross-country evidence on the social determinants of the post-socialist mortality crisis in europe: a review and performance-based hierarchy of variables.
+\newblock \emph{Sociology of Health \& Illness}, 41\penalty0 (S1):\penalty0 36--56, 2019.
+\newblock \doi{10.1111/1467-9566.12846}.
+
+\bibitem[Gerry(2012)]{Gerry2012}
+Christopher~J. Gerry.
+\newblock The journals are full of great studies but can we believe the statistics? revisiting the mass privatisation--mortality debate.
+\newblock \emph{Social Science \& Medicine}, 75\penalty0 (1):\penalty0 14--22, 2012.
+\newblock \doi{10.1016/j.socscimed.2011.12.027}.
+
+\bibitem[{University of California, Berkeley and Max Planck Institute for Demographic Research}(2025)]{HMD2025}
+{University of California, Berkeley and Max Planck Institute for Demographic Research}.
+\newblock Human mortality database.
+\newblock \url{https://www.mortality.org}, 2025.
+\newblock Accessed: 2025-11-16.
+
+\bibitem[{WHO Regional Office for Europe}(2025)]{WHO_HFA_DB2025}
+{WHO Regional Office for Europe}.
+\newblock European health for all database (hfa-db).
+\newblock \url{https://gateway.who.int/en/datasets/european-health-for-all-database/}, 2025.
+\newblock Accessed: 2025-11-16.
 
 \end{thebibliography}

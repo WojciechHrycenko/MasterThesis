@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Master Thesis Hrycenko.aux
 The style file: unsrtnat.bst
 Database file #1: myreferences.bib
-You've used 20 entries,
+Warning--there's a number but no volume in Cornia2014
+You've used 37 entries,
             2481 wiz_defined-function locations,
-            715 strings with 8245 characters,
-and the built_in function-call counts, 7363 in all, are:
-= -- 672
-> -- 284
-< -- 19
-+ -- 119
-- -- 79
-* -- 536
-:= -- 1169
-add.period$ -- 72
-call.type$ -- 20
-change.case$ -- 36
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 394
-empty$ -- 714
-format.name$ -- 113
-if$ -- 1576
-int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 21
-newline$ -- 118
-num.names$ -- 65
-pop$ -- 159
+            841 strings with 12121 characters,
+and the built_in function-call counts, 13865 in all, are:
+= -- 1234
+> -- 625
+< -- 31
++ -- 256
+- -- 181
+* -- 1074
+:= -- 2243
+add.period$ -- 136
+call.type$ -- 37
+change.case$ -- 70
+chr.to.int$ -- 36
+cite$ -- 38
+duplicate$ -- 698
+empty$ -- 1288
+format.name$ -- 236
+if$ -- 2922
+int.to.chr$ -- 2
+int.to.str$ -- 38
+missing$ -- 34
+newline$ -- 216
+num.names$ -- 116
+pop$ -- 276
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 37
 quote$ -- 0
-skip$ -- 223
+skip$ -- 394
 stack$ -- 0
-substring$ -- 353
-swap$ -- 50
-text.length$ -- 3
+substring$ -- 647
+swap$ -- 87
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
-warning$ -- 0
-while$ -- 67
+type$ -- 247
+warning$ -- 1
+while$ -- 124
 width$ -- 0
-write$ -- 290
+write$ -- 535
+(There was 1 warning)
