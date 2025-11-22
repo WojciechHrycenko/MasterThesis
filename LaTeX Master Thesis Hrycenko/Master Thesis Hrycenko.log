@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  17 NOV 2025 01:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  22 NOV 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,64 +1009,64 @@ LaTeX Warning: No \author given.
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 119.
-LaTeX Font Info:    No file TS1aer.fd. on input line 119.
-
-
-LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 119.
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121     \item "
-                 replacement" (e.g., East Germany, Romania) - when oposition... [1
+l.123 \begin{itemize}
+                      [1
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+]
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 124.
+LaTeX Font Info:    No file TS1aer.fd. on input line 124.
 
-[2]
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 124.
+
+
+
+[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [3]
 
 [4]
 
 [5]
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 316--333
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 322--339
  [][] 
  []
 
 
 
 [6]
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 350--371
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 356--377
  [][] 
  []
 
 
 
 [7]
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 381--402
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 387--408
  [][] 
  []
 
 
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 410--431
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 416--437
  [][] 
  []
 
 
 
 [8]
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 439--460
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 445--466
  [][] 
  []
 
 
-Overfull \hbox (24.45201pt too wide) in paragraph at lines 468--489
+Overfull \hbox (24.45201pt too wide) in paragraph at lines 474--495
  [][] 
  []
 
@@ -1101,16 +1101,16 @@ Package rerunfilecheck Info: File `"Master Thesis Hrycenko".out' has not changed
 Here is how much of TeX's memory you used:
  33762 strings out of 467748
  652183 string characters out of 5431138
- 1156089 words of memory out of 5000000
+ 1156090 words of memory out of 5000000
  61761 multiletter control sequences out of 15000+600000
  658926 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,117p,3333b,1215s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "Master Thesis Hrycenko.pdf" (14 pages, 134927 bytes).
+Output written on "Master Thesis Hrycenko.pdf" (14 pages, 136234 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
+ 242 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
  66 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
