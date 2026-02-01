@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{54}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -75,10 +75,10 @@ Patrick Hamm, Lawrence~P. King, and David Stuckler.
 \newblock \emph{American Sociological Review}, 77\penalty0 (2):\penalty0 295--324, 2012.
 \newblock \doi{10.1177/0003122412437648}.
 
-\bibitem[Stuckler et~al.(2009)Stuckler, King, and McKee]{Stuckler2009}
+\bibitem[Stuckler et~al.(2009{\natexlab{a}})Stuckler, King, and McKee]{Stuckler2009}
 David Stuckler, Lawrence King, and Martin McKee.
 \newblock Mass privatisation and the post-communist mortality crisis: a cross-national analysis.
-\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009.
+\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009{\natexlab{a}}.
 \newblock \doi{10.1016/S0140-6736(09)60005-2}.
 
 \bibitem[Marcin{\v{c}}in and van Wijnbergen(1997)]{Marcincin1997}
@@ -120,11 +120,29 @@ Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
 \newblock \emph{Journal of Comparative Economics}, 40\penalty0 (1):\penalty0 44--61, 2012.
 \newblock \doi{10.1016/j.jce.2011.08.001}.
 
+\bibitem[Denisova et~al.(2009)Denisova, Eller, Frye, and Zhuravskaya]{Denisova2009}
+Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
+\newblock Who wants to revise privatization? the complementarity of market skills and institutions.
+\newblock \emph{The American Political Science Review}, 103\penalty0 (2):\penalty0 284--304, 2009.
+\newblock URL \url{http://www.jstor.org/stable/27798502}.
+
 \bibitem[Cornia(2016{\natexlab{b}})]{Cornia2014}
 Giovanni~Andrea Cornia.
 \newblock The mortality crisis in transition economies.
 \newblock \emph{IZA World of Labor}, \penalty0 (298), October 2016{\natexlab{b}}.
 \newblock \doi{10.15185/izawol.298}.
+
+\bibitem[Roland(2001)]{Roland2001}
+G{\'e}rard Roland.
+\newblock Ten years after... transition and economics.
+\newblock \emph{IMF Staff Papers}, 48\penalty0 (Special Issue):\penalty0 29--52, 2001.
+\newblock URL \url{http://www.jstor.org/stable/3248705}.
+
+\bibitem[{European Bank for Reconstruction and Development}(1999)]{EBRD1999}
+{European Bank for Reconstruction and Development}.
+\newblock \emph{Transition Report 1999: Ten Years of Transition}.
+\newblock European Bank for Reconstruction and Development, London, 1999.
+\newblock ISBN 978-1898802159.
 
 \bibitem[Eberstadt(1999)]{Eberstadt1999}
 Nicholas Eberstadt.
@@ -141,6 +159,12 @@ Aytalina Azarova, Dmirtij Irdam, Alexi Gugushvili, Mihaly Fazekas, R.~V. Horn, M
 Agnieszka Fihel.
 \newblock Between 'pioneers' of the cardiovascular revolution and its 'late followers': Mortality changes in the cee region.
 \newblock \emph{Studia Demograficzne}, 1\penalty0 (159):\penalty0 3--26, 2011.
+
+\bibitem[Leon and Shkolnikov(1998)]{Leon1998}
+David~A. Leon and Vladimir~M. Shkolnikov.
+\newblock Social stress and the russian mortality crisis.
+\newblock \emph{JAMA}, 279\penalty0 (10):\penalty0 790--791, 1998.
+\newblock \doi{10.1001/jama.279.10.790}.
 
 \bibitem[King et~al.(2009)King, Hamm, and Stuckler]{King2009}
 Lawrence King, Patrick Hamm, and David Stuckler.
@@ -201,16 +225,95 @@ Christopher~J. Gerry.
 \newblock \emph{Social Science \& Medicine}, 75\penalty0 (1):\penalty0 14--22, 2012.
 \newblock \doi{10.1016/j.socscimed.2011.12.027}.
 
-\bibitem[{University of California, Berkeley and Max Planck Institute for Demographic Research}(2025)]{HMD2025}
-{University of California, Berkeley and Max Planck Institute for Demographic Research}.
-\newblock Human mortality database.
-\newblock \url{https://www.mortality.org}, 2025.
-\newblock Accessed: 2025-11-16.
+\bibitem[{World Health Organization Regional Office for Europe}(2026)]{WHO_HFA}
+{World Health Organization Regional Office for Europe}.
+\newblock European health for all database (hfa-db), 2026.
+\newblock URL \url{https://gateway.euro.who.int/en/datasets/european-health-for-all-database/}.
+\newblock Accessed: 2026-02-01.
 
-\bibitem[{WHO Regional Office for Europe}(2025)]{WHO_HFA_DB2025}
-{WHO Regional Office for Europe}.
-\newblock European health for all database (hfa-db).
-\newblock \url{https://gateway.who.int/en/datasets/european-health-for-all-database/}, 2025.
-\newblock Accessed: 2025-11-16.
+\bibitem[{European Bank for Reconstruction and Development}(2026)]{EBRD_Indicators}
+{European Bank for Reconstruction and Development}.
+\newblock Transition indicators by country (1989--2014), 2026.
+\newblock URL \url{https://www.ebrd.com/content/dam/ebrd_dxp/assets/xlsx/office-of-the-chief-economist/economic-surveys/ebrd-assess-transition-qualities/transition-indicators-(1989-2014)/Transition-indicators-by-country.xlsx}.
+\newblock Excel Dataset. Accessed: 2026-02-01.
+
+\bibitem[{Jutta Bolt and Jan Luiten van Zanden}(2020)]{MaddisonProject2020}
+{Jutta Bolt and Jan Luiten van Zanden}.
+\newblock Maddison project database 2020, 2020.
+\newblock URL \url{https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020}.
+\newblock Dataset. Accessed: 2026-02-01.
+
+\bibitem[Coppedge et~al.(2024)Coppedge, Gerring, Knutsen, Lindberg, Teorell, et~al.]{VDem_Dataset}
+Michael Coppedge, John Gerring, Carl~Henrik Knutsen, Staffan~I. Lindberg, Jan Teorell, et~al.
+\newblock V-dem dataset, 2024.
+\newblock URL \url{https://v-dem.net/data/the-v-dem-dataset/}.
+\newblock Accessed: 2026-02-01.
+
+\bibitem[{The World Bank}(2026)]{WB_GovExpenditure}
+{The World Bank}.
+\newblock General government final consumption expenditure (\% of gdp), 2026.
+\newblock URL \url{https://data.worldbank.org/indicator/NE.CON.GOVT.ZS}.
+\newblock World Development Indicators. Accessed: 2026-02-01.
+
+\bibitem[{Organisation for Economic Co-operation and Development}(2026)]{OECD_Alcohol}
+{Organisation for Economic Co-operation and Development}.
+\newblock Alcohol consumption (litres per capita), 2026.
+\newblock URL \url{https://data-explorer.oecd.org/vis?lc=en&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HEALTH_LVNG%40DF_HEALTH_LVNG_AC&df[ag]=OECD.ELS.HD&df[vs]=1.0&dq=.A.....&pd=%2C&to[TIME_PERIOD]=false&vw=tb}.
+\newblock OECD Data Explorer. Accessed: 2026-02-01.
+
+\bibitem[{UNICEF Regional Office for CEE/CIS}(2013)]{TransMONEE}
+{UNICEF Regional Office for CEE/CIS}.
+\newblock Transmonee 2013 database: Transformative monitoring for enhanced equity, 2013.
+\newblock URL \url{https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/YLJMLT}.
+\newblock Dataset. Accessed: 2026-02-01.
+
+\bibitem[{United Nations Economic Commission for Europe}(2004)]{UNECE2004}
+{United Nations Economic Commission for Europe}.
+\newblock \emph{Economic Survey of Europe 2004 No. 1}.
+\newblock United Nations, Geneva, 2004.
+\newblock ISBN 92-1-116891-0.
+\newblock URL \url{https://digitallibrary.un.org/record/532687}.
+
+\bibitem[{European Bank for Reconstruction and Development}(1994)]{EBRD1994}
+{European Bank for Reconstruction and Development}.
+\newblock \emph{Transition Report 1994: Economic Transition in Eastern Europe and the Former Soviet Union}.
+\newblock European Bank for Reconstruction and Development, London, 1994.
+\newblock ISBN 978-1898802050.
+
+\bibitem[{European Bank for Reconstruction and Development}(2004)]{EBRD2004}
+{European Bank for Reconstruction and Development}.
+\newblock \emph{Transition Report 2004: Infrastructure}.
+\newblock European Bank for Reconstruction and Development, London, 2004.
+\newblock ISBN 978-1898802289.
+
+\bibitem[Brainerd(2001)]{Brainerd2001}
+Elizabeth Brainerd.
+\newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
+\newblock \emph{European Economic Review}, 45\penalty0 (4-6):\penalty0 1007--1019, 2001.
+\newblock \doi{10.1016/S0014-2921(01)00108-8}.
+
+\bibitem[Zaridze et~al.(2009)Zaridze, Brennan, Boreham, Boroda, Karpov, Lazarev, Konobeevskaya, Igitov, Terechova, Boffetta, and Peto]{Zaridze2009}
+David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Alexey Lazarev, Irina Konobeevskaya, Vladimir Igitov, Tatyana Terechova, Paolo Boffetta, and Richard Peto.
+\newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
+\newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
+\newblock \doi{10.1016/S0140-6736(09)60434-7}.
+
+\bibitem[Brainerd(2006)]{Brainerd2006}
+Elizabeth Brainerd.
+\newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
+\newblock \emph{Journal of Economic Perspectives}, 20\penalty0 (1):\penalty0 97--118, 2006.
+\newblock \doi{10.1257/089533006776526148}.
+
+\bibitem[{European Bank for Reconstruction and Development}()]{EBRD_Methodology}
+{European Bank for Reconstruction and Development}.
+\newblock Transition indicators methodology (1989-2014).
+\newblock URL \url{https://www.ebrd.com/home/what-we-do/office-of-the-chief-economist/transition-indicators-methodology-1989-2014.html}.
+\newblock Accessed: 2026-02-01.
+
+\bibitem[Stuckler et~al.(2009{\natexlab{b}})Stuckler, King, and Patton]{StucklerKingPatton}
+David Stuckler, Lawrence King, and Greg Patton.
+\newblock The social construction of successful market reforms.
+\newblock Working paper, University of Cambridge, 2009{\natexlab{b}}.
+\newblock Department of Sociology.
 
 \end{thebibliography}

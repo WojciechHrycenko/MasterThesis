@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex Master Thesis Hrycenko"] 1763851835.38016 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1763898605.87884 0
-  "./myreferences.bib" 1763339766 12575 88d08611f8a265b9a7f887a28817c4d2 ""
-  "Master Thesis Hrycenko.aux" 1763898603 6793 0ee0b805de3bed9c65fef67b7d17f390 "pdflatex"
+["bibtex Master Thesis Hrycenko"] 1769987505.74105 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1769987508.15751 0
+  "./myreferences.bib" 1769987473 19583 988629f2d2b10bd73d6b94164734e9a5 ""
+  "Master Thesis Hrycenko.aux" 1769987507 6479 c9a00e28321b44d04379f59a9714150b "pdflatex"
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1759969198 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
   (generated)
   "Master Thesis Hrycenko.bbl"
   "Master Thesis Hrycenko.blg"
   (rewritten before read)
-["pdflatex"] 1763898601.14957 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1763898605.87968 0
-  "Master Thesis Hrycenko.aux" 1763898603 6793 0ee0b805de3bed9c65fef67b7d17f390 "pdflatex"
-  "Master Thesis Hrycenko.bbl" 1763851836 11810 0334179b56ed6fb6c426f7c6f2206c8b "bibtex Master Thesis Hrycenko"
-  "Master Thesis Hrycenko.out" 1763898603 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Master Thesis Hrycenko.tex" 1763898599 32812 561b8fb706adc30ea5c2e8699467a4c3 ""
-  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1763898599 32812 561b8fb706adc30ea5c2e8699467a4c3 ""
+["pdflatex"] 1769987506.10043 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1769987508.15804 0
+  "Master Thesis Hrycenko.aux" 1769987507 6479 c9a00e28321b44d04379f59a9714150b "pdflatex"
+  "Master Thesis Hrycenko.bbl" 1769987506 17778 c79f86c3304d549b87aa422fc6b0f173 "bibtex Master Thesis Hrycenko"
+  "Master Thesis Hrycenko.out" 1769987507 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Master Thesis Hrycenko.tex" 1769987500 46262 fbaf119d5fa97262709ecb1a14848b9b ""
+  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1769987500 46262 fbaf119d5fa97262709ecb1a14848b9b ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1759954307 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1759961863 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1759960074 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
@@ -26,8 +26,10 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1759951151 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1759951151 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1759951151 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1759951151 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1759951151 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1759951151 908 2921f8a10601f252058503cc6570e581 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1759951151 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1759951151 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmb10.tfm" 1759954180 1336 fb32298c2d61d0c4b59f3065fdd6def9 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm" 1759954180 1116 4e6ba9d7914baa6482fd69f67d126380 ""
