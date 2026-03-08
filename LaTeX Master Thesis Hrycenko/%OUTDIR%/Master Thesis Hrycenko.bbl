@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{64}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -75,10 +75,10 @@ Patrick Hamm, Lawrence~P. King, and David Stuckler.
 \newblock \emph{American Sociological Review}, 77\penalty0 (2):\penalty0 295--324, 2012.
 \newblock \doi{10.1177/0003122412437648}.
 
-\bibitem[Stuckler et~al.(2009)Stuckler, King, and McKee]{Stuckler2009}
+\bibitem[Stuckler et~al.(2009{\natexlab{a}})Stuckler, King, and McKee]{Stuckler2009}
 David Stuckler, Lawrence King, and Martin McKee.
 \newblock Mass privatisation and the post-communist mortality crisis: a cross-national analysis.
-\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009.
+\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009{\natexlab{a}}.
 \newblock \doi{10.1016/S0140-6736(09)60005-2}.
 
 \bibitem[Marcin{\v{c}}in and van Wijnbergen(1997)]{Marcincin1997}
@@ -286,24 +286,6 @@ Michael Coppedge, John Gerring, Carl~Henrik Knutsen, Staffan~I. Lindberg, Jan Te
 \newblock European Bank for Reconstruction and Development, London, 2004.
 \newblock ISBN 978-1898802289.
 
-\bibitem[Kornai(1994)]{Kornai1994}
-J\'anos Kornai.
-\newblock Transformational recession: The main causes.
-\newblock \emph{Journal of Comparative Economics}, 19\penalty0 (1):\penalty0 39--63, 1994.
-\newblock \doi{10.1006/jcec.1994.1062}.
-
-\bibitem[{World Health Organization}(1977)]{WHO1977}
-{World Health Organization}.
-\newblock \emph{Manual of the International Statistical Classification of Diseases, Injuries, and Causes of Death: Based on the Recommendations of the Ninth Revision Conference, 1975}.
-\newblock World Health Organization, Geneva, 1977.
-\newblock ICD-9.
-
-\bibitem[{World Health Organization}(1992)]{WHO1992}
-{World Health Organization}.
-\newblock \emph{International Statistical Classification of Diseases and Related Health Problems: Tenth Revision}.
-\newblock World Health Organization, Geneva, 1992.
-\newblock ICD-10.
-
 \bibitem[Brainerd(2001)]{Brainerd2001}
 Elizabeth Brainerd.
 \newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
@@ -316,30 +298,23 @@ David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Ale
 \newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
 \newblock \doi{10.1016/S0140-6736(09)60434-7}.
 
-\bibitem[Leon et~al.(1997)Leon, Chenet, Shkolnikov, Zakharov, Shapiro, Rakhmanova, Vassin, and McKee]{Leon1997}
-David~A. Leon, Laurent Chenet, Vladimir~M. Shkolnikov, Sergei Zakharov, Judith Shapiro, Galina Rakhmanova, Sergei Vassin, and Martin McKee.
-\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
-\newblock \emph{The Lancet}, 350\penalty0 (9075):\penalty0 383--388, 1997.
-
-\bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
-Elizabeth Brainerd and David~M. Cutler.
+\bibitem[Brainerd(2006)]{Brainerd2006}
+Elizabeth Brainerd.
 \newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
-\newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
+\newblock \emph{Journal of Economic Perspectives}, 20\penalty0 (1):\penalty0 97--118, 2006.
+\newblock \doi{10.1257/089533006776526148}.
 
-\bibitem[Bennett et~al.(2007)Bennett, Estrin, and Urga]{Bennett2007}
-John Bennett, Saul Estrin, and Giovanni Urga.
-\newblock Methods of privatization and economic growth in transition economies.
-\newblock \emph{Economics of Transition}, 15:\penalty0 661--683, 2007.
+\bibitem[{European Bank for Reconstruction and Development}()]{EBRD_Methodology}
+{European Bank for Reconstruction and Development}.
+\newblock Transition indicators methodology (1989-2014).
+\newblock URL \url{https://www.ebrd.com/home/what-we-do/office-of-the-chief-economist/transition-indicators-methodology-1989-2014.html}.
+\newblock Accessed: 2026-02-01.
 
-\bibitem[Roland(2000)]{Roland2000}
-G{\'{e}}rard Roland.
-\newblock \emph{Transition and Economics: Politics, Markets, and Firms}.
-\newblock MIT Press, Cambridge, MA, 2000.
-
-\bibitem[King(2001)]{King2001}
-Lawrence~P. King.
-\newblock \emph{The Basic Features of Postcommunist Capitalism in Eastern Europe: Firms in Hungary, The Czech Republic, and Slovakia}.
-\newblock Praeger, Westport, CT, 2001.
+\bibitem[Stuckler et~al.(2009{\natexlab{b}})Stuckler, King, and Patton]{StucklerKingPatton}
+David Stuckler, Lawrence King, and Greg Patton.
+\newblock The social construction of successful market reforms.
+\newblock Working paper, University of Cambridge, 2009{\natexlab{b}}.
+\newblock Department of Sociology.
 
 \bibitem[Wooldridge(2010)]{Wooldridge2010}
 Jeffrey~M. Wooldridge.
@@ -350,6 +325,16 @@ Jeffrey~M. Wooldridge.
 Paul~D. Allison.
 \newblock \emph{Fixed Effects Regression Models}.
 \newblock SAGE Publications, Thousand Oaks, CA, 2009.
+
+\bibitem[Roland(2000)]{Roland2000}
+G{\'{e}}rard Roland.
+\newblock \emph{Transition and Economics: Politics, Markets, and Firms}.
+\newblock MIT Press, Cambridge, MA, 2000.
+
+\bibitem[King(2001)]{King2001}
+Lawrence~P. King.
+\newblock \emph{The Basic Features of Postcommunist Capitalism in Eastern Europe: Firms in Hungary, The Czech Republic, and Slovakia}.
+\newblock Praeger, Westport, CT, 2001.
 
 \bibitem[Cameron and Miller(2015)]{CameronMiller2015}
 A.~Colin Cameron and Douglas~L. Miller.
@@ -375,10 +360,14 @@ Kevin Sheppard.
 \newblock URL \url{https://github.com/bashtage/linearmodels}.
 \newblock Python package.
 
-\bibitem[Brainerd(2006)]{Brainerd2006}
-Elizabeth Brainerd.
+\bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
+Elizabeth Brainerd and David~M. Cutler.
 \newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
-\newblock \emph{Journal of Economic Perspectives}, 20\penalty0 (1):\penalty0 97--118, 2006.
-\newblock \doi{10.1257/089533006776526148}.
+\newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
+
+\bibitem[Leon et~al.(1997)Leon, Chenet, Shkolnikov, Zakharov, Shapiro, Rakhmanova, Vassin, and McKee]{Leon1997}
+David~A. Leon, Laurent Chenet, Vladimir~M. Shkolnikov, Sergei Zakharov, Judith Shapiro, Galina Rakhmanova, Sergei Vassin, and Martin McKee.
+\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
+\newblock \emph{The Lancet}, 350\penalty0 (9075):\penalty0 383--388, 1997.
 
 \end{thebibliography}
