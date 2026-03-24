@@ -217,11 +217,11 @@ John~S. Earle and Scott Gehlbach.
 \newblock Mass privatisation and the post-communist mortality crisis: Is there really a relationship?
 \newblock Discussion Paper 5155, Institute for the Study of Labor (IZA), 2010.
 
-\bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
-Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.
-\newblock Did mass privatisation really increase post-communist mortality?
-\newblock \emph{The Lancet}, 375\penalty0 (9712):\penalty0 371, 2010.
-\newblock \doi{10.1016/S0140-6736(10)60158-4}.
+\bibitem[Gerry(2012)]{Gerry2012}
+Christopher~J. Gerry.
+\newblock The journals are full of great studies but can we believe the statistics? revisiting the mass privatisation--mortality debate.
+\newblock \emph{Social Science \& Medicine}, 75\penalty0 (1):\penalty0 14--22, 2012.
+\newblock \doi{10.1016/j.socscimed.2011.12.027}.
 
 \bibitem[Earle and Gehlbach(2013)]{Earle2013}
 John~S. Earle and Scott Gehlbach.
@@ -234,12 +234,6 @@ Gabor Scheiring, Darja Irdam, and Lawrence~P. King.
 \newblock Cross-country evidence on the social determinants of the post-socialist mortality crisis in europe: a review and performance-based hierarchy of variables.
 \newblock \emph{Sociology of Health \& Illness}, 41\penalty0 (S1):\penalty0 36--56, 2019.
 \newblock \doi{10.1111/1467-9566.12846}.
-
-\bibitem[Gerry(2012)]{Gerry2012}
-Christopher~J. Gerry.
-\newblock The journals are full of great studies but can we believe the statistics? revisiting the mass privatisation--mortality debate.
-\newblock \emph{Social Science \& Medicine}, 75\penalty0 (1):\penalty0 14--22, 2012.
-\newblock \doi{10.1016/j.socscimed.2011.12.027}.
 
 \bibitem[{World Health Organization Regional Office for Europe}(2026)]{WHO_HFA}
 {World Health Organization Regional Office for Europe}.
@@ -330,6 +324,12 @@ David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Ale
 Elizabeth Brainerd and David~M. Cutler.
 \newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
 \newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
+
+\bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
+Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.
+\newblock Did mass privatisation really increase post-communist mortality?
+\newblock \emph{The Lancet}, 375\penalty0 (9712):\penalty0 371, 2010.
+\newblock \doi{10.1016/S0140-6736(10)60158-4}.
 
 \bibitem[Bennett et~al.(2007)Bennett, Estrin, and Urga]{Bennett2007}
 John Bennett, Saul Estrin, and Giovanni Urga.
