@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{67}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -54,6 +54,11 @@ Jerzy~J. Wiatr.
 \newblock \emph{Politics in Central Europe}, 16\penalty0 (2):\penalty0 353--365, 2020.
 \newblock \doi{10.2478/pce-2020-0016}.
 
+\bibitem[Bunce(1999)]{Bunce1999}
+Valerie Bunce.
+\newblock \emph{Subversive Institutions: The Design and the Destruction of Socialism and the State}.
+\newblock Cambridge University Press, Cambridge, 1999.
+
 \bibitem[Kitschelt(2001)]{Kitschelt2001}
 Herbert Kitschelt.
 \newblock Divergent paths of postcommunist democracies.
@@ -81,6 +86,18 @@ David Stuckler, Lawrence King, and Martin McKee.
 \newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009.
 \newblock \doi{10.1016/S0140-6736(09)60005-2}.
 
+\bibitem[{European Bank for Reconstruction and Development}(1994)]{EBRD1994}
+{European Bank for Reconstruction and Development}.
+\newblock \emph{Transition Report 1994: Economic Transition in Eastern Europe and the Former Soviet Union}.
+\newblock European Bank for Reconstruction and Development, London, 1994.
+\newblock ISBN 978-1898802050.
+
+\bibitem[{European Bank for Reconstruction and Development}(1999)]{EBRD1999}
+{European Bank for Reconstruction and Development}.
+\newblock \emph{Transition Report 1999: Ten Years of Transition}.
+\newblock European Bank for Reconstruction and Development, London, 1999.
+\newblock ISBN 978-1898802159.
+
 \bibitem[Marcin{\v{c}}in and van Wijnbergen(1997)]{Marcincin1997}
 Anton Marcin{\v{c}}in and Sweder van Wijnbergen.
 \newblock The impact of czech privatization methods on enterprise performance incorporating initial selection bias correction.
@@ -92,11 +109,6 @@ Simeon Djankov and Peter Murrell.
 \newblock \emph{Journal of Economic Literature}, 40\penalty0 (3):\penalty0 739--792, 2002.
 \newblock \doi{10.1257/002205102760199933}.
 
-\bibitem[Kaufmann and Siegelbaum(1997)]{Kaufmann1997}
-Daniel Kaufmann and Paul Siegelbaum.
-\newblock Privatization and corruption in the transition economies.
-\newblock \emph{Journal of International Affairs}, 50\penalty0 (2):\penalty0 433--458, 1997.
-
 \bibitem[Hoff and Stiglitz(2004)]{Hoff2004}
 Karla Hoff and Joseph~E. Stiglitz.
 \newblock After the big bang? obstacles to the emergence of the rule of law in post-communist societies.
@@ -107,6 +119,11 @@ Karla Hoff and Joseph~E. Stiglitz.
 Joseph~E. Stiglitz.
 \newblock Whither reform: Ten years of the transition.
 \newblock In \emph{Annual World Bank Conference on Development Economics}, Washington, DC, April 1999.
+
+\bibitem[Kaufmann and Siegelbaum(1997)]{Kaufmann1997}
+Daniel Kaufmann and Paul Siegelbaum.
+\newblock Privatization and corruption in the transition economies.
+\newblock \emph{Journal of International Affairs}, 50\penalty0 (2):\penalty0 433--458, 1997.
 
 \bibitem[Cie{\'s}lik and Goczek(2018)]{Cieslik2018}
 Andrzej Cie{\'s}lik and {\L}ukasz Goczek.
@@ -138,12 +155,6 @@ G{\'e}rard Roland.
 \newblock \emph{IMF Staff Papers}, 48\penalty0 (Special Issue):\penalty0 29--52, 2001.
 \newblock URL \url{http://www.jstor.org/stable/3248705}.
 
-\bibitem[{European Bank for Reconstruction and Development}(1999)]{EBRD1999}
-{European Bank for Reconstruction and Development}.
-\newblock \emph{Transition Report 1999: Ten Years of Transition}.
-\newblock European Bank for Reconstruction and Development, London, 1999.
-\newblock ISBN 978-1898802159.
-
 \bibitem[Eberstadt(1999)]{Eberstadt1999}
 Nicholas Eberstadt.
 \newblock The enigma of russian mortality.
@@ -160,6 +171,29 @@ Agnieszka Fihel.
 \newblock Between 'pioneers' of the cardiovascular revolution and its 'late followers': Mortality changes in the cee region.
 \newblock \emph{Studia Demograficzne}, 1\penalty0 (159):\penalty0 3--26, 2011.
 
+\bibitem[Bhattacharya et~al.(2013)Bhattacharya, Gathmann, and Miller]{Bhattacharya2013}
+Jay Bhattacharya, Christina Gathmann, and Grant Miller.
+\newblock The gorbachev anti-alcohol campaign and russia's mortality crisis.
+\newblock \emph{American Economic Journal: Applied Economics}, 5\penalty0 (2):\penalty0 232--260, 2013.
+\newblock \doi{10.1257/app.5.2.232}.
+
+\bibitem[Treisman(2010)]{Treisman2010}
+Daniel Treisman.
+\newblock Death and prices: The political economy of russia's alcohol crisis.
+\newblock \emph{Economics of Transition}, 18\penalty0 (2):\penalty0 281--331, 2010.
+\newblock \doi{10.1111/j.1468-0351.2010.00388.x}.
+
+\bibitem[Leon et~al.(1997)Leon, Chenet, Shkolnikov, Zakharov, Shapiro, Rakhmanova, Vassin, and McKee]{Leon1997}
+David~A. Leon, Laurent Chenet, Vladimir~M. Shkolnikov, Sergei Zakharov, Judith Shapiro, Galina Rakhmanova, Sergei Vassin, and Martin McKee.
+\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
+\newblock \emph{The Lancet}, 350\penalty0 (9075):\penalty0 383--388, 1997.
+
+\bibitem[Azarova et~al.(2019)Azarova, Stuckler, McKee, Gugushvili, Roberts, and King]{Azarova2019}
+Aytalina Azarova, David Stuckler, Martin McKee, Alexi Gugushvili, T.~Roberts, and Lawrence King.
+\newblock Did alcohol policy really cause the postsocialist mortality crisis? a re-examination of stuckler et al.
+\newblock \emph{European Sociological Review}, 35\penalty0 (6):\penalty0 902--910, 2019.
+\newblock \doi{10.1093/esr/jcz041}.
+
 \bibitem[Leon and Shkolnikov(1998)]{Leon1998}
 David~A. Leon and Vladimir~M. Shkolnikov.
 \newblock Social stress and the russian mortality crisis.
@@ -171,12 +205,6 @@ Lawrence King, Patrick Hamm, and David Stuckler.
 \newblock Rapid large-scale privatization and death rates in ex-communist countries: An analysis of stress-related and health system mechanisms.
 \newblock \emph{International Journal of Health Services}, 39\penalty0 (3):\penalty0 443--459, 2009.
 \newblock \doi{10.2190/HS.39.3.c}.
-
-\bibitem[Azarova et~al.(2019)Azarova, Stuckler, McKee, Gugushvili, Roberts, and King]{Azarova2019}
-Aytalina Azarova, David Stuckler, Martin McKee, Alexi Gugushvili, T.~Roberts, and Lawrence King.
-\newblock Did alcohol policy really cause the postsocialist mortality crisis? a re-examination of stuckler et al.
-\newblock \emph{European Sociological Review}, 35\penalty0 (6):\penalty0 902--910, 2019.
-\newblock \doi{10.1093/esr/jcz041}.
 
 \bibitem[Scheiring et~al.(2018)Scheiring, Stefler, Irdam, Fazekas, Azarova, Kolesnikova, K{\"o}ll{\H{o}}, Popov, Szelenyi, and Marmot]{Scheiring2018}
 Gabor Scheiring, Denes Stefler, Darja Irdam, Mihaly Fazekas, Aytalina Azarova, Irina Kolesnikova, J{\'a}nos K{\"o}ll{\H{o}}, Vladimir Popov, Ivan Szelenyi, and Michael Marmot.
@@ -200,18 +228,6 @@ John~S. Earle and Scott Gehlbach.
 \newblock Did post-communist privatization increase mortality?
 \newblock \emph{The B.E. Journal of Economic Analysis And Policy}, 13\penalty0 (2):\penalty0 647--679, 2013.
 \newblock \doi{10.1515/bejeap-2012-0008}.
-
-\bibitem[Bhattacharya et~al.(2013)Bhattacharya, Gathmann, and Miller]{Bhattacharya2013}
-Jay Bhattacharya, Christina Gathmann, and Grant Miller.
-\newblock The gorbachev anti-alcohol campaign and russia's mortality crisis.
-\newblock \emph{American Economic Journal: Applied Economics}, 5\penalty0 (2):\penalty0 232--260, 2013.
-\newblock \doi{10.1257/app.5.2.232}.
-
-\bibitem[Treisman(2010)]{Treisman2010}
-Daniel Treisman.
-\newblock Death and prices: The political economy of russia's alcohol crisis.
-\newblock \emph{Economics of Transition}, 18\penalty0 (2):\penalty0 281--331, 2010.
-\newblock \doi{10.1111/j.1468-0351.2010.00388.x}.
 
 \bibitem[Scheiring et~al.(2019)Scheiring, Irdam, and King]{Scheiring2019}
 Gabor Scheiring, Darja Irdam, and Lawrence~P. King.
@@ -274,12 +290,6 @@ Michael Coppedge, John Gerring, Carl~Henrik Knutsen, Staffan~I. Lindberg, Jan Te
 \newblock ISBN 92-1-116891-0.
 \newblock URL \url{https://digitallibrary.un.org/record/532687}.
 
-\bibitem[{European Bank for Reconstruction and Development}(1994)]{EBRD1994}
-{European Bank for Reconstruction and Development}.
-\newblock \emph{Transition Report 1994: Economic Transition in Eastern Europe and the Former Soviet Union}.
-\newblock European Bank for Reconstruction and Development, London, 1994.
-\newblock ISBN 978-1898802050.
-
 \bibitem[{European Bank for Reconstruction and Development}(2004)]{EBRD2004}
 {European Bank for Reconstruction and Development}.
 \newblock \emph{Transition Report 2004: Infrastructure}.
@@ -315,11 +325,6 @@ David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Ale
 \newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
 \newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
 \newblock \doi{10.1016/S0140-6736(09)60434-7}.
-
-\bibitem[Leon et~al.(1997)Leon, Chenet, Shkolnikov, Zakharov, Shapiro, Rakhmanova, Vassin, and McKee]{Leon1997}
-David~A. Leon, Laurent Chenet, Vladimir~M. Shkolnikov, Sergei Zakharov, Judith Shapiro, Galina Rakhmanova, Sergei Vassin, and Martin McKee.
-\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
-\newblock \emph{The Lancet}, 350\penalty0 (9075):\penalty0 383--388, 1997.
 
 \bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
 Elizabeth Brainerd and David~M. Cutler.

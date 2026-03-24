@@ -413,10 +413,10 @@ INPUT ./Master Thesis Hrycenko.out
 INPUT ./Master Thesis Hrycenko.out
 INPUT Master Thesis Hrycenko.out
 INPUT Master Thesis Hrycenko.out
+OUTPUT Master Thesis Hrycenko.pdf
 INPUT ./Master Thesis Hrycenko.out
 INPUT ./Master Thesis Hrycenko.out
 OUTPUT Master Thesis Hrycenko.out
-OUTPUT Master Thesis Hrycenko.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aer17.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aeb10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/ae/aeb10.tfm

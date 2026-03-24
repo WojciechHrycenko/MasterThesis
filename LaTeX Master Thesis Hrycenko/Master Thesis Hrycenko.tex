@@ -54,9 +54,9 @@
 %TCIDATA comments are usually from scientific software and can be kept or removed
 %TCIDATA{OutputFilter=LATEX.DLL}
 %TCIDATA{Version=5.00.0.2552}
-%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{<META NAME="SaveForMode'' CONTENT="1">}
 %TCIDATA{LastRevised=Friday, March 14, 2014 19:54:11}
-%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="GraphicsSave'' CONTENT="32">}
 
 \xyoption{frame}
 \setlength\parindent{24pt}
@@ -88,146 +88,87 @@ Variation in Mortality and Health Outcomes After Transition From Communism}}} }
 
 \clearpage
 
-% \section*{\Large{\textbf{Introduction}}}
+% \section{\Large{\textbf{Introduction}}}
 
-\section*{Introduction}\
+\section{Introduction}\
 
-The collapse of communism in Central and Eastern Europe as well as in the former Soviet Union in the late 1980s and early 1990s 
-marked a significant turning point in global political and economic history. The complexity of carrying out political, territorial, 
-and economic reforms simultaneously is often termed the "dilemma of synchronicity" \citep{A_Ramet2010}. This concept underscores 
-the immense challenge faced by these nations in attempting to democratize political systems, redefine state borders or identities, 
-and restructure economies concurrently, rather than sequentially. A cornerstone of this economic paradigm shift was privatization, 
+The collapse of communism in Central and Eastern Europe as well as in the former Soviet Union at the end of XX century after Berlin Wall fell in 1989 
+marks a significant turning point in global politics and economics. The complexity of carrying out politico-economic regime transformation simultaneously 
+in a variety of institutional systems is often termed the ``dilemma of synchronicity'' \citep{A_Ramet2010}. This concept underscores 
+the immense challenge faced by the states in attempting to democratize political systems, redefine state borders or identities, 
+and restructure economies concurrently, rather than sequentially. A cornerstone of this regime shift was privatization, 
 which entailed the replacement of planned economies with free-market principles \citep{Estrin2004}. This process targeted a diverse range 
-of state-owned assets, including both enterprises established as public property and those that had been previously private before being 
+of state-owned assets, including both enterprises established as public property and those that had been previously privately owned before being 
 nationalized \citep{A_Ramet2010}. Furthermore, the execution of privatization varied significantly across the region; while some countries 
-adopted rapid "shock therapy" or mass voucher schemes, others pursued a more gradualist approach favoring direct sales or restitution 
-\citep{Soos1997, Rohac2016}. That process was expected to lead to increased efficiency, economic growth and improved living standards 
-\citep{Cornia2016}. However, the outcomes of this transition have been far from uniform across countries, with some nations experiencing 
+adopted rapid ``shock'' or mass voucher schemes, others pursued a more gradualist approach favoring direct sales or restitution 
+\citep{Soos1997, Rohac2016}. Privatisation was expected to result in increased efficiency, economic growth and improved living standards 
+\citep{Cornia2016}. However, the outcomes of the transition have been far from uniform across countries, with some countries experiencing 
 significant improvements in health and mortality rates, while others have faced deteriorating conditions \citep{B_Brainerd1998}.
 
-This paper aims at investigating the specific mechanisms behind this demographic divergence, focusing on the velocity of large-scale privatization. 
-Specifically, it seeks to determine whether the rapid transfer of state assets directly contributed to the post-socialist mortality crisis, 
+Present paper aims at investigating the specific mechanisms behind this demographic divergence, focusing on the velocity of large-scale privatization. 
+Specifically, it seeks to determine whether the rapid transfer of state assets to private marketsdirectly contributed to the post-socialist mortality crisis, 
 and to what extent institutional factors—such as state capacity and civil society participation—acted as protective buffers. By analyzing 
 a cross-country panel dataset of 14 post-communist economies between 1989 and 2014, this study bridges the gap between macroeconomic policy 
-choices and distinct epidemiological outcomes, including cardiovascular disease and external causes of death. The remainder of the paper is 
-structured as follows: the next section reviews the existing literature on transition types and the privatization-mortality debate. The 
-subsequent section details the data and methodology, including the two-way fixed effects estimation strategy. Finally, the empirical results 
+choices and distinct epidemiological outcomes, including cardiovascular disease and external causes of death. 
+
+This study contributes to the literature by reconciling the debate between shock therapy and gradualist approaches, demonstrating a demographic 
+``J-curve'' where the initial velocity of privatization, rather than the ultimate size of the private sector, induced the crisis. The main findings 
+reveal that rapid large-scale privatization without institutional buffers caused a direct decline in life expectancy of 2.36 years, reaching a 
+catastrophic penalty of 3.03 years in the Former Soviet Union. Conversely, strong state capacity, through government expenditure, and robust social 
+capital effectively mitigated this mortality shock, particularly reducing deaths from cardiovascular and external causes.
+
+The remainder of the paper is structured as follows: the next section reviews the existing literature on transition types and the privatization-mortality debate. The 
+subsequent section details the data and methodology, including the Staggered Two-Way Fixed Effects estimation strategy. Finally, the empirical results 
 and robustness checks are presented, followed by the concluding remarks.
 
+\section{Relevant Literature}\
+\subsection{Transition Types}\
 
-
-% health deterioration in the region and potential explanations - one of them being privatization, quote the references
-
-
-
-% do wykorzystania przy literaturze:
-% into distinct types: models of "negotiated system reform" (Poland), 
-% "enforced reform" (Czech Republic, Croatia) and "reform without negotiation" or 
-% "imposed transformation" (Bulgaria, Serbia), a category that often includes Russian Federation 
-% and other former Soviet states, which also experienced systemic "implosion" \citep{BujwidKurek_Transformacja2015}. 
-
-% research question, hypotheses and methods.
-
-\section*{Relevant Literature}\
-\subsection*{Transition Types}\
-
-The widespread institutional collapse across Central and Eastern Europe and the Former Soviet Union in the late 1980s 
+The widespread institutional collapse across Central and Eastern Europe and the Former Soviet Union in the early 1990s 
 led to an imperative for simultaneous political, territorial and economic restructuring. 
-Within the academic field of transitology, literature seeks to define and categorize these complex processes in various ways \citep{C_BujwidKurek_Transformacja2015}. 
+Within the academic field of broader discipline, literature seeks to define and categorize these complex processes in various ways \citep{C_BujwidKurek_Transformacja2015}. 
 Probably the most commonly referenced typology of transformation processes \citep{C_BujwidKurek_Transformacja2015} of Samuel Huntington divides countries into three categories based on the nature of their reforms \citep{D_Huntington1991}:
 \begin{itemize}
-    \item "transformation" (e.g. Soviet Union, Bulgaria, Hungary) - when reformators group is originated in government elites, 
-    \item "transplacement" (e.g. Czechoslovakia, Poland) - when the reforms are imposed by both government elites and opposition forces, as it happened during the round table talks,
-    \item "replacement" (e.g. East Germany, Romania) - when oposition has a significant role in reforms.
+    \item ``transformation'' (e.g. Soviet Union, Bulgaria, Hungary) - when reformators group is originated in government elites, 
+    \item ``transplacement'' (e.g. Czechoslovakia, Poland) - when the reforms are imposed by both government elites and opposition forces, as it happened during the round table talks,
+    \item ``replacement'' (e.g. East Germany, Romania) - when oposition has a significant role in reforms.
 \end{itemize}
 These categories reflect the degree of domestic consensus and external pressure influencing the reform processes. 
-It is also worth mentioning that both power camp and opposition are divided, government into reformators and "hard-headed", opposition into moderates and radicals.
-In case of other classifications, they mostly match the above-mentioned typology, sometimes however some differences in countries grouping can be observed.
-Sometimes, a separate category is being created for countries created from multi-national states, like Czechoslovakia or Yugoslavia, due to merged effect 
-of divisions on the level of top leadership and the nationalistic pressure from below \citep{Wiatr2020}.
-It is worth mentioning that also the division proposed by Herbert Kitschelt due to underlining group of countries where preemptive reforms were the idea. Examples are Soviet Union Gorbachev’s initial 
-innovations, as well as the regime changes in Bulgaria, Romania etc. \citep{Kitschelt2001}. The variation in the transition yields the 
+Furthermore, it is important to note that these transition processes were complicated by internal factions. The ruling elite typically split into reformers and hardliners, 
+while the opposition was divided into moderates and radicals. In case of other classifications, they mostly match the above-mentioned typology, sometimes however 
+some differences in countries grouping can be observed. Sometimes, a separate category is being distinguished for the dissolution of multi-national federations, such as 
+Czechoslovakia or Yugoslavia, due to the combined effect of elite-level political fragmentation and grassroots nationalistic pressure \citep{Wiatr2020, Bunce1999}.
+It is worth mentioning that also the division proposed by Herbert Kitschelt due to underlining group of countries where preemptive reforms were the idea. Examples are Soviet Union 
+Gorbachev’s initial innovations, as well as the regime changes in Bulgaria, Romania etc. \citep{Kitschelt2001}. The country - specificvariation in the regime transition yields the 
 opportunity to examine its elements' impact on the outcomes, specifically mortality.
 
 
-
-% The foundational political literature provides various typologies for these regime changes, 
-% classifying states based on the role of the former communist elite and the opposition, thus establishing the initial political trajectory:
-% • Negotiated System Reform: Characterized by pacts and agreements between the opposition and reformist elements of the communist party, exemplified by Poland and Hungary.
-% • Enforced Reform: Occurring when the old regime was weak and opposition was strong, as seen in the Czech Republic and Croatia.
-% • Reform without Negotiation / Imposed Transformation: Where reforms were controlled from above by existing elites, often resulting in systemic "implosion", a category frequently applied to Bulgaria, Serbia, Russian Federation and other FSU states.
-
-
-
-% The long-term success of these transitions is assessed by the quality of the new political institutions. 
-% Research in this area uses the institutional definition of the political system (encompassing state apparatus, parties and legal framework) to analyze development. 
-% A key finding in the literature is that initial political reforms frequently led to "facades of democratic institutions". 
-% In these defective regimes, formal legal norms (often copied from consolidated Western democracies) lacked the "moral and cultural infrastructure" for effective functioning. 
-% This weakness allowed political elite dominance over codified law and provided fertile ground for corruption, particularly in states where the political process was far from accountable and transparent. 
-% The success of political reform was often predicted by the outcome of the first competitive election; clear opposition victories facilitated the "bundling" of liberalization and democratic consolidation, 
-% as seen in Poland and the Czech Republic
-
-%they are often also contrasting the short-term "transition" with the long-term, multi-dimensional "transformation" 
-%required for institutionalization. The complexity has led some scholars to categorize the changes as a "refolution", combining peaceful reform with revolutionary scope.
-
-
-
-
-%Transition process. Once the structural economic crisis of communist
-%  regimes set in, the repressiveness of communist rulers and the (virtual)
-%  resourcefulness of the opposition shaped the transitions to democracy
-%  in the late 1980s. Under bureaucratic-authoritarian communism the
-%  ruling parties were intransigent to reform and clung on to power until
-%  the bitter end, but an urban middle-class opposition was potentially
-%  resourceful against the backdrop of historical memories and practical
-%  experiences in the interwar period. Communism here disappeared at a
-%  late stage by implosion when the ruling parties could no longer contain
-%  demands for fundamental change. The collapse of East Germany and of
-%  the Czechoslovak regime in November 1989 exemplify this case.
-%  Under national-accommodative communism, where the incumbent
-%  party was more flexible in granting reforms and limited civil rights and
-%  thus allowed opposition groups to become comparatively resourceful,
-%  democracy evolved through a negotiated transition between rulers and
-%  representatives of the opposition. Prolonged bargaining characterized
-%  the transitions in Hungary, Poland, Slovenia and possibly in Croatia
-%  and the Baltic countries, where the communist party leaderships began
-%  to accept oppositional representation before the communist regimes
-%  collapsed.
-%  Under patrimonial communism, by contrast, rulers had relied on
-%  repression and cooptation and opposition forces remained weak and
-%  isolated, thus never creating a serious threat to the political incumbents.
-%  When communism was crumbling in one country after the other, elements
-%  of the ruling communist parties themselves chose preemptive reform to
-%  salvage as much of their power as possible into a new postcommunist
-%  era in which they expected to continue their domination over a passive
-%  civil society. Preemptive reform was the idea behind Gorbachev’s initial
-%  innovations, as well as the regime changes in Bulgaria, Romania, some
-%  of the Yugoslav republics and many of the Soviet republics in 1990-91 \citep{Kitschelt2001}.
-
-
-\subsection*{Economic Transformation and the Privatization Debate}\
+\subsection{Economic Transformation and the Privatization Debate}\
 Privatization was universally deemed a central component of the economic transformation, necessary to replace the inefficient command economy with market principles \citep{Estrin1994, Berg1992}. 
-The public debate regarding the pace and method of implementation was dominated by a dichotomy between two camps. The first camp consisted of neoliberal advisors who championed "shock therapy" 
-advocating for the rapid and simultaneous implementation of price and trade liberalization, stabilization and mass privatization \citep{Hamm2012}. This approach was intended to create an irreversible 
-shift to the market. In opposition to them stood critics, often described as gradualist economists or neo-institutionalists, who argued that hasty reform damaged the state and favored a slower process 
-to allow sufficient time for essential governing institutions (e.g. corporate law, capital markets) to develop \citep{Rohac2016, Stuckler2009}.
+While domestic political contexts varied across the region, the broader policy debate regarding the pace and method of implementation was dominated by a dichotomy between two camps. The first camp 
+consisted of neoliberal advisors who championed ``shock therapy'' advocating for the rapid and simultaneous implementation of price and trade liberalization, stabilization and mass privatization 
+\citep{Hamm2012}. This approach was intended to create an irreversible shift to the market. In contrary, critics often described as gradualist economists or neo-institutionalists, argued that hasty 
+reform damages the state and they favor a slower, more gradual process to allow sufficient time for essential governing institutions (e.g. corporate law, capital markets) to develop \citep{Rohac2016, Stuckler2009}.
 
+To accurately assess these processes, it is crucial to make a clear distinction between the broader concept of transition—understood as the comprehensive political, social, and institutional shift away 
+from communism \citep{A_Ramet2010}—and privatization, which was a specific economic mechanism within that transformation \citep{Estrin1994, Berg1992}. Furthermore, the subject of this privatization encompassed 
+a vast array of state-owned assets \citep{A_Ramet2010}, ranging from large-scale industrial enterprises to small-scale properties, including real estate, retail shops, and housing \citep{EBRD1994, EBRD1999}.
 The specific privatization methods chosen across Central and Eastern Europe and the Former Soviet Union yielded varied results and attracted distinct academic critiques. Regarding mass (voucher) 
-privatization, while econometric results suggest that it generally had a significant positive effect on growth following the initial recession (after 1995) \citep{Estrin2004}, its implementation 
-faced scrutiny. Particularly in the Czech Republic, this method was criticized for leading to "budgetary crises and unleashing inflation at the macroeconomic level" \citep{Marcincin1997}. Conversely, 
-insider privatization models that favored management and employees, such as those in the Russian Federation and Ukraine, resulted in "insider dominance" and were generally less effective at restructuring 
-than market methods \citep{Estrin2004, Djankov2002}. This approach was associated with political continuity and was mostly restricted in the Czech Republic and Hungary and to a lesser extent in Poland,
-where a hard political transition had weakened the positions of former communist managers \citep{Soos1997}.
+privatization, while empirical results suggest that it generally had a significantly positive effect on growth following the initial recession (after 1995) \citep{Estrin2004}, its implementation 
+faced scrutiny. Particularly in the Czech Republic, this method was criticized for leading to ``budgetary crises and unleashing inflation at the macroeconomic level'' \citep{Marcincin1997}. Conversely, 
+insider privatization models that favored management and employees, such as those in the Russian Federation and Ukraine, resulted in ``insider dominance'' and were generally less effective at restructuring 
+than market methods \citep{Estrin2004, Djankov2002}, fostering the development of crony capitalism in the longer run \citep{Hoff2004, Stiglitz1999}. This approach was associated with political continuity and was mostly restricted in the 
+Czech Republic and Hungary and to a lesser extent in Poland, where a hard political transition had weakened the positions of former communist managers \citep{Soos1997}.
 
-Beyond specific methodologies, the literature confirms that the transition created new incentives for corruption due to the massive transfer of property coupled with weak states 
-and underdeveloped civil societies \citep{Kaufmann1997, Hoff2004, Stiglitz1999}. Research indicates that privatization's general growth effect hinges on the quality of the 
-institutional setting, often proxied by the level of corruption \citep{Cieslik2018}. Furthermore, the implementation of mass privatization programs has been empirically demonstrated 
+Overall, the literature confirms that the transition enhanced corruption due to the massive transfer of property coupled with weak state institutions 
+and underdeveloped civil societies \citep{ Hoff2004, Stiglitz1999, Kaufmann1997}. Research indicates that privatization's general growth effect hinges on the quality of the 
+institutional setting, often proxied by the level of corruption \citep{Cieslik2018}. Furthermore, the implementation of mass privatization programs is documented 
 to create a massive fiscal shock for post-communist governments, which undermined state capacity and the protection of property rights, thereby exacerbating the recession 
 \citep{Hamm2012}. Ultimately, the general dissatisfaction with the privatization process stemmed from the realization of the process and its outcomes rather than opposition to 
 private property itself \citep{Denisova2012}. Consequently, the popular demand for revising privatization was strongly correlated with individuals who experienced hardships 
 during the transition, such as wage cuts, unemployment, or poor self-rated health.
 
-Building on this, the literature suggests that the institutional setting acts as a critical moderator of privatization’s toll \citep{Cieslik2018, Denisova2009}. 
+Building on this, the literature suggests that the institutional setting acts as a critical moderator of privatization outcomes \citep{Cieslik2018, Denisova2009}. 
 While mass privatization can undermine state capacity \citep{Hamm2012}, the presence of robust governance and active civil society participation may 
 serve as a buffer against the most disruptive social effects \citep{Stuckler2009, Cornia2014}. This perspective shifts the focus from the mere pace of 
 reform to the structural environment in which property transfer occurs \citep{Roland2001}, suggesting that countries with higher levels of civic engagement 
@@ -235,73 +176,70 @@ and better enterprise restructuring oversight might mitigate the transition’s 
 
 
 
-
-
-\subsection*{Mortality and Health Outcomes}\
-The political and economic upheaval led to a severe post-socialist mortality crisis between 1989 and 1995, 
-resulting in an estimated 10 million excess deaths between 1990 and 2000 \citep{Cornia2014}. However, different countries experienced 
-divergent trajectories in health outcomes:
-\begin{itemize}
-    \item Severe Crisis: FSU states, including Russian Federation, Ukraine and Belarus, experienced dramatic and prolonged mortality reversals \citep{Eberstadt1999}. 
+\subsection{Mortality and Health Outcomes}\
+The political and economic upheaval led to a severe post-socialist mortality crisis across Central and Eastern Europe and the Former Soviet Union between 1989 and 1995, 
+resulting in an estimated 10 million excess deaths between 1990 and 2000 \citep{Cornia2014}. However, there is a significant heterogenity across countries. Specifically, 
+two trajectory types can be distinguished:
+\begin{enumerate}
+    \item Severe Crisis: The Former Soviet Union states, including Russian Federation, Ukraine and Belarus, experienced dramatic and prolonged mortality reversals \citep{Eberstadt1999}. 
     Russian Federation male life expectancy, for example, dropped by 6.6 years between 1989 and 1994, reaching a level three years below that of India, 
     which was then a poor agrarian economy \citep{Cornia2016}.  
     The death toll in post-Soviet states reached an estimated 7 million premature deaths, with 4 million in the Russian Federation alone \citep{Azarova2018}.
     \item Rapid Recovery: Central European countries, such as the Czech Republic and Poland, were the first former Communist countries to see a 
-    "rapid and sustained increase in life expectancy" after 1991 \citep{Fihel2011}.
-\end{itemize}
+    ``rapid and sustained increase in life expectancy'' after 1991 \citep{Fihel2011}.
+\end{enumerate}
 
 To understand the drivers of these demographic shifts, it is necessary to examine the specific structure of mortality. 
 The literature identifies the crisis as being primarily fueled by a surge in cardiovascular diseases (particularly ischemic heart disease) 
 and external causes (accidents, suicide and alcohol poisoning) \citep{Cornia2014, Azarova2018}.
 
 This excess mortality was concentrated among working-age men, though with distinct patterns across cohorts. 
-The surge was especially pronounced among young adults (20–39), who were predominantly affected by external causes and older 
-working-age adults (40–59), who suffered mainly from a rise in cardiovascular deaths \citep{Cornia2016}. In the Russian Federation, 
+The surge was especially pronounced among young adults (20–39), who were predominantly affected by the external death causes, and older 
+working-age adults (40–59), who suffered mainly from a rise in cardiovascular diseases leading to death \citep{Cornia2016}. In the Russian Federation, 
 for instance, the fastest relative upswing occurred in the younger group, while the largest absolute rise was recorded 
-among the older cohort \citep{Eberstadt1999}.
+among the older cohort \citep{Eberstadt1999}. In attempting to explain this sudden surge, part of the literature attributes it to a ``rebound effect''
+following the cessation of Mikhail Gorbachev's strict anti-alcohol campaign from the mid-1980s \citep{Bhattacharya2013, Treisman2010, Leon1997}. Nevertheless, recent re-examinations 
+demonstrate that while alcohol policies and availability were contributing factors, they are not robust enough to explain the crisis alone, reaffirming that rapid 
+privatization independently drove the increased mortality \citep{Azarova2019}.
 
-These specific medical outcomes bridge the gap between economic policy and demographic data. They serve as biological markers of acute 
-psychosocial stress triggered by rapid economic dislocation and unemployment \citep{Stuckler2009}. This stress manifests precisely through 
+The specific medical outcomes help to better understand the mechanism underlying mortality changes. Biological markers can serve as measures of an acute 
+psychosocial stress triggered by rapid economic dislocation and unemployment \citep{Stuckler2009}. These types of circumstances manifests precisely through 
 the channels observed above: physiological strain leading to heart failure \citep{B_Brainerd1998, Leon1998} and psychological distress 
-resulting in ''deaths of despair'' \citep{King2009}. By focusing on these indicators, the analysis isolates the direct physiological and 
-social toll of privatization policies.
+resulting in ''deaths of despair'' \citep{King2009}.
 
 Despite the moderating role of institutions, a fundamental division persists in the literature regarding the extent to which mass 
-privatization itself 
-was the decisive upstream factor driving mortality crises. The arguments can be grouped as follows:
-\begin{itemize}
-    \item  Argument for Correlation (Privatization as a Crucial Factor): A large body of cross-national and quasi-experimental 
-    research supports the hypothesis that rapid and extensive privatization (often referred to as mass privatization) was a "crucial determinant" 
-    of the adverse mortality trends \citep{Stuckler2009, Azarova2018, King2009, Azarova2019}. The primary mechanism linking 
-    this policy to premature death is identified as acute psychosocial stress caused by rapid economic dislocation. For example, one quasi-experimental 
-    retrospective cohort study in post-Soviet Russian Federation found that fast-privatized towns experienced 13\% higher mortality among working-age 
-    men than slow-privatized towns \citep{Azarova2018}. These findings provided compelling evidence that rapid privatization contributed to raised 
-    working-age male mortality. In case of female related research, the one was made among women in Hungary \citep{Scheiring2018}. Results indicated that
-    prolonged state ownership was associated with protection of life chances during the post-socialist transformation for women.
-    Another research reexamined the argument that alcohol policies were the key behind the mortality crisis in 
-    Russian Federation and they found it as non robust. At the same time, they confirmed the robust link between rapid privatization and increased 
-    mortality \citep{Azarova2019}. This link is further supported by evidence that privatization and the associated increase in unemployment, 
-    was strongly associated with mortality in former Soviet Union countries \citep{Stuckler2009}.
+privatization itself was the decisive upstream factor driving mortality crises.
+First, argument for Correlation (Privatization as a Crucial Factor): A large body of cross-national and quasi-experimental 
+research supports the hypothesis that rapid and extensive privatization (often referred to as mass privatization) was a ``crucial determinant'' 
+of the adverse mortality trends \citep{Stuckler2009, Azarova2018, Azarova2019, King2009}. The primary mechanism linking 
+this policy to premature death is identified as acute psychosocial stress caused by rapid economic dislocation. For example, one quasi-experimental 
+retrospective cohort study in post-Soviet Russian Federation found that fast-privatized towns experienced 13\% higher mortality among working-age 
+men than slow-privatized towns \citep{Azarova2018}. These findings provided compelling evidence that rapid privatization contributed to raised 
+working-age male mortality. In case of female related research, the one was made among women in Hungary \citep{Scheiring2018}. Results indicated that
+prolonged state ownership was associated with protection of life chances during the post-socialist transformation for women.
+Another research reexamined the argument that alcohol policies were the key behind the mortality crisis in 
+Russian Federation and they found it as non robust. At the same time, they confirmed the robust link between rapid privatization and increased 
+mortality \citep{Azarova2019}. This link is further supported by evidence that privatization and the associated increase in unemployment, 
+was strongly associated with mortality in former Soviet Union countries \citep{Stuckler2009}.
 
-    \item Argument Against Robust Correlation (Methodological Skepticism): Conversely, other prominent studies challenge the conclusion that mass privatization 
-    was the primary cause of the crisis, citing methodological weaknesses and a lack of empirical robustness \citep{Earle2010, Gerry2010, Earle2013, Bhattacharya2013}. Critics argue that the claim that mass privatization adversely affected male mortality trends "does not stand up to 
-    closer examination" and is contradicted by other knowledge about health trends in the region. Some analyzes found that the correlation between 
-    rapid privatization and mortality fails to hold across countries. Specifically, a study focusing on Russian Federation regions found no robust 
-    evidence supporting the hypotheses that the mortality spike was caused primarily by the rebound effect (from the Gorbachev anti-alcohol campaign) 
-    or the affordability of alcohol. Instead, they concluded that the privatization-mortality link is robust to controlling for alcohol policy 
-    \citep{Treisman2010}. Other reviews, however, found that while four out of five studies showed rapid privatization to be significantly and 
-    positively related to mortality \citep{Scheiring2019}, with the only exception of Christopher J. Gerry \citep{Gerry2012}. Gerry critiques the Stuckler 
-    et al. article for committing an ecological fallacy. He argues that their broad, country-level analysis fails to prove that mass privatization was 
-    directly responsible for causing death at the individual level.
-\end{itemize}
+Conversely, other prominent studies challenge the conclusion that mass privatization was the primary cause of the crisis, citing methodological weaknesses 
+and a lack of empirical robustness \citep{Earle2010, Gerry2010, Earle2013, Bhattacharya2013}. Critics argue that the claim that mass privatization adversely 
+affected male mortality trends ``does not stand up to closer examination'' and is contradicted by other knowledge about health trends in the region. Some 
+analyzes found that the correlation between rapid privatization and mortality fails to hold across countries. Specifically, a study focusing on Russian 
+Federation regions found no robust evidence supporting the hypotheses that the mortality spike was caused primarily by the rebound effect (from the 
+Gorbachev anti-alcohol campaign) or the affordability of alcohol. Instead, they concluded that the privatization-mortality link is robust to controlling 
+for alcohol policy \citep{Treisman2010}. Other reviews, however, found that while four out of five studies showed rapid privatization to be significantly and 
+positively related to mortality \citep{Scheiring2019}, with the only exception of Christopher J. Gerry \citep{Gerry2012}. Gerry critiques the Stuckler 
+et al. article for committing an ecological fallacy. He argues that their broad, country-level analysis fails to prove that mass privatization was 
+directly responsible for causing death at the individual level.
 
-The overall scientific knowledge on the effects of politico-economic transitions on health outcomes remains "inconclusive" and there definitely
+The overall scientific knowledge on the effects of politico-economic transitions on health outcomes remains ``inconclusive'' and there definitely
 is an area to make further examination, which the rest of the paper will be devoted to.
 
 
 
 % partly because macro-level results may suffer from ecological fallacy and high-quality individual-level 
-% data remain "scarce". The failure to establish a definitive result regarding the mortality effect of specific macro-policy variables suggests 
+% data remain ``scarce". The failure to establish a definitive result regarding the mortality effect of specific macro-policy variables suggests 
 % that other mediating institutional factors - such as the strength of the political system - are necessary to explain the disparate outcomes.
 
 
@@ -318,28 +256,28 @@ is an area to make further examination, which the rest of the paper will be devo
 % notably in FSU states, through mechanisms linked to social dislocation and psychosocial stress; and (2) Behavioral factors, specifically 
 % tobacco consumption, were the largest single drivers of premature mortality differences between CEE and Western Europe.
 % However, the literature has not yet provided a complete answer to the central question of this thesis: explaining the 
-% "Unequal Toll" - the wide cross-country variation in health outcomes across CEE and FSU.
+% ``Unequal Toll'' - the wide cross-country variation in health outcomes across CEE and FSU.
 
 
-% o "powodach powodów" śmiertelności
+% o ``powodach powodów'' śmiertelności
 
 % 2.3.2. Causal Debate: Privatization, Stress and Institutions
-% The core debate centers on the "causes of causes" of this crisis:
+% The core debate centers on the ``causes of causes'' of this crisis:
 % 1. Macro-Policy (Privatization/Dislocation): Key literature argues that rapid and extensive privatization (mass privatization) was a 
-% "crucial economic policy factor" driving the decline in life expectancy. This policy is hypothesized to have created excess psychosocial stress 
+% ``crucial economic policy factor'' driving the decline in life expectancy. This policy is hypothesized to have created excess psychosocial stress 
 % by rapidly dismantling the established social order, leading to unemployment and business failures. A micro-level study in the Russian Federation towns 
 % confirmed that fast privatization increased male mortality by 15–17%.
 % 2. Alcohol/Lifestyle: Alternative hypotheses suggested the crisis resulted from adverse lifestyles, the increased relative affordability of vodka, 
-% or a "rebound" of delayed deaths following Gorbachev's anti-alcohol campaign. However, recent research suggests that the rebound and affordability 
+% or a ``rebound'' of delayed deaths following Gorbachev's anti-alcohol campaign. However, recent research suggests that the rebound and affordability 
 % effects did not play a major role in the European part of Russian Federation, supporting the role of psychosocial stress generated by socio-economic dislocation.
 % 3. Institutional Mediation: The relative success of Central European countries is attributed to their smaller initial economic and social distortions, 
-% shorter recessions and "the active role played by intermediate social bodies" (such as trade unions) in managing social dislocations. Furthermore, 
+% shorter recessions and ``the active role played by intermediate social bodies'' (such as trade unions) in managing social dislocations. Furthermore, 
 % the institutional changes in the Czech Republic and Poland included the reorientation of health policies and the development of modern health policies.
 
 
-\section*{Data and Methods}
+\section{Data and Methods}
 
-\subsection*{Data Sources and Study Population}
+\subsection{Data Sources and Study Population}
 To examine the health consequences of structural transformation, a longitudinal cross-country dataset was constructed, covering 14 
 post-communist economies in Central and Eastern Europe (CEE) and the Former Soviet Union (FSU) over the period 1989–2014.
 The final sample constitutes a panel including Belarus, Bulgaria, Czech Republic, Estonia, Hungary, Kazakhstan, Latvia, 
@@ -376,9 +314,9 @@ rigorous Two-Way Fixed Effects models prioritize data consistency and the inclus
 the validity of the causal inferences .
 
 
-\subsection*{Measures}
+\subsection{Measures}
 
-\subsubsection*{Outcome Variables: Mortality and Health}
+\subsubsection{Outcome Variables: Mortality and Health}
 
 Population health is operationalized using Standardized Death Rates (SDR) per 100,000 population \citep{B_Brainerd1998, Stuckler2009}. 
 To disentangle the specific mechanisms linking economic shock to mortality, a broad spectrum of cause-specific outcomes available 
@@ -408,7 +346,7 @@ cardiovascular crisis, although the more specific Ischaemic Heart Disease index 
 sensitivity to acute structural shocks \citep{Cornia2016, Zaridze2009}.
 
 
-\subsubsection*{Explanatory Variables: The Multidimensional Transition Shock}
+\subsubsection{Explanatory Variables: The Multidimensional Transition Shock}
 To quantify the intensity of structural reforms, the study utilizes the complete set of transition indicators provided by the
 EBRD. While the primary focus lies on ownership transformation, the multidimensional nature of the market shock is accounted
 for by including indices for:
@@ -432,7 +370,7 @@ results \citep{Hamm2012, Bennett2007}. To account for heterogeneity among reform
 Soviet Union (FSU). This explicit indicator separates voucher-based schemes executed in an ``institutional void'' from the more gradual or institutionalized 
 paths observed in Central Europe \citep{Estrin2004, Earle2013, Roland2000, King2001}.
 
-\subsubsection*{Covariates and Moderators}
+\subsubsection{Covariates and Moderators}
 The model accounts for a rich set of time-varying confounders to isolate the effect of privatization from broader socio-economic shifts. 
 Economic development is controlled for using the natural logarithm of \textit{Real GDP per capita} (constant 2011 US\$, Maddison Project), 
 capturing the non-linear relationship between national wealth and population health \citep{Hamm2012, Stuckler2009}.
@@ -440,7 +378,7 @@ capturing the non-linear relationship between national wealth and population hea
 As a proxy for labor market security and economic inclusion—factors crucial during the industrial restructuring of the 1990s—the 
 \textit{Employment Rate} (sourced from UNICEF TransMONEE) is employed. This indicator offers superior data completeness and reliability 
 compared to official unemployment statistics, which in the early transition period often failed to capture hidden unemployment and the 
-collapse of the socialist "full employment" guarantee \citep{Cornia2016, UNECE2004}. Macroeconomic instability, which can trigger acute 
+collapse of the socialist ``full employment'' guarantee \citep{Cornia2016, UNECE2004}. Macroeconomic instability, which can trigger acute 
 stress through the erosion of savings and purchasing power, is controlled for using the annual \textit{Inflation Rate} \citep{B_Brainerd1998, 
 Treisman2010}.
 
@@ -482,7 +420,7 @@ Table \ref{tab:var_list} provides a summary of all variables included in the dat
 \end{tabular}
 \end{table}
 
-\subsection*{Empirical Strategy}
+\subsection{Empirical Strategy}
 
 To estimate the impact of structural transformation and privatization strategies on population health, the study employs a Panel Ordinary Least Squares 
 (Panel OLS) estimator. To transparently demonstrate the influence of both local unobserved factors and global time shocks, the econometric analysis follows 
@@ -522,7 +460,7 @@ This adjustment addresses potential issues of heteroskedasticity and within-coun
 and could otherwise lead to over-optimistic p-values \citep{ Gerry2012, CameronMiller2015, Bertrand2004}.
 
 
-\subsection*{Robustness Checks and Analytical Software}
+\subsection{Robustness Checks and Analytical Software}
 
 To ensure the validity and stability of the baseline findings, several robustness checks are 
 conducted. First, to mitigate potential concerns regarding reverse causality—where rapidly deteriorating population health might theoretically slow 
@@ -540,9 +478,9 @@ All data integration processes, feature engineering (including linear interpolat
 performed using Python \citep{Python3}. Specifically, the \textit{linearmodels} library was utilized for high-dimensional panel data analysis 
 \citep{Sheppard2021}, with data visualization and diagnostic plotting supported by \textit{seaborn} and \textit{matplotlib}.
 
-\section*{Results}
+\section{Results}
 
-\subsection*{Descriptive Statistics and Data Diagnostics}
+\subsection{Descriptive Statistics and Data Diagnostics}
 
 Before estimating the panel fixed-effects models, a preliminary analysis of the data distribution and potential multicollinearity was conducted. 
 Table \ref{tab:desc_stats} presents the summary statistics for the principal variables used in the analysis. 
@@ -593,7 +531,7 @@ to avoid multicollinearity. Furthermore, formal multicollinearity tests confirme
 the highest being 3.19 for Log GDP). This indicates that the variables can be safely included in a single multivariate model without risking inflated standard 
 errors.
 
-\subsection*{Exploratory Data Analysis and Stylized Facts}
+\subsection{Exploratory Data Analysis and Stylized Facts}
 
 Before delving into the formal econometric modeling, a visual exploration of the raw data provides critical context for the hypotheses. 
 Figure \ref{fig:life_expectancy_crisis} illustrates the divergent trajectories of life expectancy at birth across the three distinct privatization 
@@ -611,25 +549,25 @@ privatization buffered by strong institutions (Central Europe) experienced only 
 the Former Soviet Union (FSU) cohort suffered a dramatic collapse.
 
 To further dissect this heterogeneity, Figure \ref{fig:country_trajectories} presents the individual country trajectories, highlighting the 
-"Equal vs. Unequal Toll" phenomenon. This visualization reveals that while the transition shock was universal, the demographic response was 
-highly idiosyncratic. In the "Unequal Toll" group—exemplified by Russian Federation, Ukraine and Kazakhstan—we observe a sharp, non-linear collapse in 
-life expectancy coinciding with the peak reform years. In contrast, "Equal Toll" countries like Poland and Slovenia maintained stable or 
+"Equal vs. Unequal Toll'' phenomenon. This visualization reveals that while the transition shock was universal, the demographic response was 
+highly idiosyncratic. In the ``Unequal Toll'' group—exemplified by Russian Federation, Ukraine and Kazakhstan—we observe a sharp, non-linear collapse in 
+life expectancy coinciding with the peak reform years. In contrast, ``Equal Toll'' countries like Poland and Slovenia maintained stable or 
 improving health trends, suggesting that the mortality crisis was not an inevitable byproduct of privatization, but a consequence of the 
 institutional environment.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{fig_equal_vs_unequal.png}
-    \caption{The "Equal vs. Unequal Toll": Life Expectancy by Country (1989--2014)}
+    \caption{The ``Equal vs. Unequal Toll": Life Expectancy by Country (1989--2014)}
     \label{fig:country_trajectories}
 \end{figure}
 
 To understand the policy-level drivers of this divergence, Figure \ref{fig:country_trajectories} traces the pace of property restructuring using 
-the EBRD Large-scale Privatization Index. The data clearly distinguishes the aggressive "shock therapy" implemented in the FSU and Central European 
+the EBRD Large-scale Privatization Index. The data clearly distinguishes the aggressive ``shock therapy'' implemented in the FSU and Central European 
 mass privatizers from the incremental property transfers characterizing the gradualist approach.
 
 However, the speed of ownership transfer alone does not fully explain the crisis; Central European states applied similar speed but avoided the 
-health collapse. Figure \ref{fig:institutional_void} highlights the concept of the "institutional void" by plotting the scale of privatization 
+health collapse. Figure \ref{fig:institutional_void} highlights the concept of the ``institutional void'' by plotting the scale of privatization 
 against the Civil Society Participation Index during the critical mid-1990s period.
 
 \begin{figure}[H]
@@ -641,11 +579,11 @@ against the Civil Society Participation Index during the critical mid-1990s peri
 
 The scatter plot reveals a profound institutional cleavage. Central European states matched their rapid economic transition with robust civic 
 engagement. Conversely, FSU states executed massive property transfers in an environment characterized by severely underdeveloped social capital. 
-This decoupling of economic reform from institutional development—the "institutional void"—directly justifies the inclusion of interaction terms in 
+This decoupling of economic reform from institutional development—the ``institutional void"—directly justifies the inclusion of interaction terms in 
 the subsequent panel models to test the buffering effect of state and social institutions.
 
 
-\subsection*{Baseline Estimates: The Impact of Rapid Privatization}
+\subsection{Baseline Estimates: The Impact of Rapid Privatization}
 
 The baseline Panel OLS estimations provide robust empirical support for Hypothesis 1, confirming that the speed and method of economic restructuring had a 
 profound impact on population health \citep{Stuckler2009, Azarova2018}. Interestingly, as shown in Column 1 of Table \ref{tab:life_expectancy_models}, the initial 
@@ -662,7 +600,7 @@ in life expectancy at birth of well over two years constitutes a massive societa
 epidemic or a major armed conflict. This effect size is highly consistent with the foundational literature, which estimates that mass privatization 
 programs reduced life expectancy by between 0.86 and 5.14 years depending on the model specification \citep{Stuckler2009, King2009}.
 
-These findings confirm that the "mortality crisis" was not merely a generic consequence of the transitional recession. While the economic 
+These findings confirm that the ``mortality crisis'' was not merely a generic consequence of the transitional recession. While the economic 
 collapse itself played a substantial role—as evidenced by the positive and highly significant coefficient for GDP per capita in the rigorous models—the 
 data proves that the specific strategy of rapid economic restructuring independently exerted a lethal toll on the population, above and beyond the 
 loss of income \citep{Hamm2012, Stuckler2009}.
@@ -712,7 +650,7 @@ $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
 
 To provide a clearer comparative perspective on the determinants of life expectancy, Figure \ref{fig:forest_plot_model_e} visualizes the standardized 
 effect sizes and 95\% confidence intervals for the primary predictors in the Two-Way Fixed Effects (Model E). This forest plot effectively illustrates 
-a "hierarchy of impacts":
+a ``hierarchy of impacts":
 
 \begin{itemize}
     \item \textbf{The Dominance of Peace and Wealth:} Macro-structural factors remain the most powerful predictors. War exhibits a devastating negative impact, 
@@ -720,7 +658,7 @@ a "hierarchy of impacts":
     \item \textbf{The Privatization Penalty:} In the absence of institutional buffers, large-scale privatization exerts a significant and substantial negative 
     pressure on population health, pulling life expectancy down by approximately 2.36 years.
     \item \textbf{The Neutralizing Effect of the State:} The positive coefficient for the State Buffer (Interaction) provides visual confirmation of the study's 
-    central thesis. Government expenditure acts as a crucial countervailing force, effectively "pushing" the life expectancy estimate back toward the zero line 
+    central thesis. Government expenditure acts as a crucial countervailing force, effectively ``pushing'' the life expectancy estimate back toward the zero line 
     and neutralizing the shock of property transfer.
     \item \textbf{Statistically Neutral Variables:} Interestingly, when accounting for global time-shocks and state capacity, factors such as the employment rate, 
     inflation, and alcohol consumption have confidence intervals crossing the zero line, indicating they were not primary independent drivers of the divergent 
@@ -731,7 +669,7 @@ This visualization confirms that the post-communist mortality crisis was not a g
 
 
 
-\subsection*{Institutional Buffers: State Capacity and Social Capital}
+\subsection{Institutional Buffers: State Capacity and Social Capital}
 
 To address why some post-communist states experienced catastrophic health outcomes while others avoided them, the analysis explored the moderating roles of 
 state and social institutions. The empirical results presented in Table \ref{tab:life_expectancy_models} strongly validate the ``State Buffer'' hypothesis 
@@ -792,7 +730,7 @@ $R^2$ (Within) & 0.5083 & 0.4586 \\
 \end{table}
 
 
-\subsection*{Robustness and Placebo Tests}
+\subsection{Robustness and Placebo Tests}
 
 To explore the temporal dynamics of the transition shock and address potential endogeneity, the baseline equation was re-estimated using a one-year lagged variable of the 
 privatization index ($Priv_{it-1}$) (Table \ref{tab:robustness_c}, Column 1). Interestingly, the coefficient for the lagged privatization variable turns positive and 
@@ -808,9 +746,9 @@ in healthcare reporting or long-term structural aging—it should theoretically 
 
 Consistent with this epidemiological theory, Model F (Column 3) shows that the coefficient for Large-scale Privatization on cancer mortality is statistically indistinguishable 
 from zero ($p = 0.63$) and the $R^2$ is negligible. This null result serves as powerful evidence that the primary mortality findings capture genuine, stress-induced trauma rather 
-than arbitrary health system trends or measurement artifacts \citep{Azarova2018, Leon1997}. Finally, to address the specific "Shock Therapy" experience of the 1990s, Model G 
+than arbitrary health system trends or measurement artifacts \citep{Azarova2018, Leon1997}. Finally, to address the specific ``Shock Therapy'' experience of the 1990s, Model G 
 (Column 2) introduces a temporal interaction. The result reveals that the negative health impact was significantly more acute during the first decade of transition (indicated by 
-the negative interaction term $\beta = -0.084, p < 0.10$), which aligns with the "Shock" hypothesis and the period of greatest institutional instability.
+the negative interaction term $\beta = -0.084, p < 0.10$), which aligns with the ``Shock'' hypothesis and the period of greatest institutional instability.
 
 \begin{table}[H]
 \centering
@@ -893,7 +831,7 @@ Observations & 156 & 169 \\
 \end{tabular}
 \end{table}
 
-\section*{Conclusion}\
+\section{Conclusion}\
 
 %%%  -  DODANO SEKCJA BIBLIOGRAFII  - 
 \clearpage 

@@ -4,45 +4,45 @@ The top-level auxiliary file: Master Thesis Hrycenko.aux
 The style file: unsrtnat.bst
 Database file #1: myreferences.bib
 Warning--there's a number but no volume in Cornia2014
-You've used 66 entries,
+You've used 67 entries,
             2481 wiz_defined-function locations,
-            1039 strings with 17600 characters,
-and the built_in function-call counts, 23732 in all, are:
-= -- 2091
-> -- 1046
-< -- 54
-+ -- 438
-- -- 305
-* -- 1763
-:= -- 3846
-add.period$ -- 246
-call.type$ -- 66
-change.case$ -- 117
-chr.to.int$ -- 65
-cite$ -- 67
-duplicate$ -- 1221
-empty$ -- 2245
-format.name$ -- 397
-if$ -- 5013
+            1043 strings with 17714 characters,
+and the built_in function-call counts, 23994 in all, are:
+= -- 2112
+> -- 1053
+< -- 55
++ -- 442
+- -- 307
+* -- 1775
+:= -- 3889
+add.period$ -- 249
+call.type$ -- 67
+change.case$ -- 118
+chr.to.int$ -- 66
+cite$ -- 68
+duplicate$ -- 1240
+empty$ -- 2275
+format.name$ -- 400
+if$ -- 5070
 int.to.chr$ -- 2
-int.to.str$ -- 67
-missing$ -- 68
-newline$ -- 384
-num.names$ -- 203
-pop$ -- 529
+int.to.str$ -- 68
+missing$ -- 70
+newline$ -- 389
+num.names$ -- 206
+pop$ -- 540
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 67
 quote$ -- 0
-skip$ -- 702
+skip$ -- 712
 stack$ -- 0
-substring$ -- 1002
-swap$ -- 146
+substring$ -- 1004
+swap$ -- 148
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 417
+type$ -- 421
 warning$ -- 1
-while$ -- 206
+while$ -- 208
 width$ -- 0
-write$ -- 953
+write$ -- 966
 (There was 1 warning)
