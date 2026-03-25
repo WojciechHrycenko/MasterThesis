@@ -245,6 +245,79 @@ definitely is an area to make further examination, which the rest of the paper w
 \end{itemize}
 
 
+\section{Identification Strategy}
+\subsection{Main Analysis}
+
+To estimate the impact of structural transformation and privatization strategies on population health, the study employs a Panel Ordinary Least Squares 
+(Panel OLS) estimator. To transparently demonstrate the influence of both local unobserved factors and global time shocks, the econometric analysis follows 
+a stepwise evolution. The modeling begins with one-way fixed-effects specifications that strictly control for unobserved, time-invariant heterogeneity across 
+countries ($\mu_{i}$), such as deep-seated cultural attitudes toward health or historical institutional legacies. Subsequently, to rigorously eliminate 
+confounding macroeconomic trends that affected all transition economies simultaneously (e.g., the 1998 financial crisis), the analysis is extended to a 
+Two-Way Fixed Effects (TWFE) framework \citep{Wooldridge2010, Allison2009}.
+
+The fully specified TWFE baseline equation used to test Hypothesis 1 (the ``Shock'' effect) is formally defined as follows:
+
+\begin{equation}
+H_{it}=\alpha+\beta_{1}Priv_{it}+\gamma X_{it}+\mu_{i}+\tau_{t}+\epsilon_{it}
+\end{equation}
+
+where $H_{it}$ represents the specific health outcome (e.g., Life Expectancy or SDR from External Causes) for country $i$ in year $t$. $Priv_{it}$ denotes 
+the primary proxy for structural reform (Large-scale Privatization) and $\beta_{1}$ is the parameter of interest capturing the health effect of these reforms 
+\citep{Stuckler2009, Brainerd2001}. $X_{it}$ is a vector of time-varying covariates, including the natural logarithm of real GDP per capita, the employment 
+rate and the inflation rate. The terms $\mu_{i}$ and $\tau_{t}$ represent country and year fixed effects, respectively, while $\epsilon_{it}$ is the 
+idiosyncratic error term.
+
+To formally test Hypotheses 2 and 3---positing that state capacity and social capital acted as protective buffers \citep{Hamm2012, Scheiring2018}---the baseline 
+TWFE model is extended to include interaction terms. These buffering mechanisms are modeled as:
+
+\begin{equation}
+H_{it}=\alpha+\beta_{1}Priv_{it}+\beta_{2}(Priv_{it}\times Buffer_{it})+\beta_{3}Buffer_{it}+\gamma X_{it}+\mu_{i}+\tau_{t}+\epsilon_{it}
+\end{equation}
+
+In this specification, $Buffer_{it}$ represents either Government Expenditure (testing H2) or the Civil Society Participation Index (testing H3). 
+The coefficient $\beta_2$ is the critical parameter for the ``State Buffer'' and ``Social Capital'' hypotheses, evaluating whether higher institutional 
+capacity mitigated the mortality-inducing effects of rapid privatization. 
+
+The estimation strategy utilizes the aforementioned FSU dummy specification to capture the specific mortality penalty of executing rapid property transfers 
+without protective institutional buffers \citep{Hamm2012}.
+
+Finally, to ensure the validity of statistical inference, all models are estimated using cluster-robust standard errors at the country level. 
+This adjustment addresses potential issues of heteroskedasticity and within-country serial correlation, which are common in longitudinal macro-health data 
+and could otherwise lead to over-optimistic p-values \citep{ Gerry2012, CameronMiller2015, Bertrand2004}.
+
+To explicitly model the dynamic temporal effects of the transition and address potential biases inherent in static TWFE estimators—such as the inability to 
+distinguish between pre-trends and dynamic post-treatment effects—the analysis is further extended to a Staggered TWFE (Event Study) framework. We define the 
+"treatment" threshold as the year a country's Large-scale Privatization index reaches a critical transition phase (e.g., an EBRD score of 3.0 or higher). 
+By establishing relative time indicators centered around this treatment year, we estimate the following event study specification:
+
+$$H_{it} = \alpha + \sum_{k=-3, k \neq -1}^{4} \delta_k D_{it}^k + \gamma X_{it} + \mu_i + \tau_t + \epsilon_{it}$$
+
+where $D_{it}^k$ represents a set of binary dummy variables taking the value of 1 if year $t$ is exactly $k$ years away from the initiation of mass privatization 
+for country $i$, and 0 otherwise. The period immediately preceding the shock ($k = -1$) serves as the omitted reference category. 
+
+This dynamic specification serves a critical dual purpose in our identification strategy. First, examining the pre-treatment coefficients ($\delta_{-3}, \delta_{-2}$) 
+validates the parallel trends assumption by confirming the absence of anticipating demographic shifts before the reforms. Second, the post-treatment coefficients 
+($\delta_{0}, \dots, \delta_{4}$) allow us to map the precise trajectory of the mortality penalty over time. This enables us to empirically determine whether the 
+privatization shock induced a permanent structural decline in health or an acute, transient crisis that faded as institutions stabilized.
+
+\subsection{Robustness Checks and Analytical Software}
+
+To ensure the validity and stability of the baseline findings, several robustness checks are 
+conducted. First, to mitigate potential concerns regarding reverse causality—where rapidly deteriorating population health might theoretically slow 
+down the pace of economic restructuring—the core models are re-estimated using one-year lagged values of the EBRD transition indicators 
+($Priv_{it-1}$) \citep{Earle2013, Gerry2012, Wooldridge2010}.
+
+Second, to confirm the physiological specificity of the stress mechanism, a falsification (placebo) test is implemented using SDR from Malignant 
+Neoplasms as the dependent variable \citep{Leon1997, Brainerd2005}. Furthermore, the study addresses potential omitted variable bias by evolving the 
+specification from simple entity effects to a Two-Way Fixed Effects (TWFE) framework. This controls for unobserved global shocks (e.g., the 1998 Russian 
+financial crisis \citep{EBRD1999}) that could otherwise confound the relationship between privatization and mortality. The sensitivity of the results 
+to sample composition is also assessed by examining different regional clusters (FSU vs. CEE), ensuring that the aggregate coefficients accurately 
+reflect the ``Unequal Toll'' across different institutional environments \citep{Hamm2012, Earle2013}.
+
+All data integration processes, feature engineering (including linear interpolation of institutional covariates) and econometric estimations were 
+performed using Python \citep{Python3}. Specifically, the \textit{linearmodels} library was utilized for high-dimensional panel data analysis 
+\citep{Sheppard2021}, with data visualization and diagnostic plotting supported by \textit{seaborn} and \textit{matplotlib}.
+
 
 \section{Data and Measures}
 
@@ -391,64 +464,6 @@ Table \ref{tab:var_list} provides a summary of all variables included in the dat
 \end{tabular}
 \end{table}
 
-\subsection{Empirical Strategy}
-
-To estimate the impact of structural transformation and privatization strategies on population health, the study employs a Panel Ordinary Least Squares 
-(Panel OLS) estimator. To transparently demonstrate the influence of both local unobserved factors and global time shocks, the econometric analysis follows 
-a stepwise evolution. The modeling begins with one-way fixed-effects specifications that strictly control for unobserved, time-invariant heterogeneity across 
-countries ($\mu_{i}$), such as deep-seated cultural attitudes toward health or historical institutional legacies. Subsequently, to rigorously eliminate 
-confounding macroeconomic trends that affected all transition economies simultaneously (e.g., the 1998 financial crisis), the analysis is extended to a 
-Two-Way Fixed Effects (TWFE) framework \citep{Wooldridge2010, Allison2009}.
-
-The fully specified TWFE baseline equation used to test Hypothesis 1 (the ``Shock'' effect) is formally defined as follows:
-
-\begin{equation}
-H_{it}=\alpha+\beta_{1}Priv_{it}+\gamma X_{it}+\mu_{i}+\tau_{t}+\epsilon_{it}
-\end{equation}
-
-where $H_{it}$ represents the specific health outcome (e.g., Life Expectancy or SDR from External Causes) for country $i$ in year $t$. $Priv_{it}$ denotes 
-the primary proxy for structural reform (Large-scale Privatization) and $\beta_{1}$ is the parameter of interest capturing the health effect of these reforms 
-\citep{Stuckler2009, Brainerd2001}. $X_{it}$ is a vector of time-varying covariates, including the natural logarithm of real GDP per capita, the employment 
-rate and the inflation rate. The terms $\mu_{i}$ and $\tau_{t}$ represent country and year fixed effects, respectively, while $\epsilon_{it}$ is the 
-idiosyncratic error term.
-
-To formally test Hypotheses 2 and 3---positing that state capacity and social capital acted as protective buffers \citep{Hamm2012, Scheiring2018}---the baseline 
-TWFE model is extended to include interaction terms. These buffering mechanisms are modeled as:
-
-\begin{equation}
-H_{it}=\alpha+\beta_{1}Priv_{it}+\beta_{2}(Priv_{it}\times Buffer_{it})+\beta_{3}Buffer_{it}+\gamma X_{it}+\mu_{i}+\tau_{t}+\epsilon_{it}
-\end{equation}
-
-In this specification, $Buffer_{it}$ represents either Government Expenditure (testing H2) or the Civil Society Participation Index (testing H3). 
-The coefficient $\beta_2$ is the critical parameter for the ``State Buffer'' and ``Social Capital'' hypotheses, evaluating whether higher institutional 
-capacity mitigated the mortality-inducing effects of rapid privatization. 
-
-The estimation strategy utilizes the aforementioned FSU dummy specification to capture the specific mortality penalty of executing rapid property transfers 
-without protective institutional buffers \citep{Hamm2012}.
-
-Finally, to ensure the validity of statistical inference, all models are estimated using cluster-robust standard errors at the country level. 
-This adjustment addresses potential issues of heteroskedasticity and within-country serial correlation, which are common in longitudinal macro-health data 
-and could otherwise lead to over-optimistic p-values \citep{ Gerry2012, CameronMiller2015, Bertrand2004}.
-
-
-\subsection{Robustness Checks and Analytical Software}
-
-To ensure the validity and stability of the baseline findings, several robustness checks are 
-conducted. First, to mitigate potential concerns regarding reverse causality—where rapidly deteriorating population health might theoretically slow 
-down the pace of economic restructuring—the core models are re-estimated using one-year lagged values of the EBRD transition indicators 
-($Priv_{it-1}$) \citep{Earle2013, Gerry2012, Wooldridge2010}.
-
-Second, to confirm the physiological specificity of the stress mechanism, a falsification (placebo) test is implemented using SDR from Malignant 
-Neoplasms as the dependent variable \citep{Leon1997, Brainerd2005}. Furthermore, the study addresses potential omitted variable bias by evolving the 
-specification from simple entity effects to a Two-Way Fixed Effects (TWFE) framework. This controls for unobserved global shocks (e.g., the 1998 Russian 
-financial crisis \citep{EBRD1999}) that could otherwise confound the relationship between privatization and mortality. The sensitivity of the results 
-to sample composition is also assessed by examining different regional clusters (FSU vs. CEE), ensuring that the aggregate coefficients accurately 
-reflect the ``Unequal Toll'' across different institutional environments \citep{Hamm2012, Earle2013}.
-
-All data integration processes, feature engineering (including linear interpolation of institutional covariates) and econometric estimations were 
-performed using Python \citep{Python3}. Specifically, the \textit{linearmodels} library was utilized for high-dimensional panel data analysis 
-\citep{Sheppard2021}, with data visualization and diagnostic plotting supported by \textit{seaborn} and \textit{matplotlib}.
-
 \section{Results}
 
 \subsection{Descriptive Statistics and Data Diagnostics}
@@ -480,6 +495,7 @@ Alcohol Consumption & 305 & 10.20 & 2.17 & 3.30 & 14.80 \\
 Inflation Rate & 210 & 167.22 & 497.09 & -1.20 & 4735.00 \\
 War (Dummy) & 364 & 0.06 & 0.24 & 0.00 & 1.00 \\
 \bottomrule
+\multicolumn{6}{p{0.95\textwidth}}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \
 \end{tabular}
 \end{table}
 
@@ -489,7 +505,7 @@ The sample reveals a profound degree of demographic and economic heterogeneity c
 (81.34 years) \citep{Brainerd2005}. Similarly, mortality from Ischaemic Heart Disease (IHD) shows extreme volatility, with a maximum value of 543.70 per 
 100,000 population, underscoring the severity of the cardiovascular crisis in unbuffered regions \citep{Brainerd2001, Zaridze2009}. 
 
-Crucially, this demographic divergence is mirrored by the substantial variance in institutional protection across the cohort. The indicators for Government 
+Crucially, this demographic divergence is mirrored by the substantial variance in institutional protection across the cohorts. The indicators for Government 
 Expenditure and Civil Society Participation show sufficient variation to test the buffering hypotheses, with civic engagement ranging from near-total absence 
 (0.04) to high levels of participation (0.93). This wide spectrum of institutional strength---from the ``institutional void'' of the early-transition FSU to 
 the more robust social-democratic frameworks in Central Europe---provides the necessary statistical leverage to evaluate whether state and social capital 
@@ -513,14 +529,17 @@ strategies.
     \includegraphics[width=0.85\textwidth]{fig_life_expectancy.png}
     \caption{The Unequal Toll: Life Expectancy Outcomes by Region and Strategy}
     \label{fig:life_expectancy_crisis}
+    \vspace{0.2cm}
+    \footnotesize \textit{Source: Author's own elaboration based on WHO HFA-DB data.}
 \end{figure}
 
 The visual evidence reveals stark heterogeneity in post-communist health trajectories. While countries pursuing gradual reforms or mass 
 privatization buffered by strong institutions (Central Europe) experienced only a brief stagnation followed by steady demographic recovery, 
 the Former Soviet Union (FSU) cohort suffered a dramatic collapse.
 
-To further dissect this heterogeneity, Figure \ref{fig:country_trajectories} presents the individual country trajectories, highlighting the 
-``Equal vs. Unequal Toll'' phenomenon. This visualization reveals that while the transition shock was universal, the demographic response was 
+To further dissect this heterogeneity, Figure \ref{fig:country_trajectories} presents the individual country trajectories, highlighting what this study terms the 
+``Equal vs. Unequal Toll'' phenomenon---a reflection of the sharply divergent post-communist demographic trajectories extensively documented in the foundational 
+literature \cite{B_Brainerd1998, Cornia2016, Stuckler2009}. This visualization reveals that while the transition shock was universal, the demographic response was 
 highly idiosyncratic. In the ``Unequal Toll'' group—exemplified by Russian Federation, Ukraine and Kazakhstan—we observe a sharp, non-linear collapse in 
 life expectancy coinciding with the peak reform years. In contrast, ``Equal Toll'' countries like Poland and Slovenia maintained stable or 
 improving health trends, suggesting that the mortality crisis was not an inevitable byproduct of privatization, but a consequence of the 
@@ -531,6 +550,8 @@ institutional environment.
     \includegraphics[width=0.85\textwidth]{fig_equal_vs_unequal.png}
     \caption{The ``Equal vs. Unequal Toll'': Life Expectancy by Country (1989--2014)}
     \label{fig:country_trajectories}
+    \vspace{0.2cm}
+    \footnotesize \textit{Source: Author's own elaboration based on WHO HFA-DB data.}
 \end{figure}
 
 To understand the policy-level drivers of this divergence, Figure \ref{fig:country_trajectories} traces the pace of property restructuring using 
@@ -546,6 +567,8 @@ against the Civil Society Participation Index during the critical mid-1990s peri
 \includegraphics[width=0.85\textwidth]{fig_institutional_void.png}
 \caption{Institutional Void in 1995: Privatization Scale vs. Social Capital}
 \label{fig:institutional_void}
+\vspace{0.2cm}
+\footnotesize \textit{Source: Author's own elaboration based on EBRD and V-Dem data.}
 \end{figure}
 
 The scatter plot reveals a profound institutional cleavage. Central European states matched their rapid economic transition with robust civic 
@@ -608,6 +631,7 @@ $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
 \bottomrule
 \multicolumn{4}{l}{\scriptsize Robust standard errors clustered at the country level in parentheses.} \\
 \multicolumn{4}{l}{\scriptsize * p < 0.1, ** p < 0.05, *** p < 0.01} \\
+\multicolumn{4}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \
 \end{tabular}
 \end{table}
 
@@ -617,6 +641,8 @@ $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
     \includegraphics[width=0.85\textwidth]{forest_plot_model_e.png} 
     \caption{Forest Plot: Standardized Effect Sizes on Life Expectancy (Model E)}
     \label{fig:forest_plot_model_e}
+    \vspace{0.2cm}
+\footnotesize \textit{Source: Author's own elaboration based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}
 \end{figure}
 
 To provide a clearer comparative perspective on the determinants of life expectancy, Figure \ref{fig:forest_plot_model_e} visualizes the standardized 
@@ -697,6 +723,7 @@ $R^2$ (Within) & 0.5083 & 0.4586 \\
 \bottomrule
 \multicolumn{3}{l}{\scriptsize Robust standard errors clustered at the country level in parentheses.} \\
 \multicolumn{3}{l}{\scriptsize * p < 0.1, ** p < 0.05, *** p < 0.01} \\
+\multicolumn{3}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \\
 \end{tabular}
 \end{table}
 
@@ -753,6 +780,7 @@ $R^2$ (Within) & 0.6907 \\
 \bottomrule
 \multicolumn{2}{l}{\scriptsize Robust standard errors clustered at the country level in parentheses.} \\
 \multicolumn{2}{l}{\scriptsize * p < 0.1, ** p < 0.05, *** p < 0.01} \\
+\multicolumn{2}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \\
 \end{tabular}
 \end{table}
 
@@ -799,10 +827,40 @@ Observations & 156 & 169 \\
 \bottomrule
 \multicolumn{3}{l}{\scriptsize Robust standard errors clustered at the country level in parentheses.} \\
 \multicolumn{3}{l}{\scriptsize * $p<0.1$, ** $p<0.05$, *** $p<0.01$} \\
+\multicolumn{3}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \\
 \end{tabular}
 \end{table}
 
 \section{Conclusion}\
+\subsection{Summary of the Study Goal and Hypotheses Evaluation}
+This study was driven by the ``dilemma of synchronicity'' and aimed to rigorously investigate why post-communist countries experienced such dramatically divergent mortality and health outcomes following the structural reforms of the 1990s. By employing a cross-country panel dataset (1989--2014) and utilizing advanced econometric specifications, including Two-Way Fixed Effects (TWFE) and Staggered Event Study models, the research sought to isolate the causal impact of privatization velocity from unobserved regional shocks.
+
+The empirical evidence formally validates the three core hypotheses formulated at the outset of this research:
+\begin{itemize}
+    \item \textbf{Hypothesis 1 (The ``Shock'' Effect) is confirmed:} Rapid, large-scale mass privatization---specifically voucher schemes implemented in the Former Soviet Union---exerted a direct, severe, and statistically significant negative impact on life expectancy. Placebo tests on cancer mortality confirmed this was an acute response to psychosocial stress, not general healthcare degradation.
+    \item \textbf{Hypothesis 2 (The State Buffer) is confirmed:} State capacity acted as a vital macroeconomic umbrella. The TWFE interaction models proved that higher government expenditure effectively mitigated the mortality-inducing effects of rapid privatization, absorbing the shock of economic dislocation.
+    \item \textbf{Hypothesis 3 (The Social Capital Shield) is confirmed:} Robust civil society participation significantly neutralized mortality spikes from stress-responsive conditions, particularly Ischaemic Heart Disease. This validates the sociological theory that informal support networks buffered populations against transition-induced anomie.
+\end{itemize}
+
+Ultimately, the data demonstrates that the final macroeconomic destination of a privatized economy did not harm population health (as evidenced by the objective private sector share of GDP); it was the chaotic, unbuffered journey that exacted the ``Unequal Toll''.
+
+\subsection{Policy Implications}
+The findings of this study offer critical lessons for contemporary policymakers overseeing macroeconomic restructuring, structural adjustment programs (e.g., IMF interventions), or post-conflict economic rebuilding. 
+\begin{enumerate}
+    \item \textbf{Sequencing over Speed:} The demographic disaster of the 1990s proves that the simultaneous dismantling of state capacity and rapid transfer of public assets is a highly toxic policy mix. Market liberalization must be sequenced; regulatory frameworks and social safety nets must precede or accompany mass privatization, avoiding the creation of an ``institutional void''.
+    \item \textbf{The Economic Value of Social Spending:} Austerity policies implemented simultaneously with structural shocks are counterproductive. Government expenditure during a systemic transition is not merely a fiscal burden, but a critical investment in human capital that prevents catastrophic losses in the workforce (working-age mortality).
+    \item \textbf{Fostering Civil Society:} Economic reforms imposed from the top down without grassroots civic engagement exacerbate psychosocial stress. Policymakers must actively protect and integrate civil society organizations, as they provide informal, life-saving safety nets when formal state institutions temporarily retreat or collapse.
+\end{enumerate}
+
+\subsection{Study Limitations and Future Research}
+While this study utilizes rigorous panel data techniques, several methodological and empirical limitations must be acknowledged:
+\begin{enumerate}
+    \item \textbf{Data Quality and Missingness in the Early 1990s:} The chaotic nature of the early transition period, particularly in the Former Soviet Union, led to inconsistent reporting of macroeconomic and cause-specific mortality data. Although linear interpolation and careful database harmonization were employed, measurement errors inherent in historical data from collapsed regimes cannot be entirely ruled out.
+    \item \textbf{The Ecological Fallacy Risk:} Because this study relies on aggregate, country-level panel data, it is inherently limited in its ability to prove individual-level causality. While the use of specific biological markers (Ischaemic Heart Disease vs.\ Cancer) provides a strong mechanistic link, definitive proof of the unemployment-to-stress pipeline requires micro-level, individual longitudinal data.
+    \item \textbf{Lack of Gender-Disaggregated Analysis:} This study focused on overall population health outcomes. However, the literature suggests that the transition shock heavily targeted working-age men. A significant limitation of this current model is the inability to distinguish how the protective buffers of state and social capital operated differently across genders. 
+\end{enumerate}
+
+Future research should bridge these gaps by applying Staggered TWFE estimators to gender-disaggregated mortality data, thereby exploring whether the ``Unequal Toll'' was as distinctly gendered as it was geographically divided. Furthermore, integrating firm-level micro-data could explicitly link privatization-induced mass layoffs directly to localized health crises.
 
 %%%  -  DODANO SEKCJA BIBLIOGRAFII  - 
 \clearpage 

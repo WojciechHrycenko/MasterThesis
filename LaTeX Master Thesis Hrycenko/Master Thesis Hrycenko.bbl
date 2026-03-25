@@ -235,6 +235,51 @@ Gabor Scheiring, Darja Irdam, and Lawrence~P. King.
 \newblock \emph{Sociology of Health \& Illness}, 41\penalty0 (S1):\penalty0 36--56, 2019.
 \newblock \doi{10.1111/1467-9566.12846}.
 
+\bibitem[Wooldridge(2010)]{Wooldridge2010}
+Jeffrey~M. Wooldridge.
+\newblock \emph{Econometric Analysis of Cross Section and Panel Data}.
+\newblock MIT Press, Cambridge, MA, 2nd edition, 2010.
+
+\bibitem[Allison(2009)]{Allison2009}
+Paul~D. Allison.
+\newblock \emph{Fixed Effects Regression Models}.
+\newblock SAGE Publications, Thousand Oaks, CA, 2009.
+
+\bibitem[Brainerd(2001)]{Brainerd2001}
+Elizabeth Brainerd.
+\newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
+\newblock \emph{European Economic Review}, 45\penalty0 (4-6):\penalty0 1007--1019, 2001.
+\newblock \doi{10.1016/S0014-2921(01)00108-8}.
+
+\bibitem[Cameron and Miller(2015)]{CameronMiller2015}
+A.~Colin Cameron and Douglas~L. Miller.
+\newblock A practitioner’s guide to cluster-robust inference.
+\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0 317--372, 2015.
+\newblock \doi{10.3368/jhr.50.2.317}.
+
+\bibitem[Bertrand et~al.(2004)Bertrand, Duflo, and Mullainathan]{Bertrand2004}
+Marianne Bertrand, Esther Duflo, and Sendhil Mullainathan.
+\newblock How much should we trust differences-in-differences estimates?
+\newblock \emph{The Quarterly Journal of Economics}, 119\penalty0 (1):\penalty0 249--275, 2004.
+\newblock \doi{10.1162/003355304772839588}.
+
+\bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
+Elizabeth Brainerd and David~M. Cutler.
+\newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
+\newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
+
+\bibitem[Van~Rossum and Drake(2009)]{Python3}
+Guido Van~Rossum and Fred~L. Drake.
+\newblock \emph{Python 3 Reference Manual}.
+\newblock CreateSpace, Scotts Valley, CA, 2009.
+\newblock ISBN 1441412697.
+
+\bibitem[Sheppard(2021)]{Sheppard2021}
+Kevin Sheppard.
+\newblock \emph{linearmodels: Panel Data Econometrics for Python}, 2021.
+\newblock URL \url{https://github.com/bashtage/linearmodels}.
+\newblock Python package.
+
 \bibitem[{World Health Organization Regional Office for Europe}(2026)]{WHO_HFA}
 {World Health Organization Regional Office for Europe}.
 \newblock European health for all database (hfa-db), 2026.
@@ -308,22 +353,11 @@ J\'anos Kornai.
 \newblock World Health Organization, Geneva, 1992.
 \newblock ICD-10.
 
-\bibitem[Brainerd(2001)]{Brainerd2001}
-Elizabeth Brainerd.
-\newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
-\newblock \emph{European Economic Review}, 45\penalty0 (4-6):\penalty0 1007--1019, 2001.
-\newblock \doi{10.1016/S0014-2921(01)00108-8}.
-
 \bibitem[Zaridze et~al.(2009)Zaridze, Brennan, Boreham, Boroda, Karpov, Lazarev, Konobeevskaya, Igitov, Terechova, Boffetta, and Peto]{Zaridze2009}
 David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Alexey Lazarev, Irina Konobeevskaya, Vladimir Igitov, Tatyana Terechova, Paolo Boffetta, and Richard Peto.
 \newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
 \newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
 \newblock \doi{10.1016/S0140-6736(09)60434-7}.
-
-\bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
-Elizabeth Brainerd and David~M. Cutler.
-\newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
-\newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
 
 \bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
 Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.
@@ -345,40 +379,6 @@ G{\'{e}}rard Roland.
 Lawrence~P. King.
 \newblock \emph{The Basic Features of Postcommunist Capitalism in Eastern Europe: Firms in Hungary, The Czech Republic, and Slovakia}.
 \newblock Praeger, Westport, CT, 2001.
-
-\bibitem[Wooldridge(2010)]{Wooldridge2010}
-Jeffrey~M. Wooldridge.
-\newblock \emph{Econometric Analysis of Cross Section and Panel Data}.
-\newblock MIT Press, Cambridge, MA, 2nd edition, 2010.
-
-\bibitem[Allison(2009)]{Allison2009}
-Paul~D. Allison.
-\newblock \emph{Fixed Effects Regression Models}.
-\newblock SAGE Publications, Thousand Oaks, CA, 2009.
-
-\bibitem[Cameron and Miller(2015)]{CameronMiller2015}
-A.~Colin Cameron and Douglas~L. Miller.
-\newblock A practitioner’s guide to cluster-robust inference.
-\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0 317--372, 2015.
-\newblock \doi{10.3368/jhr.50.2.317}.
-
-\bibitem[Bertrand et~al.(2004)Bertrand, Duflo, and Mullainathan]{Bertrand2004}
-Marianne Bertrand, Esther Duflo, and Sendhil Mullainathan.
-\newblock How much should we trust differences-in-differences estimates?
-\newblock \emph{The Quarterly Journal of Economics}, 119\penalty0 (1):\penalty0 249--275, 2004.
-\newblock \doi{10.1162/003355304772839588}.
-
-\bibitem[Van~Rossum and Drake(2009)]{Python3}
-Guido Van~Rossum and Fred~L. Drake.
-\newblock \emph{Python 3 Reference Manual}.
-\newblock CreateSpace, Scotts Valley, CA, 2009.
-\newblock ISBN 1441412697.
-
-\bibitem[Sheppard(2021)]{Sheppard2021}
-Kevin Sheppard.
-\newblock \emph{linearmodels: Panel Data Econometrics for Python}, 2021.
-\newblock URL \url{https://github.com/bashtage/linearmodels}.
-\newblock Python package.
 
 \bibitem[Brainerd(2006)]{Brainerd2006}
 Elizabeth Brainerd.
