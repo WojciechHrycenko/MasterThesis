@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  27 MAR 2026 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  28 MAR 2026 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,22 +1057,22 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 [15]
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
 []|\T1/aer/b/n/10 Transition In-di-ca-tors
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 458--460
+Underfull \hbox (badness 2846) in paragraph at lines 451--452
 []|\T1/aer/m/n/10 Large-scale Pri-va-ti-za-tion, Small-scale Pri-va-ti-za-tion,
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 458--460
+Underfull \hbox (badness 2790) in paragraph at lines 451--452
 \T1/aer/m/n/10 Gov-er-nance & Re-struc-tur-ing, Price Lib-er-al-iza-tion,
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 465--467
+Underfull \hbox (badness 1629) in paragraph at lines 457--458
 \T1/aer/m/n/10 ity (V-Dem), Al-co-hol Con-sump-tion (OECD), War
  []
 
@@ -1081,79 +1081,81 @@ Underfull \hbox (badness 1629) in paragraph at lines 465--467
 [17]
 
 [18]
-<fig_life_expectancy.png, id=435, 723.4227pt x 479.1501pt>
+<fig_life_expectancy.png, id=429, 723.4227pt x 479.1501pt>
 File: fig_life_expectancy.png Graphic file (type png)
 <use fig_life_expectancy.png>
-Package pdftex.def Info: fig_life_expectancy.png  used on input line 533.
+Package pdftex.def Info: fig_life_expectancy.png  used on input line 527.
 (pdftex.def)             Requested size: 399.29463pt x 264.46921pt.
 
 
-[19 <./fig_life_expectancy.png>]
-<fig_equal_vs_unequal.png, id=449, 1076.1003pt x 645.3711pt>
+[19]
+
+[20 <./fig_life_expectancy.png>]
+<fig_equal_vs_unequal.png, id=448, 1076.1003pt x 645.3711pt>
 File: fig_equal_vs_unequal.png Graphic file (type png)
 <use fig_equal_vs_unequal.png>
-Package pdftex.def Info: fig_equal_vs_unequal.png  used on input line 554.
+Package pdftex.def Info: fig_equal_vs_unequal.png  used on input line 547.
 (pdftex.def)             Requested size: 399.29463pt x 239.46304pt.
-
-
-[20 <./fig_equal_vs_unequal.png>]
-<fig_institutional_void.png, id=458, 708.9687pt x 426.393pt>
+<fig_institutional_void.png, id=451, 708.9687pt x 426.393pt>
 File: fig_institutional_void.png Graphic file (type png)
 <use fig_institutional_void.png>
-Package pdftex.def Info: fig_institutional_void.png  used on input line 571.
+Package pdftex.def Info: fig_institutional_void.png  used on input line 564.
 (pdftex.def)             Requested size: 399.29463pt x 240.15126pt.
 
 
-[21 <./fig_institutional_void.png>]
+[21 <./fig_equal_vs_unequal.png>]
 
-[22]
-Overfull \hbox (46.3756pt too wide) in paragraph at lines 621--650
+[22 <./fig_institutional_void.png>]
+Overfull \hbox (46.6699pt too wide) in paragraph at lines 597--626
  [][] 
  []
 
-<forest_plot_model_e.png, id=481, 714.7503pt x 426.393pt>
-File: forest_plot_model_e.png Graphic file (type png)
-<use forest_plot_model_e.png>
-Package pdftex.def Info: forest_plot_model_e.png  used on input line 655.
-(pdftex.def)             Requested size: 399.29463pt x 238.2124pt.
 
 
 [23]
-
-[24 <./forest_plot_model_e.png>]
-
-[25]
-Overfull \hbox (43.04564pt too wide) in paragraph at lines 714--742
- [][] 
- []
+<forest_plot_model_e.png, id=483, 714.7503pt x 426.393pt>
+File: forest_plot_model_e.png Graphic file (type png)
+<use forest_plot_model_e.png>
+Package pdftex.def Info: forest_plot_model_e.png  used on input line 648.
+(pdftex.def)             Requested size: 399.29463pt x 238.2124pt.
 
 
+[24]
+
+[25 <./forest_plot_model_e.png>]
 
 [26]
-
-[27]
-Overfull \hbox (43.04564pt too wide) in paragraph at lines 770--799
+Overfull \hbox (43.04564pt too wide) in paragraph at lines 704--732
  [][] 
  []
 
 
 
+[27]
+
 [28]
-Overfull \hbox (43.04564pt too wide) in paragraph at lines 817--846
+Overfull \hbox (43.04564pt too wide) in paragraph at lines 760--789
  [][] 
  []
 
 
 
 [29]
+Overfull \hbox (43.04564pt too wide) in paragraph at lines 807--836
+ [][] 
+ []
+
+
 
 [30]
 
 [31]
 
-[32] (./Master Thesis Hrycenko.bbl
+[32]
 
-[33
+[33] (./Master Thesis Hrycenko.bbl
+
+[34
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 144.
@@ -1161,55 +1163,55 @@ LaTeX Font Info:    Trying to load font information for T1+aett on input line 14
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 
-[34]
-
 [35]
-Underfull \hbox (badness 1558) in paragraph at lines 284--288
+
+[36]
+Underfull \hbox (badness 1558) in paragraph at lines 296--300
 []\T1/aer/m/n/12 World Health Or-ga-ni-za-tion Re-gional Of-fice for Eu-rope.  Eu-ro-pean health for
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 290--294
+Underfull \hbox (badness 3579) in paragraph at lines 302--306
 []\T1/aer/m/n/12 European Bank for Re-con-struc-tion and De-vel-op-ment.  Tran-si-tion in-di-ca-tors
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 290--294
+Underfull \hbox (badness 5274) in paragraph at lines 302--306
 \T1/aer/m/n/12 by coun-try (1989--2014), 2026.  URL [][]$\T1/aett/m/n/12 https : / / www . ebrd . com / content / dam /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 302--306
 \T1/aett/m/n/12 ebrd _ dxp / assets / xlsx / office-[]of-[]the-[]chief-[]economist / economic-[]surveys /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 302--306
 \T1/aett/m/n/12 ebrd-[]assess-[]transition-[]qualities / transition-[]indicators-[](1989-[]2014 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--300
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 308--312
 \T1/aer/m/n/12 URL [][]$\T1/aett/m/n/12 https : / / www . rug . nl / ggdc / historicaldevelopment / maddison / releases /
  []
 
 
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 314--318
+Underfull \hbox (badness 10000) in paragraph at lines 326--330
 \T1/aett/m/n/12 =dsDisseminateFinalDMZ & df[id ] =DSD _ HEALTH _ LVNG % 40DF _ HEALTH _ LVNG _ AC & df[ag ]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--318
+Underfull \hbox (badness 10000) in paragraph at lines 326--330
 \T1/aett/m/n/12 =OECD . ELS . HD & df[vs ] =1 . 0 & dq = .A . . . . . &pd = %2C & to[TIME _ PERIOD ] =false & vw = tb$[][]\T1/aer/m/n/12 .
  []
 
 
 
-[37])
+[38])
 
-[38] (./Master Thesis Hrycenko.aux)
+[39] (./Master Thesis Hrycenko.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1219,21 +1221,21 @@ L3 programming layer <2025-09-02>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `"Master Thesis Hrycenko".out' has not changed.
-(rerunfilecheck)             Checksum: 63B6665A945A0823112A8B273D0290EA;5150.
+(rerunfilecheck)             Checksum: 35DA0EB7A46CC260ED0EF8EB8CDB831D;4293.
  ) 
 Here is how much of TeX's memory you used:
- 34030 strings out of 467748
- 656638 string characters out of 5431138
- 1146731 words of memory out of 5000000
- 61927 multiletter control sequences out of 15000+600000
+ 34028 strings out of 467748
+ 656558 string characters out of 5431138
+ 1146732 words of memory out of 5000000
+ 61924 multiletter control sequences out of 15000+600000
  671634 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,117p,3333b,1287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,117p,3333b,1289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "Master Thesis Hrycenko.pdf" (39 pages, 669045 bytes).
+Output written on "Master Thesis Hrycenko.pdf" (40 pages, 670928 bytes).
 PDF statistics:
  714 PDF objects out of 1000 (max. 8388607)
- 626 compressed objects within 7 object streams
- 151 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 625 compressed objects within 7 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

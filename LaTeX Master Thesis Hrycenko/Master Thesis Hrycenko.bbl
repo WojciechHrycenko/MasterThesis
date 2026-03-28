@@ -200,6 +200,12 @@ David~A. Leon and Vladimir~M. Shkolnikov.
 \newblock \emph{JAMA}, 279\penalty0 (10):\penalty0 790--791, 1998.
 \newblock \doi{10.1001/jama.279.10.790}.
 
+\bibitem[Zaridze et~al.(2009)Zaridze, Brennan, Boreham, Boroda, Karpov, Lazarev, Konobeevskaya, Igitov, Terechova, Boffetta, and Peto]{Zaridze2009}
+David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Alexey Lazarev, Irina Konobeevskaya, Vladimir Igitov, Tatyana Terechova, Paolo Boffetta, and Richard Peto.
+\newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
+\newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
+\newblock \doi{10.1016/S0140-6736(09)60434-7}.
+
 \bibitem[King et~al.(2009)King, Hamm, and Stuckler]{King2009}
 Lawrence King, Patrick Hamm, and David Stuckler.
 \newblock Rapid large-scale privatization and death rates in ex-communist countries: An analysis of stress-related and health system mechanisms.
@@ -280,6 +286,12 @@ Kevin Sheppard.
 \newblock URL \url{https://github.com/bashtage/linearmodels}.
 \newblock Python package.
 
+\bibitem[Kornai(1994)]{Kornai1994}
+J\'anos Kornai.
+\newblock Transformational recession: The main causes.
+\newblock \emph{Journal of Comparative Economics}, 19\penalty0 (1):\penalty0 39--63, 1994.
+\newblock \doi{10.1006/jcec.1994.1062}.
+
 \bibitem[{World Health Organization Regional Office for Europe}(2026)]{WHO_HFA}
 {World Health Organization Regional Office for Europe}.
 \newblock European health for all database (hfa-db), 2026.
@@ -335,12 +347,6 @@ Michael Coppedge, John Gerring, Carl~Henrik Knutsen, Staffan~I. Lindberg, Jan Te
 \newblock European Bank for Reconstruction and Development, London, 2004.
 \newblock ISBN 978-1898802289.
 
-\bibitem[Kornai(1994)]{Kornai1994}
-J\'anos Kornai.
-\newblock Transformational recession: The main causes.
-\newblock \emph{Journal of Comparative Economics}, 19\penalty0 (1):\penalty0 39--63, 1994.
-\newblock \doi{10.1006/jcec.1994.1062}.
-
 \bibitem[{World Health Organization}(1977)]{WHO1977}
 {World Health Organization}.
 \newblock \emph{Manual of the International Statistical Classification of Diseases, Injuries, and Causes of Death: Based on the Recommendations of the Ninth Revision Conference, 1975}.
@@ -352,12 +358,6 @@ J\'anos Kornai.
 \newblock \emph{International Statistical Classification of Diseases and Related Health Problems: Tenth Revision}.
 \newblock World Health Organization, Geneva, 1992.
 \newblock ICD-10.
-
-\bibitem[Zaridze et~al.(2009)Zaridze, Brennan, Boreham, Boroda, Karpov, Lazarev, Konobeevskaya, Igitov, Terechova, Boffetta, and Peto]{Zaridze2009}
-David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Alexey Lazarev, Irina Konobeevskaya, Vladimir Igitov, Tatyana Terechova, Paolo Boffetta, and Richard Peto.
-\newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
-\newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
-\newblock \doi{10.1016/S0140-6736(09)60434-7}.
 
 \bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
 Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.

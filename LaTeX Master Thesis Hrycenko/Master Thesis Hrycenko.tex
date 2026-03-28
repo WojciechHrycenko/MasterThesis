@@ -135,11 +135,11 @@ Probably the most commonly referenced typology of transformation processes \cite
 \end{itemize}
 These categories reflect the degree of domestic consensus and external pressure influencing the reform processes. 
 Furthermore, it is important to note that these transition processes were complicated by internal factions. The ruling elite typically split into reformers and hardliners, 
-while the opposition was divided into moderates and radicals. In case of other classifications, they mostly match the above-mentioned typology, sometimes however 
+while the opposition was divided into moderates and radicals. In case of other classifications, they mostly match the above-mentioned typology, although
 some differences in countries grouping can be observed. Sometimes, a separate category is being distinguished for the dissolution of multi-national federations, such as 
 Czechoslovakia or Yugoslavia, due to the combined effect of elite-level political fragmentation and grassroots nationalistic pressure \citep{Wiatr2020, Bunce1999}.
 It is worth mentioning that also the division proposed by Herbert Kitschelt due to underlining group of countries where preemptive reforms were the idea. Examples are Soviet Union 
-Gorbachev’s initial innovations, as well as the regime changes in Bulgaria, Romania etc. \citep{Kitschelt2001}. The country - specificvariation in the regime transition yields the 
+Gorbachev’s initial innovations, as well as the regime changes in Bulgaria, Romania etc. \citep{Kitschelt2001}. The country - specific variation in the regime transition yields the 
 opportunity to examine its elements' impact on the outcomes, specifically mortality.
 
 
@@ -164,9 +164,9 @@ Overall, the literature confirms that the transition enhanced corruption due to 
 and underdeveloped civil societies \citep{ Hoff2004, Stiglitz1999, Kaufmann1997}. Research indicates that privatization's general growth effect hinges on the quality of the 
 institutional setting, often proxied by the level of corruption \citep{Cieslik2018}. Furthermore, the implementation of mass privatization programs is documented 
 to create a massive fiscal shock for post-communist governments, which undermined state capacity and the protection of property rights, thereby exacerbating the recession 
-\citep{Hamm2012}. Ultimately, the general dissatisfaction with the privatization process stemmed from the realization of the process and its outcomes rather than opposition to 
-private property itself \citep{Denisova2012}. Consequently, the popular demand for revising privatization was strongly correlated with individuals who experienced hardships 
-during the transition, such as wage cuts, unemployment, or poor self-rated health.
+\citep{Hamm2012}. Ultimately, public dissatisfaction with privatization was driven by the flawed execution of the reforms and their adverse social outcomes, rather than an 
+ideological opposition to private property itself \citep{Denisova2012}. Consequently, the popular demand for revising privatization was strongly correlated with individuals 
+who experienced hardships during the transition, such as wage cuts, unemployment, or poor self-rated health.
 
 Building on this, the literature suggests that the institutional setting acts as a critical moderator of privatization outcomes \citep{Cieslik2018, Denisova2009}. 
 While mass privatization can undermine state capacity \citep{Hamm2012}, the presence of robust governance and active civil society participation may 
@@ -202,10 +202,10 @@ following the cessation of Mikhail Gorbachev's strict anti-alcohol campaign from
 demonstrate that while alcohol policies and availability were contributing factors, they are not robust enough to explain the crisis alone, reaffirming that rapid 
 privatization independently drove the increased mortality \citep{Azarova2019}.
 
-The specific medical outcomes help to better understand the mechanism underlying mortality changes. Biological markers can serve as measures of an acute 
-psychosocial stress triggered by rapid economic dislocation and unemployment \citep{Stuckler2009}. These types of circumstances manifests precisely through 
-the channels observed above: physiological strain leading to heart failure \citep{B_Brainerd1998, Leon1998} and psychological distress 
-resulting in ''deaths of despair'' \citep{King2009}.
+The specific medical outcomes help to better understand the mechanisms underlying mortality changes. Biological markers can serve as measures of acute psychosocial 
+stress triggered by rapid economic dislocation and unemployment \citep{Stuckler2009}. These circumstances manifest precisely through the channels observed above: physiological 
+strain leading to heart failure \citep{B_Brainerd1998, Leon1998}, and severe psychological distress that drives self-destructive coping behaviors---specifically rampant 
+alcoholism and drug abuse \citep{Zaridze2009}---which ultimately culminate in ``deaths of despair'' \citep{King2009}.
 
 Despite the moderating role of institutions, a fundamental division persists in the literature regarding the extent to which mass 
 privatization itself was the decisive upstream factor driving mortality crises.
@@ -287,7 +287,7 @@ and could otherwise lead to over-optimistic p-values \citep{ Gerry2012, CameronM
 
 To explicitly model the dynamic temporal effects of the transition and address potential biases inherent in static TWFE estimators—such as the inability to 
 distinguish between pre-trends and dynamic post-treatment effects—the analysis is further extended to a Staggered TWFE (Event Study) framework. We define the 
-"treatment" threshold as the year a country's Large-scale Privatization index reaches a critical transition phase (e.g., an EBRD score of 3.0 or higher). 
+``treatment'' threshold as the year a country's Large-scale Privatization index reaches a critical transition phase (e.g., an EBRD score of 3.0 or higher). 
 By establishing relative time indicators centered around this treatment year, we estimate the following event study specification:
 
 $$H_{it} = \alpha + \sum_{k=-3, k \neq -1}^{4} \delta_k D_{it}^k + \gamma X_{it} + \mu_i + \tau_t + \epsilon_{it}$$
@@ -322,53 +322,46 @@ performed using Python \citep{Python3}. Specifically, the \textit{linearmodels} 
 \section{Data and Measures}
 
 \subsection{Data Sources and Sample Selection}
-To examine the health consequences of structural transformation, a longitudinal cross-country dataset was constructed, covering 14 
-post-communist economies in Central and Eastern Europe (CEE) and the Former Soviet Union (FSU) over the period 1989–2014.
-The final sample constitutes a structurally balanced panel including Belarus, Bulgaria, Czech Republic, Estonia, Hungary, Kazakhstan, 
-Latvia, Lithuania, Poland, Romania, Russian Federation, Slovakia, Slovenia, and Ukraine ($N=14, T=26$). However, due to missing data 
-for certain macroeconomic and behavioral covariates during the early transition years, the econometric estimations were performed 
-on an unbalanced panel. This specific cohort was selected based on the completeness and historical continuity of cause-specific 
-mortality records in international databases during the early transition period.
 
-The dataset integrates demographic and mortality data from the World Health Organization (WHO) European Health for All Database
-(HFA-DB) \citep{WHO_HFA}. To capture the economic and institutional dimensions of transition, structural reform indicators from 
-the European Bank for Reconstruction and Development (EBRD) \citep{EBRD_Indicators} and historically reconstructed GDP series 
-from the Maddison Project Database \citep{MaddisonProject2020} were utilized. Complementary data on social conditions, 
-institutional quality and state capacity were obtained from the Varieties of Democracy (V-Dem) project \citep{VDem_Dataset},
-the World Bank’s World Development Indicators (WDI) \citep{WB_GovExpenditure} and OECD Health Data \citep{OECD_Alcohol}. 
-Additional labor market and social expenditure statistics were sourced from UNICEF databases and reports \citep{TransMONEE, 
-UNECE2004}. Supplemental macroeconomic controls (inflation, private sector share) utilize historical data from EBRD Transition
-Reports \citep{EBRD1999, EBRD1994, EBRD2004}.
+To examine the health consequences of structural transformation, a longitudinal cross-country dataset was constructed, covering 14 post-communist economies 
+in Central and Eastern Europe (CEE) and the Former Soviet Union (FSU) over the period 1989--2014. The cohort includes Belarus, Bulgaria, Czech Republic, Estonia, 
+Hungary, Kazakhstan, Latvia, Lithuania, Poland, Romania, Russian Federation, Slovakia, Slovenia, and Ukraine. This specific group was selected based on the 
+completeness and historical continuity of cause-specific mortality records in international databases during the early transition period. The study population 
+represents distinct transition trajectories, geographically and institutionally clustered into Central Europe (Poland, Czech Republic, Slovakia, Hungary), the 
+Baltic states (Estonia, Latvia, Lithuania), South-Eastern Europe (Bulgaria, Romania, Slovenia), and the FSU (Russian Federation, Ukraine, Belarus, Kazakhstan). 
+The temporal scope captures the immediate pre-transition baseline (1989), the turbulent early transition years characterized by transformational recession 
+\citep{Cornia2016, Kornai1994}, and the subsequent stabilization phases up to 2014.
 
-The study population represents distinct transition trajectories, geographically and institutionally clustered into Central Europe
-(Poland, Czech Republic, Slovakia, Hungary), the Baltic states (Estonia, Latvia, Lithuania), South-Eastern Europe (Bulgaria,
-Romania, Slovenia) and the FSU (Russian Federation, Ukraine, Belarus, Kazakhstan). This classification based on the features established 
-in the literature allows for the captured variation between reformers. The temporal scope captures the immediate pre-transition baseline 
-(1989), the turbulent early transition years characterized by transformational recession \citep{Cornia2016, Kornai1994} and the subsequent 
-stabilization phases up to 2014.
+The dataset integrates demographic and mortality data from the World Health Organization (WHO) European Health for All Database (HFA-DB) \citep{WHO_HFA}. 
+To capture the economic and institutional dimensions of transition, structural reform indicators from the European Bank for Reconstruction and Development (EBRD) 
+\citep{EBRD_Indicators} and historically reconstructed GDP series from the Maddison Project Database \citep{MaddisonProject2020} were utilized. Complementary data 
+on social conditions, institutional quality, and state capacity were obtained from the Varieties of Democracy (V-Dem) project \citep{VDem_Dataset}, the World Bank’s 
+World Development Indicators (WDI) \citep{WB_GovExpenditure}, and OECD Health Data \citep{OECD_Alcohol}. Additional labor market and social expenditure statistics 
+were sourced from UNICEF databases and reports \citep{TransMONEE, UNECE2004}. Supplemental macroeconomic controls (inflation, private sector share) utilize historical 
+data from EBRD Transition Reports \citep{EBRD1999, EBRD1994, EBRD2004}. While these repositories are widely considered the gold standard for macro-level research, the 
+reliability of early-1990s data---particularly within the FSU---constitutes a recognized limitation due to administrative collapse, which often resulted in systemic 
+reporting inconsistencies \citep{Gerry2012, Stuckler2009}.
 
-To ensure the robust estimation of transition effects, the raw dataset underwent extensive cleaning and feature engineering. 
-Historical series for employment and government expenditure were harmonized across multiple sources (HFA-DB, UNICEF and TransMONEE) to 
-resolve inconsistencies in early 1990s reporting. Where necessary, missing values for institutional variables were linearly interpolated, 
-provided that the gaps did not exceed two consecutive years—to minimize the loss of observations and preserve the degrees of freedom 
-essential for robust fixed-effects estimation.
+To address these inconsistencies and ensure robust estimation, the raw dataset underwent extensive cleaning and feature engineering. Historical series for employment 
+and government expenditure were initially harmonized across multiple sources (HFA-DB, UNICEF, and TransMONEE). Structurally, the initial framework constitutes a balanced 
+panel ($N=14, T=26$) comprising 364 country-year observations. However, a naive listwise deletion of missing values on this unharmonized dataset would drastically reduce 
+the volume to merely 174 cases. To minimize this loss of valuable data points, missing values for institutional and macroeconomic covariates were linearly interpolated---strictly 
+provided that the gaps did not exceed two consecutive years. 
 
-It should be noted that while the initial dataset was constructed for 14 post-communist economies to provide a broad geographical scope, 
-the final estimation samples in the regression analysis vary between 11 and 12 entities. This reduction is a result of the 'listwise deletion' 
-necessitated by missing values in specific time-varying covariates, such as inflation rates, alcohol consumption, or cause-specific mortality data. 
-This is particularly evident in the early 1990s for certain Former Soviet Union states where reporting was inconsistent. Consequently, the most 
-rigorous Two-Way Fixed Effects models prioritize data consistency and the inclusion of critical confounders over absolute sample size to ensure 
-the validity of the causal inferences.
-
+Following this rigorous data cleaning, which included the systematic recoding of non-numeric historical artifacts into valid numerics, the effective, high-quality working sample size 
+for the baseline TWFE models was finalized at 169 observations spanning 12 countries. Because data missingness in this context is not entirely random---but rather heavily concentrated during 
+the most chaotic early years of the transition shock (1989--1993)---relying exclusively on a strict complete-case analysis risks systematically dropping the most severe phases 
+of the demographic crisis. The combination of strict data harmonization and restricted interpolation prevents this sample selection bias, avoiding the artificial smoothing of the 
+mortality spike and yielding a more reliable representation of the transition's true toll.
 
 \subsection{Measures}
 
-\subsubsection{Outcome Variables: Mortality and Health}
+\subsubsection*{Outcome Variables: Mortality and Health}
 
 Population health is operationalized using Standardized Death Rates (SDR) per 100,000 population \citep{B_Brainerd1998, Stuckler2009}. To disentangle the 
 specific mechanisms linking economic shock to mortality, a broad spectrum of cause-specific outcomes available in the WHO HFA-DB is analyzed \citep{WHO_HFA}. 
 To ensure cross-country comparability and longitudinal consistency across the 1989--2014 transition period, the causes of death are strictly defined according 
-to the \textbf{Ninth and Tenth Revisions} of the International Classification of Diseases \textbf{(ICD-9 and ICD-10)}. Utilizing both revisions is methodologically 
+to the Ninth and Tenth Revisions of the International Classification of Diseases (ICD-9 and ICD-10). Utilizing both revisions is methodologically 
 essential, as the timeframe of this study spans the global transition in national mortality reporting standards \citep{WHO1977, WHO1992}.
 
 First, to capture the physiological toll of the transition shock and directly test the stress mechanisms proposed in Hypotheses 1 and 3, the SDR from 
@@ -393,18 +386,18 @@ cardiovascular crisis, although the more specific Ischaemic Heart Disease index 
 sensitivity to acute structural shocks \citep{Cornia2016, Zaridze2009}.
 
 
-\subsubsection{Explanatory Variables: The Multidimensional Transition Shock}
+\subsubsection*{Explanatory Variables: The Multidimensional Transition Shock}
 To quantify the intensity of structural reforms, the study utilizes the complete set of transition indicators provided by the EBRD. 
 While the primary focus lies on ownership transformation, the multidimensional nature of the market shock is accounted for by including 
 the following indices:
 
 \begin{itemize}
-    \item \textit{Large-scale Privatization}: Progress in the transfer of large state assets to private hands.
-    \item \textit{Small-scale Privatization}: Progress in the privatization of small-scale assets.
-    \item \textit{Governance and Enterprise Restructuring}: Progress in hardening budget constraints and corporate governance.
-    \item \textit{Price Liberalization}: Progress in lifting price controls.
-    \item \textit{Trade and Forex System}: Liberalization of foreign trade and currency exchange.
-    \item \textit{Competition Policy}: Development of anti-monopoly legislation and institutions.
+    \item Large-scale Privatization: Progress in the transfer of large state assets to private hands.
+    \item Small-scale Privatization: Progress in the privatization of small-scale assets.
+    \item Governance and Enterprise Restructuring: Progress in hardening budget constraints and corporate governance.
+    \item Price Liberalization: Progress in lifting price controls.
+    \item Trade and Forex System: Liberalization of foreign trade and currency exchange.
+    \item Competition Policy: Development of anti-monopoly legislation and institutions.
 \end{itemize}
 
 All EBRD indices are measured on a scale from 1.0 (centrally planned economy) to 4.3 (advanced market economy) \citep{Stuckler2009, EBRD1999}. 
@@ -412,13 +405,14 @@ However, a diagnostic correlation analysis of these indicators revealed a high d
 exceeding 0.80 for the majority of index pairs. To ensure model parsimony and mitigate the risk of severe multicollinearity, the study selects Large-scale 
 Privatization (LSP) as the primary proxy for the structural transition shock \citep{Gerry2010}.
 
-Literature further suggests that subjective indices may be prone to perception bias and fail to distinguish between different methods of property 
-transfer \citep{Hamm2012, Stuckler2009}. Therefore, the Private Sector Share of GDP is included as an objective measure to validate the structural 
-results \citep{Hamm2012, Bennett2007}. To account for heterogeneity, a binary dummy variable isolates Mass Privatization in the Former 
-Soviet Union (FSU). This explicit indicator separates voucher-based schemes executed in an ``institutional void'' from the more gradual or institutionalized 
-paths observed in Central Europe \citep{Estrin2004, Earle2013, Roland2000, King2001}.
+Literature further suggests that subjective indices may be prone to perception bias and fail to distinguish between different methods of property transfer 
+\citep{Hamm2012, Stuckler2009}. Therefore, the Private Sector Share of GDP is included as an objective measure to validate the structural results \citep{Hamm2012, Bennett2007}. 
+While the broader study population is conceptually categorized into four distinct sub-regions, the econometric estimation specifically employs a binary dummy variable to isolate 
+mass privatization in the Former Soviet Union (FSU). This targeted dichotomy is theoretically motivated: it explicitly separates the radical, voucher-based schemes executed 
+within an ``institutional void'' in the FSU from the more gradual or robustly institutionalized reform paths observed across Central Europe and the Baltics 
+\citep{Estrin2004, Earle2013, Roland2000, King2001}.
 
-\subsubsection{Covariates and Moderators}
+\subsubsection*{Covariates and Moderators}
 The model accounts for a rich set of time-varying confounders to isolate the effect of privatization from broader socio-economic shifts. 
 Economic development is controlled for using the natural logarithm of \textit{Real GDP per capita} (constant 2011 US\$, Maddison Project), 
 capturing the non-linear relationship between national wealth and population health \citep{Hamm2012, Stuckler2009}.
@@ -452,19 +446,17 @@ Table \ref{tab:var_list} provides a summary of all variables included in the dat
 \toprule
 \textbf{Variable Category} & \textbf{Specific Indicators Included} \\
 \midrule
-\textbf{Health Outcomes (WHO)} & Life Expectancy at Birth, SDR Ischaemic Heart Disease, SDR External Causes, SDR Suicide, SDR
- Alcohol-related Causes, SDR Malignant Neoplasms (Placebo). \\
+\textbf{Health Outcomes (WHO)} & Life Expectancy at Birth, SDR Ischaemic Heart Disease, SDR External Causes, SDR Suicide, SDR Alcohol-related Causes, SDR Malignant Neoplasms (Placebo). \\
 \midrule
-\textbf{Transition Indicators (EBRD)} & Large-scale Privatization, Small-scale Privatization, Governance \& Restructuring,
- Price Liberalization, Trade \& Forex System, Competition Policy. \\
+\textbf{Transition Indicators (EBRD)} & Large-scale Privatization, Small-scale Privatization, Governance \& Restructuring, Price Liberalization, Trade \& Forex System, Competition Policy. \\
 \midrule
 \textbf{Economic Structure} & Private Sector Share of GDP (EBRD), Employment Rate (UNICEF), Inflation Rate (EBRD). \\
 \midrule
 \textbf{Macro-Controls} & Real GDP per Capita (Maddison Project), Government Consumption Expenditure (WB WDI). \\
 \midrule
-\textbf{Social \& Institutional} & Civil Society Participation (V-Dem), Health Equality (V-Dem), Alcohol Consumption (OECD),
- War (Dummy). \\
+\textbf{Social \& Institutional} & Civil Society Participation (V-Dem), Health Equality (V-Dem), Alcohol Consumption (OECD), War (Dummy). \\
 \bottomrule
+\multicolumn{2}{p{13cm}}{\vspace{2pt}\scriptsize \textit{Source: Author's own elaboration based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \\
 \end{tabular}
 \end{table}
 
@@ -524,9 +516,11 @@ errors.
 
 \subsection{Exploratory Data Analysis and Stylized Facts}
 
-Before delving into the formal econometric modeling, a visual exploration of the raw data provides critical context for the hypotheses. 
-Figure \ref{fig:life_expectancy_crisis} illustrates the divergent trajectories of life expectancy at birth across the three distinct privatization 
-strategies. 
+Before delving into the formal econometric modeling, a visual exploration of the raw data provides critical context for the hypotheses. It is essential to establish 
+the chronological baseline: the broader structural transition commenced with the geopolitical shifts of 1989 for Central and Eastern Europe (CEE) and the formal 
+dissolution of the USSR in 1991 for the Former Soviet Union (FSU). Subsequently, the core policies of mass privatization were predominantly initiated and executed 
+between 1992 and 1994. Figure \ref{fig:life_expectancy_crisis} illustrates the divergent trajectories of life expectancy at birth across the three distinct privatization 
+strategies following these pivotal years.
 
 \begin{figure}[H]
     \centering
@@ -537,17 +531,16 @@ strategies.
     \footnotesize \textit{Source: Author's own elaboration based on WHO HFA-DB data.}
 \end{figure}
 
-The visual evidence reveals stark heterogeneity in post-communist health trajectories. While countries pursuing gradual reforms or mass 
-privatization buffered by strong institutions (Central Europe) experienced only a brief stagnation followed by steady demographic recovery, 
-the Former Soviet Union (FSU) cohort suffered a dramatic collapse.
+The visual evidence reveals stark heterogeneity in post-communist health trajectories. While countries pursuing gradual reforms or mass privatization buffered by 
+strong institutions (Central Europe) experienced only a brief stagnation followed by steady demographic recovery, the FSU cohort suffered a dramatic collapse exactly 
+as the 1992--1994 property transfers took effect.
 
 To further dissect this heterogeneity, Figure \ref{fig:country_trajectories} presents the individual country trajectories, highlighting what this study terms the 
-``Equal vs. Unequal Toll'' phenomenon - a reflection of the sharply divergent post-communist demographic trajectories extensively documented in the foundational 
-literature \cite{B_Brainerd1998, Cornia2016, Stuckler2009}. This visualization reveals that while the transition shock was universal, the demographic response was 
-highly idiosyncratic. In the ``Unequal Toll'' group—exemplified by Russian Federation, Ukraine and Kazakhstan—we observe a sharp, non-linear collapse in 
-life expectancy coinciding with the peak reform years. In contrast, ``Equal Toll'' countries like Poland and Slovenia maintained stable or 
-improving health trends, suggesting that the mortality crisis was not an inevitable byproduct of privatization, but a consequence of the 
-institutional environment.
+``Equal vs. Unequal Toll'' phenomenon---a reflection of the sharply divergent post-communist demographic trajectories extensively documented in the foundational literature 
+\citep{B_Brainerd1998, Cornia2016, Stuckler2009}. This visualization reveals that while the initial 1989/1991 transition shock was universal, the demographic response was 
+highly idiosyncratic. In the ``Unequal Toll'' group---exemplified by the Russian Federation, Ukraine, and Kazakhstan---we observe a sharp, non-linear collapse in life 
+expectancy strictly coinciding with the peak privatization reform years (1992--1994). In contrast, ``Equal Toll'' countries like Poland and Slovenia maintained stable 
+or improving health trends, suggesting that the mortality crisis was not an inevitable byproduct of privatization, but a consequence of the institutional environment.
 
 \begin{figure}[H]
     \centering
@@ -581,37 +574,20 @@ This decoupling of economic reform from institutional development—the ``instit
 the subsequent panel models to test the buffering effect of state and social institutions.
 
 In summary, these stylized facts provide compelling preliminary evidence for the study's core hypotheses. The steep demographic collapse observed in the FSU 
-cohort (Figures \ref{fig:life_expectancy_crisis} and \ref{fig:country_trajectories}) aligns with \textbf{Hypothesis 1}, suggesting that rapid mass 
+cohort (Figures \ref{fig:life_expectancy_crisis} and \ref{fig:country_trajectories}) aligns with Hypothesis 1, suggesting that rapid mass 
 privatization administered as an unbuffered ``shock'' carried severe, negative health consequences. Furthermore, the divergence of Central European states - which 
 implemented rapid reforms without suffering a similar mortality crisis - points to the critical protective role of institutional readiness. As visualized in the 
 institutional void scatter plot (Figure \ref{fig:institutional_void}), the presence of robust civic engagement in Central Europe contrasts with the FSU, 
-offering strong descriptive support for the Social Capital Shield (\textbf{Hypothesis 3}). Conceptually, this decoupling of economic speed from institutional 
-capacity also sets the stage for \textbf{Hypothesis 2} (The State Buffer), highlighting that the crisis occurred where the state retreated too quickly. To 
+offering strong descriptive support for the Social Capital Shield (Hypothesis 3). Conceptually, this decoupling of economic speed from institutional 
+capacity also sets the stage for Hypothesis 2 (The State Buffer), highlighting that the crisis occurred where the state retreated too quickly. To 
 move beyond these descriptive correlations and rigorously isolate the causal mechanisms, the analysis now turns to formal Two-Way Fixed Effects (TWFE) and 
 Staggered Event Study estimations.
 
 
 \subsection{Baseline Estimates: The Impact of Rapid Privatization}
 
-The baseline Panel OLS estimations provide robust empirical support for Hypothesis 1, confirming that the speed and method of economic restructuring had a 
-profound impact on population health \citep{Stuckler2009, Azarova2018}. Interestingly, as shown in Column 1 of Table \ref{tab:life_expectancy_models}, the initial 
-specification (Model A1) - which strictly controls for country-level fixed effects but omits global time trends - fails to capture this dynamic, showing a 
-statistically insignificant relationship between privatization and life expectancy ($\beta=0.024$, $p=0.90$). This suggests that relying solely on cross-country 
-variation while failing to account for unobserved global macroeconomic shocks (such as the 1998 crisis) and specific institutional buffers completely obscures 
-the true demographic impact of the reforms.
-
-However, when rigorously controlling for global time trends and unobserved country-specific characteristics 
-(Table \ref{tab:life_expectancy_models}, Column 3), the direct negative impact of rapid large-scale privatization is starkly revealed. 
-In this Two-Way Fixed Effects (TWFE) framework, the implementation of privatization policies in an environment with minimal state protection is 
-associated with a direct decline in life expectancy of 2.36 years ($\beta = -2.361, p < 0.01$). In practical demographic terms, a drop 
-in life expectancy at birth of well over two years constitutes a massive societal shock—comparable in magnitude to the human toll of a severe 
-epidemic or a major armed conflict. This effect size is highly consistent with the foundational literature, which estimates that mass privatization 
-programs reduced life expectancy by between 0.86 and 5.14 years depending on the model specification \citep{Stuckler2009, King2009}.
-
-These findings confirm that the ``mortality crisis'' was not merely a generic consequence of the transitional recession. While the economic 
-collapse itself played a substantial role—as evidenced by the positive and highly significant coefficient for GDP per capita in the rigorous models—the 
-data proves that the specific strategy of rapid economic restructuring independently exerted a lethal toll on the population, above and beyond the 
-loss of income \citep{Hamm2012, Stuckler2009}.
+The baseline Panel OLS estimations, summarized in Table \ref{tab:life_expectancy_models}, provide robust empirical support for Hypothesis 1, confirming that the speed 
+and method of economic restructuring had a profound impact on population health \citep{Stuckler2009, Azarova2018}.
 
 \begin{table}[H]
 \centering
@@ -644,13 +620,30 @@ Observations & 169 & 156 & 156 \\
 $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
 \bottomrule
 \multicolumn{4}{l}{\scriptsize Notes: Robust standard errors clustered at the country level in parentheses.} \\
-\multicolumn{4}{l}{\scriptsize * p < 0.1, ** p < 0.05, *** p < 0.01} \\
-\multicolumn{4}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \
+\multicolumn{4}{l}{\scriptsize * $p < 0.1$, ** $p < 0.05$, *** $p < 0.01$} \\
+\multicolumn{4}{l}{\scriptsize \textit{Source: Author's own elaboration based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}} \\
 \end{tabular}
 \end{table}
 
+The primary focus of the analysis is the Two-Way Fixed Effects (TWFE) framework (Column 3), which rigorously controls for both unobserved country characteristics and global 
+time-shocks. In this fully specified model, the implementation of privatization policies in an environment with minimal state protection is associated with a direct decline 
+in life expectancy of 2.36 years ($\beta = -2.361$, $p < 0.01$). In practical demographic terms, a drop in life expectancy at birth of well over two years constitutes a massive 
+societal shock—comparable in magnitude to the human toll of a severe epidemic or a major armed conflict. This effect size is highly consistent with the foundational literature, 
+which estimates that mass privatization programs reduced life expectancy by between 0.86 and 5.14 years depending on the model specification \citep{Stuckler2009, King2009}.
 
-\begin{figure}[htbp]
+Interestingly, the preliminary specifications provide a crucial methodological contrast. As shown in Columns 1 and 2, relying solely on a One-Way Fixed Effects framework 
+completely obscures the true demographic impact of the reforms. In Model A1, the direct effect of privatization appears statistically insignificant ($\beta=0.024$). More importantly, 
+when the state capacity interaction is initially introduced without temporal controls (Model A2), the State Buffer also remains statistically insignificant ($\beta=0.046$, $p>0.1$). 
+This insignificance is highly revealing: it demonstrates that unobserved global macroeconomic trends---such as the universal transformational recession \citep{Cornia2016, Kornai1994} 
+or the 1998 regional financial crisis \citep{EBRD1999}---heavily confound the institutional mechanisms at play. Consequently, the transition to a Two-Way Fixed Effects (TWFE) framework 
+is not merely a robustness check, but a strict methodological necessity. By introducing Year Fixed Effects to rigorously partial out these simultaneous temporal shocks, Model E unmasks 
+the true underlying dynamics, rendering both the severe privatization penalty and the protective State Buffer highly significant.
+
+These findings confirm that the ``mortality crisis'' was not merely a generic consequence of the transitional recession. While the economic collapse itself played a substantial 
+role---as evidenced by the positive and highly significant coefficient for GDP per capita in the rigorous models---the data proves that the specific strategy of rapid economic 
+restructuring independently exerted a lethal toll on the population, above and beyond the loss of income \citep{Hamm2012, Stuckler2009}.
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{forest_plot_model_e.png} 
     \caption{Forest Plot: Standardized Effect Sizes on Life Expectancy (Model E)}
@@ -659,26 +652,23 @@ $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
 \footnotesize \textit{Source: Author's own elaboration based on WHO HFA-DB, EBRD, V-Dem, Maddison Project, WB WDI, UNICEF, and OECD data.}
 \end{figure}
 
-To provide a clearer comparative perspective on the determinants of life expectancy, Figure \ref{fig:forest_plot_model_e} visualizes the standardized 
-effect sizes and 95\% confidence intervals for the primary predictors in the Two-Way Fixed Effects (Model E). This forest plot effectively illustrates 
-a ``hierarchy of impacts'':
+To provide a clearer comparative perspective on the determinants of life expectancy, Figure \ref{fig:forest_plot_model_e} visualizes the standardized effect sizes and 95\% 
+confidence intervals for the primary predictors in the Two-Way Fixed Effects (Model E). This forest plot effectively illustrates a ``hierarchy of impacts'':
 
 \begin{itemize}
-    \item \textbf{The Dominance of Peace and Wealth:} Macro-structural factors remain the most powerful predictors. War exhibits a devastating negative impact, 
-    associated with a loss of over 2.2 years of life expectancy, while Log GDP per capita remains the primary positive driver.
-    \item \textbf{The Privatization Penalty:} In the absence of institutional buffers, large-scale privatization exerts a significant and substantial negative 
-    pressure on population health, pulling life expectancy down by approximately 2.36 years.
-    \item \textbf{The Neutralizing Effect of the State:} The positive coefficient for the State Buffer (Interaction) provides visual confirmation of the study's 
-    central thesis. Government expenditure acts as a crucial countervailing force, effectively ``pushing'' the life expectancy estimate back toward the zero line 
-    and neutralizing the shock of property transfer.
-    \item \textbf{Statistically Neutral Variables:} Interestingly, when accounting for global time-shocks and state capacity, factors such as the employment rate, 
-    inflation, and alcohol consumption have confidence intervals crossing the zero line, indicating they were not primary independent drivers of the divergent 
-    health outcomes in this specific specification.
+    \item \textbf{The Dominance of Peace and Wealth:} Macro-structural factors remain the most powerful predictors. War exhibits a devastating negative impact, associated with a loss 
+    of over 2.2 years of life expectancy, while Log GDP per capita remains the primary positive driver.
+    \item \textbf{The Privatization Penalty:} In the absence of institutional buffers, large-scale privatization exerts a significant and substantial negative pressure on population 
+    health, pulling life expectancy down by approximately 2.36 years.
+    \item \textbf{The Neutralizing Effect of the State:} The positive coefficient for the State Buffer (Interaction) provides visual confirmation of the study's central thesis. 
+    Government expenditure acts as a crucial countervailing force, effectively ``pushing'' the life expectancy estimate back toward the zero line and neutralizing the shock of 
+    property transfer.
+    \item \textbf{Statistically Neutral Variables:} Interestingly, when accounting for global time-shocks and state capacity, factors such as the employment rate, inflation, and 
+    alcohol consumption have confidence intervals crossing the zero line, indicating they were not primary independent drivers of the divergent health outcomes in this specific 
+    specification.
 \end{itemize}
 
 This visualization helps to grasp that the post-communist mortality crisis was not a generic regional trend, but a specific outcome of the privatization-institution nexus.
-
-
 
 \subsection{Institutional Buffers and Gender Heterogenity}
 

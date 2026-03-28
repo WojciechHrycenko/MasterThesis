@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex Master Thesis Hrycenko"] 1774569891.76772 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1774569897.48207 0
+["bibtex Master Thesis Hrycenko"] 1774698869.44493 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1774698974.48532 0
   "./myreferences.bib" 1774308599 23815 d42753cce0da4f6e9882178249cb4239 ""
-  "Master Thesis Hrycenko.aux" 1774569895 14909 915e7b123f46a49cdf88fe1e1814edb7 "pdflatex"
+  "Master Thesis Hrycenko.aux" 1774698972 14547 196c603d074a1123e070ad52547674ed "pdflatex"
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1759969198 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
   (generated)
   "Master Thesis Hrycenko.bbl"
   "Master Thesis Hrycenko.blg"
   (rewritten before read)
-["pdflatex"] 1774569892.40968 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1774569897.48369 0
-  "Master Thesis Hrycenko.aux" 1774569895 14909 915e7b123f46a49cdf88fe1e1814edb7 "pdflatex"
-  "Master Thesis Hrycenko.bbl" 1774569892 20896 43f5ac5e425d3183f2759cfa51a57075 "bibtex Master Thesis Hrycenko"
-  "Master Thesis Hrycenko.out" 1774569895 5150 63b6665a945a0823112a8b273d0290ea "pdflatex"
-  "Master Thesis Hrycenko.tex" 1774569885 72552 6c127bc16907ef4befdc59decd31e0fd ""
-  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1774569885 72552 6c127bc16907ef4befdc59decd31e0fd ""
+["pdflatex"] 1774698969.34072 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1774698974.48646 0
+  "Master Thesis Hrycenko.aux" 1774698972 14547 196c603d074a1123e070ad52547674ed "pdflatex"
+  "Master Thesis Hrycenko.bbl" 1774698870 20896 aecda3d02911257af859517cc15884b5 "bibtex Master Thesis Hrycenko"
+  "Master Thesis Hrycenko.out" 1774698972 4293 35da0eb7a46cc260ed0ef8eb8cdb831d "pdflatex"
+  "Master Thesis Hrycenko.tex" 1774698968 74262 9518adb1011361da2199783301f3debe ""
+  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1774698968 74262 9518adb1011361da2199783301f3debe ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1759954307 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1759961863 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1759960074 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""

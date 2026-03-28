@@ -504,13 +504,13 @@ INPUT ./fig_institutional_void.png
 INPUT ./fig_institutional_void.png
 INPUT ./fig_institutional_void.png
 INPUT ./fig_institutional_void.png
-INPUT ./forest_plot_model_e.png
-INPUT ./forest_plot_model_e.png
-INPUT ./forest_plot_model_e.png
-INPUT ./forest_plot_model_e.png
-INPUT ./forest_plot_model_e.png
 INPUT c:/texlive/2025/texmf-dist/fonts/vf/public/ae/aer8.vf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
+INPUT ./forest_plot_model_e.png
+INPUT ./forest_plot_model_e.png
+INPUT ./forest_plot_model_e.png
+INPUT ./forest_plot_model_e.png
+INPUT ./forest_plot_model_e.png
 INPUT ./Master Thesis Hrycenko.bbl
 INPUT ./Master Thesis Hrycenko.bbl
 INPUT Master Thesis Hrycenko.bbl
