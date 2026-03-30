@@ -588,11 +588,33 @@ capacity also sets the stage for Hypothesis 2 (The State Buffer), highlighting t
 move beyond these descriptive correlations and rigorously isolate the causal mechanisms, the analysis now turns to formal Two-Way Fixed Effects (TWFE) and 
 Staggered Event Study estimations.
 
+\subsection{Model Refinement}
 
-\subsection{Baseline Estimates: The Impact of Rapid Privatization}
+From a data science and econometric modeling perspective, the true impact of the transition policies only becomes visible through rigorous model refinement. 
+Relying on naive estimators in the context of massive, simultaneous macro-structural shocks leads to severe omitted variable bias. To transparently demonstrate 
+how the final empirical specification was achieved, this section outlines the stepwise evolution of the static panel models presented in Table 
+\ref{tab:life_expectancy_models}, culminating in a dynamic event study extension.
 
-The baseline Panel OLS estimations, summarized in Table \ref{tab:life_expectancy_models}, provide robust empirical support for Hypothesis 1, confirming that the speed 
-and method of economic restructuring had a profound impact on population health \citep{Stuckler2009, Azarova2018}.
+Step 1: One-Way Fixed Effects (Model A1). The modeling process began with a standard One-Way Fixed Effects approach, which controls for unobserved, time-invariant 
+heterogeneity across countries (e.g., historical institutional legacies or deep-seated cultural attitudes). In this initial baseline specification, the direct effect 
+of large-scale privatization appears statistically insignificant ($\beta=0.024$). A naive data interpretation might conclude that privatization had no impact on health. 
+However, this model fails to account for exogenous global shocks affecting all entities simultaneously.
+
+Step 2: Introducing Interactions without Time Effects (Model A2). To test the protective role of state capacity, an interaction term between privatization and government 
+expenditure was introduced. Yet, in the absence of temporal controls, the State Buffer mechanism remained statistically insignificant ($\beta=0.046$, $p>0.1$). This insignificance 
+is highly revealing from an analytical standpoint: it demonstrates that unobserved global macroeconomic trends---such as the universal transformational recession of the early 
+1990s or the 1998 regional financial crisis \citep{EBRD1999}---heavily confound the institutional mechanisms at play.
+
+Step 3: Two-Way Fixed Effects (Model E). The critical breakthrough in the model refinement process was the transition to a Two-Way Fixed Effects (TWFE) framework. By introducing 
+Year Fixed Effects, the model rigorously partials out simultaneous global time-shocks, isolating the variance specific to national policy choices. This step unmasks the true underlying 
+dynamics: the statistical "noise" of the general post-soviet recession is filtered out, revealing a severe, highly significant privatization penalty ($\beta = -2.361$, $p < 0.01$) and a 
+strongly protective State Buffer ($\beta = 0.113$, $p < 0.05$).
+
+Step 4: Dynamic Event Study (Model E2). While Model E effectively captures the average treatment effect, static TWFE models cannot evaluate pre-treatment trends or temporal decay. 
+Therefore, the final analytical refinement---presented and discussed in detail in the subsequent subsection (Table \ref{tab:event_study})---was the Staggered TWFE (Event Study) 
+framework. By decomposing the privatization variable into relative time-to-event dummies, this advanced specification proved that the mortality shock was an acute, immediate reaction 
+strictly limited to the post-treatment window. This final refinement validated the parallel trends assumption and provided the robust causal inference required for the core thesis.
+
 
 \begin{table}[H]
 \centering
@@ -630,19 +652,16 @@ $R^2$ (Within) & 0.6682 & 0.6526 & 0.4795 \\
 \end{tabular}
 \end{table}
 
-The primary focus of the analysis is the Two-Way Fixed Effects (TWFE) framework (Column 3), which rigorously controls for both unobserved country characteristics and global 
-time-shocks. In this fully specified model, the implementation of privatization policies in an environment with minimal state protection is associated with a direct decline 
-in life expectancy of 2.36 years ($\beta = -2.361$, $p < 0.01$). In practical demographic terms, a drop in life expectancy at birth of well over two years constitutes a massive 
-societal shock—comparable in magnitude to the human toll of a severe epidemic or a major armed conflict. This effect size is highly consistent with the foundational literature, 
-which estimates that mass privatization programs reduced life expectancy by between 0.86 and 5.14 years depending on the model specification \citep{Stuckler2009, King2009}.
+\subsection{Baseline Estimates: The Impact of Rapid Privatization}
 
-Interestingly, the preliminary specifications provide a crucial methodological contrast. As shown in Columns 1 and 2, relying solely on a One-Way Fixed Effects framework 
-completely obscures the true demographic impact of the reforms. In Model A1, the direct effect of privatization appears statistically insignificant ($\beta=0.024$). More importantly, 
-when the state capacity interaction is initially introduced without temporal controls (Model A2), the State Buffer also remains statistically insignificant ($\beta=0.046$, $p>0.1$). 
-This insignificance is highly revealing: it demonstrates that unobserved global macroeconomic trends---such as the universal transformational recession \citep{Cornia2016, Kornai1994} 
-or the 1998 regional financial crisis \citep{EBRD1999}---heavily confound the institutional mechanisms at play. Consequently, the transition to a Two-Way Fixed Effects (TWFE) framework 
-is not merely a robustness check, but a strict methodological necessity. By introducing Year Fixed Effects to rigorously partial out these simultaneous temporal shocks, Model E unmasks 
-the true underlying dynamics, rendering both the severe privatization penalty and the protective State Buffer highly significant.
+Building upon the rigorous Two-Way Fixed Effects (TWFE) framework established in the previous section, the final estimations provide strong empirical support for Hypothesis 1. 
+The data confirms that the speed and method of economic restructuring had a profound, independent impact on population health \citep{Stuckler2009, Azarova2018}.
+
+Focusing strictly on the fully specified TWFE estimator (Table \ref{tab:life_expectancy_models}, Model E), the implementation of rapid privatization policies in an environment with 
+minimal state protection is associated with a direct decline in life expectancy of 2.36 years ($\beta = -2.361$, $p < 0.01$). In practical demographic terms, a drop in life expectancy 
+at birth of well over two years constitutes a massive societal shock---comparable in magnitude to the human toll of a severe epidemic or a major armed conflict. This effect size is 
+highly consistent with the foundational literature, which estimates that mass privatization programs reduced life expectancy by between 0.86 and 5.14 years depending on the model 
+specification \citep{Stuckler2009, King2009}.
 
 These findings confirm that the ``mortality crisis'' was not merely a generic consequence of the transitional recession. While the economic collapse itself played a substantial 
 role---as evidenced by the positive and highly significant coefficient for GDP per capita in the rigorous models---the data proves that the specific strategy of rapid economic 
@@ -661,14 +680,14 @@ To provide a clearer comparative perspective on the determinants of life expecta
 confidence intervals for the primary predictors in the Two-Way Fixed Effects (Model E). This forest plot effectively illustrates a ``hierarchy of impacts'':
 
 \begin{itemize}
-    \item \textbf{The Dominance of Peace and Wealth:} Macro-structural factors remain the most powerful predictors. War exhibits a devastating negative impact, associated with a loss 
+    \item The Dominance of Peace and Wealth: Macro-structural factors remain the most powerful predictors. War exhibits a devastating negative impact, associated with a loss 
     of over 2.2 years of life expectancy, while Log GDP per capita remains the primary positive driver.
-    \item \textbf{The Privatization Penalty:} In the absence of institutional buffers, large-scale privatization exerts a significant and substantial negative pressure on population 
+    \item The Privatization Penalty: In the absence of institutional buffers, large-scale privatization exerts a significant and substantial negative pressure on population 
     health, pulling life expectancy down by approximately 2.36 years.
-    \item \textbf{The Neutralizing Effect of the State:} The positive coefficient for the State Buffer (Interaction) provides visual confirmation of the study's central thesis. 
+    \item The Neutralizing Effect of the State: The positive coefficient for the State Buffer (Interaction) provides visual confirmation of the study's central thesis. 
     Government expenditure acts as a crucial countervailing force, effectively ``pushing'' the life expectancy estimate back toward the zero line and neutralizing the shock of 
     property transfer.
-    \item \textbf{Statistically Neutral Variables:} Interestingly, when accounting for global time-shocks and state capacity, factors such as the employment rate, inflation, and 
+    \item Statistically Neutral Variables: Interestingly, when accounting for global time-shocks and state capacity, factors such as the employment rate, inflation, and 
     alcohol consumption have confidence intervals crossing the zero line, indicating they were not primary independent drivers of the divergent health outcomes in this specific 
     specification.
 \end{itemize}
