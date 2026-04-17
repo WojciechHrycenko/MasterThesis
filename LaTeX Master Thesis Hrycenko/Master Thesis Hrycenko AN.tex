@@ -250,11 +250,13 @@ However, despite these compelling micro-level findings, the overall scientific k
 \section{Identification Strategy}
 \subsection{Main Analysis}
 
-To estimate the impact of structural transformation and privatization strategies on population health, the study employs a Panel Ordinary Least Squares (Panel OLS) estimator. To transparently 
+To estimate the impact of structural transformation and privatization strategies on population health, the study employs as the baseline a Panel Ordinary Least Squares (Panel OLS) estimator. To transparently 
 demonstrate the influence of both local unobserved factors and global time shocks, the econometric analysis follows a stepwise evolution. The modeling begins with one-way fixed-effects 
 specifications that strictly control for unobserved, time-invariant heterogeneity across countries ($\mu_{i}$), such as deep-seated cultural attitudes toward health or historical institutional 
-legacies. Subsequently, to rigorously eliminate confounding macroeconomic trends that affected all transition economies simultaneously (e.g., the 1998 financial crisis), the analysis is extended 
-to a Two-Way Fixed Effects (TWFE) framework \citep{Wooldridge2010, Allison2009}.
+legacies. 
+
+Subsequently, to rigorously eliminate confounding macroeconomic trends that affected all transition economies simultaneously (e.g., the 1998 financial crisis), the analysis is extended 
+to a Two-Way Fixed Effects (TWFE) framework in the main analysis \citep{Wooldridge2010, Allison2009}.
 
 The fully specified TWFE baseline equation used to test Hypothesis 1 (the ``Shock'' effect) is formally defined as follows:
 
@@ -267,8 +269,8 @@ where $H_{it}$ represents the specific health outcome (e.g., Life Expectancy or 
 including the natural logarithm of real GDP per capita, the employment rate, the inflation rate, average alcohol consumption, health equality, and a binary dummy for active armed conflicts (War).
  The terms $\mu_{i}$ and $\tau_{t}$ represent country and year fixed effects, respectively, while $\epsilon_{it}$ is the idiosyncratic error term.
 
-To formally test Hypotheses 2 and 3 - positing that state capacity and social capital acted as protective buffers \citep{Hamm2012, Scheiring2018} - the baseline TWFE model is extended to include interaction 
-terms. These buffering mechanisms are modeled as:
+To formally test Hypotheses 2 and 3, positing that state capacity and social capital acted as protective buffers \citep{Hamm2012, Scheiring2018}, the above TWFE model is extended with the interaction 
+terms. Specifically, these buffering mechanisms are modeled as follows:
 
 \begin{equation}
 H_{it}=\alpha+\beta_{1}Priv_{it}+\beta_{2}(Priv_{it}\times Buffer_{it})+\beta_{3}Buffer_{it}+\gamma X_{it}+\mu_{i}+\tau_{t}+\epsilon_{it}
@@ -281,15 +283,15 @@ Furthermore, to rigorously test the epidemiological stylized fact that the trans
 disaggregated by gender. By estimating the models separately for male and female life expectancy, the identification strategy captures the profound gender asymmetry of the mortality crisis and mathematically 
 evaluates whether male cohorts were significantly more reliant on institutional buffers than women.
 
-To explicitly isolate the policy mechanism of the crisis, the estimation strategy incorporates a time-invariant binary dummy for Mass Voucher Privatization specifically within the Former Soviet Union 
-(FSU). Estimated via Pooled OLS, this captures the specific mortality penalty of executing rapid property transfers without protective institutional buffers \citep{Hamm2012}.
 
 Finally, to ensure the validity of statistical inference, all models are estimated using cluster-robust standard errors at the country level. This adjustment addresses potential issues of heteroskedasticity 
 and within-country serial correlation, which are common in longitudinal macro-health data and could otherwise lead to over-optimistic p-values \citep{Gerry2012, CameronMiller2015, Bertrand2004}.
 
-To explicitly model the dynamic temporal effects of the transition and address potential biases inherent in static TWFE estimators—such as the inability to distinguish between pre-trends and dynamic 
-post-treatment effects—the analysis is further extended to a Staggered TWFE (Event Study) framework. We define the ``treatment'' threshold as the year a country's Large-scale Privatization index reaches 
-a critical transition phase (e.g., an EBRD score of 3.0 or higher). By establishing relative time indicators centered around this treatment year, we estimate the following event study specification:
+In addition, to explicitly isolate the policy mechanism of the crisis within the Former Soviet Union (FSU), the estimation strategy incorporates a time-invariant binary dummy for Mass Voucher Privatization. Estimated using Pooled OLS, the effect captures the specific mortality penalty of executing rapid property transfers without protective institutional buffers \citep{Hamm2012}.
+
+The final model specification in the main analysis addresses the dynamic temporal effects of the transition and corrects for potential biases inherent in static TWFE estimators, such as the inability to distinguish between pre-trends and dynamic 
+post-treatment effects. Specifically, we refer to a Staggered TWFE (Event Study) framework. We define the ``treatment'' threshold as the year a country's Large-scale Privatization index reaches 
+a critical transition phase (e.g., an EBRD score of 3.0 or higher). By establishing relative time indicators centered around the cut-off date, we estimate the following event study specification:
 
 $$H_{it} = \alpha + \sum_{k=-3, k \neq -1}^{4} \delta_k D_{it}^k + \gamma X_{it} + \mu_i + \tau_t + \epsilon_{it}$$
 
@@ -307,7 +309,7 @@ To ensure the validity and stability of the baseline findings, several robustnes
 population health might theoretically slow down the pace of economic restructuring—the core models are re-estimated using one-year lagged values of the EBRD transition indicators ($Priv_{it-1}$) 
 \citep{Earle2013, Gerry2012, Wooldridge2010}.
 
-Second, to confirm the physiological specificity of the stress mechanism, a falsification (placebo) test is implemented using SDR from Malignant Neoplasms as the dependent variable \citep{Leon1997, Brainerd2005}. 
+Second, to confirm the physiological specificity of the stress mechanism, a falsification (placebo) test is implemented using SDR \textbf{[expand the abbreviation]} from Malignant Neoplasms as the dependent variable \citep{Leon1997, Brainerd2005}. 
 Additionally, to verify that the mortality penalty was specifically tied to the period of peak institutional instability, a temporal interaction term isolating the 1990s Shock Therapy era is introduced.
 Furthermore, the study addresses potential omitted variable bias by evolving the specification from simple entity effects to a Two-Way Fixed Effects (TWFE) framework. This controls for unobserved global shocks 
 (e.g., the 1998 Russian financial crisis \citep{EBRD1999}) that could otherwise confound the relationship between privatization and mortality. 
