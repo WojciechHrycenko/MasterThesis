@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Master Thesis Hrycenko AN.aux
+The style file: unsrtnat.bst
+Database file #1: myreferences.bib
+Warning--there's a number but no volume in Cornia2014
+You've used 70 entries,
+            2481 wiz_defined-function locations,
+            1064 strings with 18142 characters,
+and the built_in function-call counts, 25022 in all, are:
+= -- 2205
+> -- 1090
+< -- 58
++ -- 458
+- -- 317
+* -- 1847
+:= -- 4048
+add.period$ -- 258
+call.type$ -- 70
+change.case$ -- 123
+chr.to.int$ -- 69
+cite$ -- 71
+duplicate$ -- 1297
+empty$ -- 2379
+format.name$ -- 417
+if$ -- 5291
+int.to.chr$ -- 2
+int.to.str$ -- 71
+missing$ -- 74
+newline$ -- 404
+num.names$ -- 215
+pop$ -- 565
+preamble$ -- 1
+purify$ -- 70
+quote$ -- 0
+skip$ -- 746
+stack$ -- 0
+substring$ -- 1054
+swap$ -- 154
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 439
+warning$ -- 1
+while$ -- 218
+width$ -- 0
+write$ -- 1005
+(There was 1 warning)

@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Introduction}{5}{section*.2}%
+\contentsline {section}{\numberline {1}Relevant Literature}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Transition Types}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Economic Transformation and the Privatization Debate}{8}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Mortality and Health Outcomes}{9}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Identification Strategy}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Main Analysis}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Robustness Checks and Analytical Software}{15}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Data and Measures}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Sources and Sample Selection}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Measures}{18}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Results}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Statistics and Data Diagnostics}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Exploratory Data Analysis and Stylized Facts}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Model Refinement: From Naive Estimated to Staggered TWFE}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Institutional Buffers and Gender Heterogeneity}{30}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Robustness and Placebo Tests}{33}{subsection.4.5}%
+\contentsline {section}{Conclusions}{36}{section*.18}%
+\contentsline {section}{Bibliography}{39}{section*.18}%
+\contentsline {section}{List of appendices}{46}{section*.20}%
