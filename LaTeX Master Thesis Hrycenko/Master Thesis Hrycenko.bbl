@@ -1,404 +1,355 @@
-\begin{thebibliography}{70}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Ramet(2010)]{A_Ramet2010}
-Sabrina~P. Ramet, editor.
-\newblock \emph{Central and Southeast European Politics Since 1989}.
-\newblock Cambridge University Press, Cambridge, 2010.
+\bibitem[Allison, 2009]{Allison2009}
+Allison, P.~D. (2009).
+\newblock {\em Fixed Effects Regression Models}.
+\newblock SAGE Publications, Thousand Oaks, CA.
 
-\bibitem[Estrin et~al.(2004)Estrin, Bennett, Maw, and Urga]{Estrin2004}
-Saul Estrin, John Bennett, James Maw, and Giovanni Urga.
-\newblock Privatization methods and economic growth in transition economies.
-\newblock Discussion Paper 4291, Centre for Economic Policy Research (CEPR), 2004.
-
-\bibitem[So{\'o}s(1997)]{Soos1997}
-K{\'a}roly~Attila So{\'o}s.
-\newblock Primary and secondary privatisation in central europe: The case of hungary, poland, and the czech republic.
-\newblock In Roman Frydman, Andrzej Rapaczynski, and Joel Turkewitz, editors, \emph{Privatisation in the Visegrad Countries}. Central European University Press, London, 1997.
-
-\bibitem[Roh{\'a}{\v{c}}(2016)]{Rohac2016}
-Dalibor Roh{\'a}{\v{c}}.
-\newblock What are the lessons from post-communist transition?
-\newblock \emph{Economic Affairs}, 36\penalty0 (3):\penalty0 324--334, 2016.
-\newblock \doi{10.1111/ecaf.12202}.
-
-\bibitem[Cornia(2016{\natexlab{a}})]{Cornia2016}
-Giovanni~Andrea Cornia.
-\newblock Transition, recession and mortality crisis in the former soviet bloc: an update to the year 2014.
-\newblock Discussion Paper 10/2016, Dipartimento di Scienze per l'Economia e l'Impresa, Universit{\`a} di Firenze, 2016{\natexlab{a}}.
-
-\bibitem[Eberstadt(1981)]{Eberstadt1981}
-Nicholas Eberstadt.
-\newblock The health crisis in the {USSR}.
-\newblock \emph{The New York Review of Books}, 28\penalty0 (2):\penalty0 23--31, 1981.
-
-\bibitem[Feshbach and Friendly(1992)]{Feshbach1992}
-Murray Feshbach and Alfred Friendly.
-\newblock \emph{Ecocide in the {USSR}: Health and Nature Under Siege}.
-\newblock Basic Books, New York, 1992.
-
-\bibitem[Mesl{\'e} and Vallin(2002)]{MesleVallin2002}
-France Mesl{\'e} and Jacques Vallin.
-\newblock Mortality in europe: The divergence between east and west.
-\newblock \emph{Population}, 57\penalty0 (1):\penalty0 157--198, 2002.
-
-\bibitem[Brainerd(1998)]{B_Brainerd1998}
-Elizabeth Brainerd.
-\newblock Market reform and mortality in transition economies.
-\newblock \emph{World Development}, 26\penalty0 (11):\penalty0 2013--2027, 1998.
-\newblock \doi{10.1016/S0305-750X(98)00108-8}.
-
-\bibitem[Bujwid-Kurek and Mikucka-Wójtowicz(2015)]{C_BujwidKurek_Transformacja2015}
-Ewa Bujwid-Kurek and Dominika Mikucka-Wójtowicz.
-\newblock \emph{Transformacja ustroju politycznego wybranych państw Europy Środkowej i Południowo-Wschodniej: Podręcznik akademicki}.
-\newblock Wydawnictwo LIBRON - Filip Lohner, Kraków, 2015.
-\newblock ISBN 978-83-65148-56-8.
-
-\bibitem[Huntington(1991)]{D_Huntington1991}
-Samuel~P. Huntington.
-\newblock \emph{The Third Wave: Democratization in the Late Twentieth Century}.
-\newblock University of Oklahoma Press, Norman, 1991.
-
-\bibitem[Wiatr(2020)]{Wiatr2020}
-Jerzy~J. Wiatr.
-\newblock The crisis of democracy: An east-central european perspective.
-\newblock \emph{Politics in Central Europe}, 16\penalty0 (2):\penalty0 353--365, 2020.
-\newblock \doi{10.2478/pce-2020-0016}.
-
-\bibitem[Bunce(1999)]{Bunce1999}
-Valerie Bunce.
-\newblock \emph{Subversive Institutions: The Design and the Destruction of Socialism and the State}.
-\newblock Cambridge University Press, Cambridge, 1999.
-
-\bibitem[Kitschelt(2001)]{Kitschelt2001}
-Herbert Kitschelt.
-\newblock Divergent paths of postcommunist democracies.
-\newblock In Larry Diamond and Marc~F. Plattner, editors, \emph{The Global Divergence of Democracies}, pages 307--331. Johns Hopkins University Press, Baltimore, 2001.
-
-\bibitem[Estrin(1994)]{Estrin1994}
-Saul Estrin.
-\newblock \emph{Privatisation in Central and Eastern Europe}.
-\newblock Longman, London, 1994.
-
-\bibitem[Berg and Sachs(1992)]{Berg1992}
-Andrew Berg and Jeffrey Sachs.
-\newblock Structural adjustment and international trade in eastern europe: The case of poland.
-\newblock \emph{Economic Policy}, 7\penalty0 (14):\penalty0 117--174, 1992.
-
-\bibitem[Hamm et~al.(2012)Hamm, King, and Stuckler]{Hamm2012}
-Patrick Hamm, Lawrence~P. King, and David Stuckler.
-\newblock Mass privatization, state capacity, and economic growth in post-communist countries.
-\newblock \emph{American Sociological Review}, 77\penalty0 (2):\penalty0 295--324, 2012.
-\newblock \doi{10.1177/0003122412437648}.
-
-\bibitem[Stuckler et~al.(2009)Stuckler, King, and McKee]{Stuckler2009}
-David Stuckler, Lawrence King, and Martin McKee.
-\newblock Mass privatisation and the post-communist mortality crisis: a cross-national analysis.
-\newblock \emph{The Lancet}, 373\penalty0 (9661):\penalty0 399--407, 2009.
-\newblock \doi{10.1016/S0140-6736(09)60005-2}.
-
-\bibitem[{European Bank for Reconstruction and Development}(1994)]{EBRD1994}
-{European Bank for Reconstruction and Development}.
-\newblock \emph{Transition Report 1994: Economic Transition in Eastern Europe and the Former Soviet Union}.
-\newblock European Bank for Reconstruction and Development, London, 1994.
-\newblock ISBN 978-1898802050.
-
-\bibitem[{European Bank for Reconstruction and Development}(1999)]{EBRD1999}
-{European Bank for Reconstruction and Development}.
-\newblock \emph{Transition Report 1999: Ten Years of Transition}.
-\newblock European Bank for Reconstruction and Development, London, 1999.
-\newblock ISBN 978-1898802159.
-
-\bibitem[Marcin{\v{c}}in and van Wijnbergen(1997)]{Marcincin1997}
-Anton Marcin{\v{c}}in and Sweder van Wijnbergen.
-\newblock The impact of czech privatization methods on enterprise performance incorporating initial selection bias correction.
-\newblock Discussion Paper 1640, Centre for Economic Policy Research (CEPR), 1997.
-
-\bibitem[Djankov and Murrell(2002)]{Djankov2002}
-Simeon Djankov and Peter Murrell.
-\newblock Enterprise restructuring in transition: A quantitative survey.
-\newblock \emph{Journal of Economic Literature}, 40\penalty0 (3):\penalty0 739--792, 2002.
-\newblock \doi{10.1257/002205102760199933}.
-
-\bibitem[Hoff and Stiglitz(2004)]{Hoff2004}
-Karla Hoff and Joseph~E. Stiglitz.
-\newblock After the big bang? obstacles to the emergence of the rule of law in post-communist societies.
-\newblock \emph{American Economic Review}, 94\penalty0 (3):\penalty0 754--763, 2004.
-\newblock \doi{10.1257/0002828041464521}.
-
-\bibitem[Stiglitz(1999)]{Stiglitz1999}
-Joseph~E. Stiglitz.
-\newblock Whither reform: Ten years of the transition.
-\newblock In \emph{Annual World Bank Conference on Development Economics}, Washington, DC, April 1999.
-
-\bibitem[Kaufmann and Siegelbaum(1997)]{Kaufmann1997}
-Daniel Kaufmann and Paul Siegelbaum.
-\newblock Privatization and corruption in the transition economies.
-\newblock \emph{Journal of International Affairs}, 50\penalty0 (2):\penalty0 433--458, 1997.
-
-\bibitem[Cie{\'s}lik and Goczek(2018)]{Cieslik2018}
-Andrzej Cie{\'s}lik and {\L}ukasz Goczek.
-\newblock Corruption, privatisation and economic growth in post-communist countries.
-\newblock \emph{Europe-Asia Studies}, 70\penalty0 (8):\penalty0 1303--1325, 2018.
-\newblock \doi{10.1080/09668136.2018.1511771}.
-
-\bibitem[Denisova et~al.(2012)Denisova, Eller, Frye, and Zhuravskaya]{Denisova2012}
-Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
-\newblock Everyone hates privatization, but why? survey evidence from 28 post-communist countries.
-\newblock \emph{Journal of Comparative Economics}, 40\penalty0 (1):\penalty0 44--61, 2012.
-\newblock \doi{10.1016/j.jce.2011.08.001}.
-
-\bibitem[Denisova et~al.(2009)Denisova, Eller, Frye, and Zhuravskaya]{Denisova2009}
-Irina Denisova, Markus Eller, Timothy Frye, and Ekaterina Zhuravskaya.
-\newblock Who wants to revise privatization? the complementarity of market skills and institutions.
-\newblock \emph{The American Political Science Review}, 103\penalty0 (2):\penalty0 284--304, 2009.
-\newblock URL \url{http://www.jstor.org/stable/27798502}.
-
-\bibitem[Cornia(2016{\natexlab{b}})]{Cornia2014}
-Giovanni~Andrea Cornia.
-\newblock The mortality crisis in transition economies.
-\newblock \emph{IZA World of Labor}, \penalty0 (298), October 2016{\natexlab{b}}.
-\newblock \doi{10.15185/izawol.298}.
-
-\bibitem[Roland(2001)]{Roland2001}
-G{\'e}rard Roland.
-\newblock Ten years after... transition and economics.
-\newblock \emph{IMF Staff Papers}, 48\penalty0 (Special Issue):\penalty0 29--52, 2001.
-\newblock URL \url{http://www.jstor.org/stable/3248705}.
-
-\bibitem[Eberstadt(1999)]{Eberstadt1999}
-Nicholas Eberstadt.
-\newblock The enigma of russian mortality.
-\newblock \emph{The Public Interest}, 135:\penalty0 3--28, 1999.
-
-\bibitem[Azarova et~al.(2018)Azarova, Irdam, Gugushvili, Fazekas, Horn, B\k{e}dzia-Kawa, Sotg\k{e}tges, Sereda, Mckee, King, and Stuckler]{Azarova2018}
-Aytalina Azarova, Dmirtij Irdam, Alexi Gugushvili, Mihaly Fazekas, R.~V. Horn, Magdalena B\k{e}dzia-Kawa, G\k{e}nther Sotg\k{e}tges, Yulia Sereda, Martin Mckee, Lawrence~P. King, and David Stuckler.
+\bibitem[Azarova et~al., 2018]{Azarova2018}
+Azarova, A., Irdam, D., Gugushvili, A., Fazekas, M., Horn, R.~V., B\k{e}dzia-Kawa, M., Sotg\k{e}tges, G., Sereda, Y., Mckee, M., King, L.~P., and Stuckler, D. (2018).
 \newblock The effect of rapid privatisation on mortality in mono-industrial towns in post-soviet countries: a serial cross-sectional study.
-\newblock \emph{The Lancet Public Health}, 3\penalty0 (10):\penalty0 e485--e493, 2018.
-\newblock \doi{10.1016/S2468-2667(18)30172-8}.
+\newblock {\em The Lancet Public Health}, 3(10):e485--e493.
 
-\bibitem[Fihel(2011)]{Fihel2011}
-Agnieszka Fihel.
-\newblock Between 'pioneers' of the cardiovascular revolution and its 'late followers': Mortality changes in the cee region.
-\newblock \emph{Studia Demograficzne}, 1\penalty0 (159):\penalty0 3--26, 2011.
-
-\bibitem[Bhattacharya et~al.(2013)Bhattacharya, Gathmann, and Miller]{Bhattacharya2013}
-Jay Bhattacharya, Christina Gathmann, and Grant Miller.
-\newblock The gorbachev anti-alcohol campaign and russia's mortality crisis.
-\newblock \emph{American Economic Journal: Applied Economics}, 5\penalty0 (2):\penalty0 232--260, 2013.
-\newblock \doi{10.1257/app.5.2.232}.
-
-\bibitem[Treisman(2010)]{Treisman2010}
-Daniel Treisman.
-\newblock Death and prices: The political economy of russia's alcohol crisis.
-\newblock \emph{Economics of Transition}, 18\penalty0 (2):\penalty0 281--331, 2010.
-\newblock \doi{10.1111/j.1468-0351.2010.00388.x}.
-
-\bibitem[Leon et~al.(1997)Leon, Chenet, Shkolnikov, Zakharov, Shapiro, Rakhmanova, Vassin, and McKee]{Leon1997}
-David~A. Leon, Laurent Chenet, Vladimir~M. Shkolnikov, Sergei Zakharov, Judith Shapiro, Galina Rakhmanova, Sergei Vassin, and Martin McKee.
-\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
-\newblock \emph{The Lancet}, 350\penalty0 (9075):\penalty0 383--388, 1997.
-
-\bibitem[Azarova et~al.(2019)Azarova, Stuckler, McKee, Gugushvili, Roberts, and King]{Azarova2019}
-Aytalina Azarova, David Stuckler, Martin McKee, Alexi Gugushvili, T.~Roberts, and Lawrence King.
+\bibitem[Azarova et~al., 2019]{Azarova2019}
+Azarova, A., Stuckler, D., McKee, M., Gugushvili, A., Roberts, T., and King, L. (2019).
 \newblock Did alcohol policy really cause the postsocialist mortality crisis? a re-examination of stuckler et al.
-\newblock \emph{European Sociological Review}, 35\penalty0 (6):\penalty0 902--910, 2019.
-\newblock \doi{10.1093/esr/jcz041}.
+\newblock {\em European Sociological Review}, 35(6):902--910.
 
-\bibitem[Leon and Shkolnikov(1998)]{Leon1998}
-David~A. Leon and Vladimir~M. Shkolnikov.
-\newblock Social stress and the russian mortality crisis.
-\newblock \emph{JAMA}, 279\penalty0 (10):\penalty0 790--791, 1998.
-\newblock \doi{10.1001/jama.279.10.790}.
+\bibitem[Bennett et~al., 2007]{Bennett2007}
+Bennett, J., Estrin, S., and Urga, G. (2007).
+\newblock Methods of privatization and economic growth in transition economies.
+\newblock {\em Economics of Transition}, 15:661--683.
 
-\bibitem[Zaridze et~al.(2009)Zaridze, Brennan, Boreham, Boroda, Karpov, Lazarev, Konobeevskaya, Igitov, Terechova, Boffetta, and Peto]{Zaridze2009}
-David Zaridze, Paul Brennan, Sanders Boreham, Alex Boroda, Rostislav Karpov, Alexey Lazarev, Irina Konobeevskaya, Vladimir Igitov, Tatyana Terechova, Paolo Boffetta, and Richard Peto.
-\newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
-\newblock \emph{The Lancet}, 373\penalty0 (9682):\penalty0 2201--2214, 2009.
-\newblock \doi{10.1016/S0140-6736(09)60434-7}.
+\bibitem[Berg and Sachs, 1992]{Berg1992}
+Berg, A. and Sachs, J. (1992).
+\newblock Structural adjustment and international trade in eastern europe: The case of poland.
+\newblock {\em Economic Policy}, 7(14):117--174.
 
-\bibitem[King et~al.(2009)King, Hamm, and Stuckler]{King2009}
-Lawrence King, Patrick Hamm, and David Stuckler.
-\newblock Rapid large-scale privatization and death rates in ex-communist countries: An analysis of stress-related and health system mechanisms.
-\newblock \emph{International Journal of Health Services}, 39\penalty0 (3):\penalty0 443--459, 2009.
-\newblock \doi{10.2190/HS.39.3.c}.
-
-\bibitem[Scheiring et~al.(2018)Scheiring, Stefler, Irdam, Fazekas, Azarova, Kolesnikova, K{\"o}ll{\H{o}}, Popov, Szelenyi, and Marmot]{Scheiring2018}
-Gabor Scheiring, Denes Stefler, Darja Irdam, Mihaly Fazekas, Aytalina Azarova, Irina Kolesnikova, J{\'a}nos K{\"o}ll{\H{o}}, Vladimir Popov, Ivan Szelenyi, and Michael Marmot.
-\newblock The gendered effects of foreign investment and prolonged state ownership on mortality in hungary: an indirect demographic, retrospective cohort study.
-\newblock \emph{The Lancet Global Health}, 6\penalty0 (1):\penalty0 e78--e88, 2018.
-\newblock \doi{10.1016/S2214-109X(17)30391-1}.
-
-\bibitem[Earle and Gehlbach(2010)]{Earle2010}
-John~S. Earle and Scott Gehlbach.
-\newblock Mass privatisation and the post-communist mortality crisis: Is there really a relationship?
-\newblock Discussion Paper 5155, Institute for the Study of Labor (IZA), 2010.
-
-\bibitem[Gerry(2012)]{Gerry2012}
-Christopher~J. Gerry.
-\newblock The journals are full of great studies but can we believe the statistics? revisiting the mass privatisation--mortality debate.
-\newblock \emph{Social Science \& Medicine}, 75\penalty0 (1):\penalty0 14--22, 2012.
-\newblock \doi{10.1016/j.socscimed.2011.12.027}.
-
-\bibitem[Earle and Gehlbach(2013)]{Earle2013}
-John~S. Earle and Scott Gehlbach.
-\newblock Did post-communist privatization increase mortality?
-\newblock \emph{The B.E. Journal of Economic Analysis And Policy}, 13\penalty0 (2):\penalty0 647--679, 2013.
-\newblock \doi{10.1515/bejeap-2012-0008}.
-
-\bibitem[Scheiring et~al.(2019)Scheiring, Irdam, and King]{Scheiring2019}
-Gabor Scheiring, Darja Irdam, and Lawrence~P. King.
-\newblock Cross-country evidence on the social determinants of the post-socialist mortality crisis in europe: a review and performance-based hierarchy of variables.
-\newblock \emph{Sociology of Health \& Illness}, 41\penalty0 (S1):\penalty0 36--56, 2019.
-\newblock \doi{10.1111/1467-9566.12846}.
-
-\bibitem[Wooldridge(2010)]{Wooldridge2010}
-Jeffrey~M. Wooldridge.
-\newblock \emph{Econometric Analysis of Cross Section and Panel Data}.
-\newblock MIT Press, Cambridge, MA, 2nd edition, 2010.
-
-\bibitem[Allison(2009)]{Allison2009}
-Paul~D. Allison.
-\newblock \emph{Fixed Effects Regression Models}.
-\newblock SAGE Publications, Thousand Oaks, CA, 2009.
-
-\bibitem[Brainerd(2001)]{Brainerd2001}
-Elizabeth Brainerd.
-\newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
-\newblock \emph{European Economic Review}, 45\penalty0 (4-6):\penalty0 1007--1019, 2001.
-\newblock \doi{10.1016/S0014-2921(01)00108-8}.
-
-\bibitem[Cameron and Miller(2015)]{CameronMiller2015}
-A.~Colin Cameron and Douglas~L. Miller.
-\newblock A practitioner’s guide to cluster-robust inference.
-\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0 317--372, 2015.
-\newblock \doi{10.3368/jhr.50.2.317}.
-
-\bibitem[Bertrand et~al.(2004)Bertrand, Duflo, and Mullainathan]{Bertrand2004}
-Marianne Bertrand, Esther Duflo, and Sendhil Mullainathan.
+\bibitem[Bertrand et~al., 2004]{Bertrand2004}
+Bertrand, M., Duflo, E., and Mullainathan, S. (2004).
 \newblock How much should we trust differences-in-differences estimates?
-\newblock \emph{The Quarterly Journal of Economics}, 119\penalty0 (1):\penalty0 249--275, 2004.
-\newblock \doi{10.1162/003355304772839588}.
+\newblock {\em The Quarterly Journal of Economics}, 119(1):249--275.
 
-\bibitem[Brainerd and Cutler(2005)]{Brainerd2005}
-Elizabeth Brainerd and David~M. Cutler.
+\bibitem[Bhattacharya et~al., 2013]{Bhattacharya2013}
+Bhattacharya, J., Gathmann, C., and Miller, G. (2013).
+\newblock The gorbachev anti-alcohol campaign and russia's mortality crisis.
+\newblock {\em American Economic Journal: Applied Economics}, 5(2):232--260.
+
+\bibitem[Brainerd, 1998]{B_Brainerd1998}
+Brainerd, E. (1998).
+\newblock Market reform and mortality in transition economies.
+\newblock {\em World Development}, 26(11):2013--2027.
+
+\bibitem[Brainerd, 2001]{Brainerd2001}
+Brainerd, E. (2001).
+\newblock Economic reform and mortality in the former soviet union: A study of the suicide epidemic in the 1990s.
+\newblock {\em European Economic Review}, 45(4-6):1007--1019.
+
+\bibitem[Brainerd, 2006]{Brainerd2006}
+Brainerd, E. (2006).
 \newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
-\newblock \emph{The Journal of Economic Perspectives}, 19\penalty0 (1):\penalty0 107--130, 2005.
+\newblock {\em Journal of Economic Perspectives}, 20(1):97--118.
 
-\bibitem[Van~Rossum and Drake(2009)]{Python3}
-Guido Van~Rossum and Fred~L. Drake.
-\newblock \emph{Python 3 Reference Manual}.
-\newblock CreateSpace, Scotts Valley, CA, 2009.
-\newblock ISBN 1441412697.
+\bibitem[Brainerd and Cutler, 2005]{Brainerd2005}
+Brainerd, E. and Cutler, D.~M. (2005).
+\newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
+\newblock {\em The Journal of Economic Perspectives}, 19(1):107--130.
 
-\bibitem[Sheppard(2021)]{Sheppard2021}
-Kevin Sheppard.
-\newblock \emph{linearmodels: Panel Data Econometrics for Python}, 2021.
-\newblock URL \url{https://github.com/bashtage/linearmodels}.
-\newblock Python package.
+\bibitem[Bujwid-Kurek and Mikucka-Wójtowicz, 2015]{C_BujwidKurek_Transformacja2015}
+Bujwid-Kurek, E. and Mikucka-Wójtowicz, D. (2015).
+\newblock {\em Transformacja ustroju politycznego wybranych państw Europy Środkowej i Południowo-Wschodniej: Podręcznik akademicki}.
+\newblock Wydawnictwo LIBRON - Filip Lohner, Kraków.
 
-\bibitem[Kornai(1994)]{Kornai1994}
-J\'anos Kornai.
-\newblock Transformational recession: The main causes.
-\newblock \emph{Journal of Comparative Economics}, 19\penalty0 (1):\penalty0 39--63, 1994.
-\newblock \doi{10.1006/jcec.1994.1062}.
+\bibitem[Bunce, 1999]{Bunce1999}
+Bunce, V. (1999).
+\newblock {\em Subversive Institutions: The Design and the Destruction of Socialism and the State}.
+\newblock Cambridge University Press, Cambridge.
 
-\bibitem[{World Health Organization Regional Office for Europe}(2026)]{WHO_HFA}
-{World Health Organization Regional Office for Europe}.
-\newblock European health for all database (hfa-db), 2026.
-\newblock URL \url{https://gateway.euro.who.int/en/datasets/european-health-for-all-database/}.
+\bibitem[Cameron and Miller, 2015]{CameronMiller2015}
+Cameron, A.~C. and Miller, D.~L. (2015).
+\newblock A practitioner’s guide to cluster-robust inference.
+\newblock {\em Journal of Human Resources}, 50(2):317--372.
+
+\bibitem[Cie{\'s}lik and Goczek, 2018]{Cieslik2018}
+Cie{\'s}lik, A. and Goczek, {\L}. (2018).
+\newblock Corruption, privatisation and economic growth in post-communist countries.
+\newblock {\em Europe-Asia Studies}, 70(8):1303--1325.
+
+\bibitem[Coppedge et~al., 2024]{VDem_Dataset}
+Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J., et~al. (2024).
+\newblock V-dem dataset.
 \newblock Accessed: 2026-02-01.
 
-\bibitem[{European Bank for Reconstruction and Development}(2026)]{EBRD_Indicators}
-{European Bank for Reconstruction and Development}.
-\newblock Transition indicators by country (1989--2014), 2026.
-\newblock URL \url{https://www.ebrd.com/content/dam/ebrd_dxp/assets/xlsx/office-of-the-chief-economist/economic-surveys/ebrd-assess-transition-qualities/transition-indicators-(1989-2014)/Transition-indicators-by-country.xlsx}.
+\bibitem[Cornia, 2016a]{Cornia2014}
+Cornia, G.~A. (2016a).
+\newblock The mortality crisis in transition economies.
+\newblock {\em IZA World of Labor}, (298).
+
+\bibitem[Cornia, 2016b]{Cornia2016}
+Cornia, G.~A. (2016b).
+\newblock Transition, recession and mortality crisis in the former soviet bloc: an update to the year 2014.
+\newblock Discussion Paper 10/2016, Dipartimento di Scienze per l'Economia e l'Impresa, Universit{\`a} di Firenze.
+
+\bibitem[Denisova et~al., 2009]{Denisova2009}
+Denisova, I., Eller, M., Frye, T., and Zhuravskaya, E. (2009).
+\newblock Who wants to revise privatization? the complementarity of market skills and institutions.
+\newblock {\em The American Political Science Review}, 103(2):284--304.
+
+\bibitem[Denisova et~al., 2012]{Denisova2012}
+Denisova, I., Eller, M., Frye, T., and Zhuravskaya, E. (2012).
+\newblock Everyone hates privatization, but why? survey evidence from 28 post-communist countries.
+\newblock {\em Journal of Comparative Economics}, 40(1):44--61.
+
+\bibitem[Djankov and Murrell, 2002]{Djankov2002}
+Djankov, S. and Murrell, P. (2002).
+\newblock Enterprise restructuring in transition: A quantitative survey.
+\newblock {\em Journal of Economic Literature}, 40(3):739--792.
+
+\bibitem[Earle and Gehlbach, 2010]{Earle2010}
+Earle, J.~S. and Gehlbach, S. (2010).
+\newblock Mass privatisation and the post-communist mortality crisis: Is there really a relationship?
+\newblock Discussion Paper 5155, Institute for the Study of Labor (IZA).
+
+\bibitem[Earle and Gehlbach, 2013]{Earle2013}
+Earle, J.~S. and Gehlbach, S. (2013).
+\newblock Did post-communist privatization increase mortality?
+\newblock {\em The B.E. Journal of Economic Analysis And Policy}, 13(2):647--679.
+
+\bibitem[Eberstadt, 1981]{Eberstadt1981}
+Eberstadt, N. (1981).
+\newblock The health crisis in the {USSR}.
+\newblock {\em The New York Review of Books}, 28(2):23--31.
+
+\bibitem[Eberstadt, 1999]{Eberstadt1999}
+Eberstadt, N. (1999).
+\newblock The enigma of russian mortality.
+\newblock {\em The Public Interest}, 135:3--28.
+
+\bibitem[Estrin, 1994]{Estrin1994}
+Estrin, S. (1994).
+\newblock {\em Privatisation in Central and Eastern Europe}.
+\newblock Longman, London.
+
+\bibitem[Estrin et~al., 2004]{Estrin2004}
+Estrin, S., Bennett, J., Maw, J., and Urga, G. (2004).
+\newblock Privatization methods and economic growth in transition economies.
+\newblock Discussion Paper 4291, Centre for Economic Policy Research (CEPR).
+
+\bibitem[{European Bank for Reconstruction and Development}, 1994]{EBRD1994}
+{European Bank for Reconstruction and Development} (1994).
+\newblock {\em Transition Report 1994: Economic Transition in Eastern Europe and the Former Soviet Union}.
+\newblock European Bank for Reconstruction and Development, London.
+
+\bibitem[{European Bank for Reconstruction and Development}, 1999]{EBRD1999}
+{European Bank for Reconstruction and Development} (1999).
+\newblock {\em Transition Report 1999: Ten Years of Transition}.
+\newblock European Bank for Reconstruction and Development, London.
+
+\bibitem[{European Bank for Reconstruction and Development}, 2004]{EBRD2004}
+{European Bank for Reconstruction and Development} (2004).
+\newblock {\em Transition Report 2004: Infrastructure}.
+\newblock European Bank for Reconstruction and Development, London.
+
+\bibitem[{European Bank for Reconstruction and Development}, 2026]{EBRD_Indicators}
+{European Bank for Reconstruction and Development} (2026).
+\newblock Transition indicators by country (1989--2014).
 \newblock Excel Dataset. Accessed: 2026-02-01.
 
-\bibitem[{Jutta Bolt and Jan Luiten van Zanden}(2020)]{MaddisonProject2020}
-{Jutta Bolt and Jan Luiten van Zanden}.
-\newblock Maddison project database 2020, 2020.
-\newblock URL \url{https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020}.
+\bibitem[Feshbach and Friendly, 1992]{Feshbach1992}
+Feshbach, M. and Friendly, A. (1992).
+\newblock {\em Ecocide in the {USSR}: Health and Nature Under Siege}.
+\newblock Basic Books, New York.
+
+\bibitem[Fihel, 2011]{Fihel2011}
+Fihel, A. (2011).
+\newblock Between 'pioneers' of the cardiovascular revolution and its 'late followers': Mortality changes in the cee region.
+\newblock {\em Studia Demograficzne}, 1(159):3--26.
+
+\bibitem[Gerry, 2012]{Gerry2012}
+Gerry, C.~J. (2012).
+\newblock The journals are full of great studies but can we believe the statistics? revisiting the mass privatisation--mortality debate.
+\newblock {\em Social Science \& Medicine}, 75(1):14--22.
+
+\bibitem[Gerry et~al., 2010]{Gerry2010}
+Gerry, C.~J., Mickiewicz, T.~M., and Nikoloski, Z. (2010).
+\newblock Did mass privatisation really increase post-communist mortality?
+\newblock {\em The Lancet}, 375(9712):371.
+
+\bibitem[Hamm et~al., 2012]{Hamm2012}
+Hamm, P., King, L.~P., and Stuckler, D. (2012).
+\newblock Mass privatization, state capacity, and economic growth in post-communist countries.
+\newblock {\em American Sociological Review}, 77(2):295--324.
+
+\bibitem[Hoff and Stiglitz, 2004]{Hoff2004}
+Hoff, K. and Stiglitz, J.~E. (2004).
+\newblock After the big bang? obstacles to the emergence of the rule of law in post-communist societies.
+\newblock {\em American Economic Review}, 94(3):754--763.
+
+\bibitem[Huntington, 1991]{D_Huntington1991}
+Huntington, S.~P. (1991).
+\newblock {\em The Third Wave: Democratization in the Late Twentieth Century}.
+\newblock University of Oklahoma Press, Norman.
+
+\bibitem[{Jutta Bolt and Jan Luiten van Zanden}, 2020]{MaddisonProject2020}
+{Jutta Bolt and Jan Luiten van Zanden} (2020).
+\newblock Maddison project database 2020.
 \newblock Dataset. Accessed: 2026-02-01.
 
-\bibitem[Coppedge et~al.(2024)Coppedge, Gerring, Knutsen, Lindberg, Teorell, et~al.]{VDem_Dataset}
-Michael Coppedge, John Gerring, Carl~Henrik Knutsen, Staffan~I. Lindberg, Jan Teorell, et~al.
-\newblock V-dem dataset, 2024.
-\newblock URL \url{https://v-dem.net/data/the-v-dem-dataset/}.
-\newblock Accessed: 2026-02-01.
+\bibitem[Kaufmann and Siegelbaum, 1997]{Kaufmann1997}
+Kaufmann, D. and Siegelbaum, P. (1997).
+\newblock Privatization and corruption in the transition economies.
+\newblock {\em Journal of International Affairs}, 50(2):433--458.
 
-\bibitem[{The World Bank}(2026)]{WB_GovExpenditure}
-{The World Bank}.
-\newblock General government final consumption expenditure (\% of gdp), 2026.
-\newblock URL \url{https://data.worldbank.org/indicator/NE.CON.GOVT.ZS}.
-\newblock World Development Indicators. Accessed: 2026-02-01.
+\bibitem[King et~al., 2009]{King2009}
+King, L., Hamm, P., and Stuckler, D. (2009).
+\newblock Rapid large-scale privatization and death rates in ex-communist countries: An analysis of stress-related and health system mechanisms.
+\newblock {\em International Journal of Health Services}, 39(3):443--459.
 
-\bibitem[{Organisation for Economic Co-operation and Development}(2026)]{OECD_Alcohol}
-{Organisation for Economic Co-operation and Development}.
-\newblock Alcohol consumption (litres per capita), 2026.
-\newblock URL \url{https://data-explorer.oecd.org/vis?lc=en&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_HEALTH_LVNG%40DF_HEALTH_LVNG_AC&df[ag]=OECD.ELS.HD&df[vs]=1.0&dq=.A.....&pd=%2C&to[TIME_PERIOD]=false&vw=tb}.
+\bibitem[King, 2001]{King2001}
+King, L.~P. (2001).
+\newblock {\em The Basic Features of Postcommunist Capitalism in Eastern Europe: Firms in Hungary, The Czech Republic, and Slovakia}.
+\newblock Praeger, Westport, CT.
+
+\bibitem[Kitschelt, 2001]{Kitschelt2001}
+Kitschelt, H. (2001).
+\newblock Divergent paths of postcommunist democracies.
+\newblock In Diamond, L. and Plattner, M.~F., editors, {\em The Global Divergence of Democracies}, pages 307--331. Johns Hopkins University Press, Baltimore.
+
+\bibitem[Kornai, 1994]{Kornai1994}
+Kornai, J. (1994).
+\newblock Transformational recession: The main causes.
+\newblock {\em Journal of Comparative Economics}, 19(1):39--63.
+
+\bibitem[Leon et~al., 1997]{Leon1997}
+Leon, D.~A., Chenet, L., Shkolnikov, V.~M., Zakharov, S., Shapiro, J., Rakhmanova, G., Vassin, S., and McKee, M. (1997).
+\newblock Huge variation in russian mortality rates 1984-94: artefact, alcohol, or what?
+\newblock {\em The Lancet}, 350(9075):383--388.
+
+\bibitem[Leon and Shkolnikov, 1998]{Leon1998}
+Leon, D.~A. and Shkolnikov, V.~M. (1998).
+\newblock Social stress and the russian mortality crisis.
+\newblock {\em JAMA}, 279(10):790--791.
+
+\bibitem[Marcin{\v{c}}in and van Wijnbergen, 1997]{Marcincin1997}
+Marcin{\v{c}}in, A. and van Wijnbergen, S. (1997).
+\newblock The impact of czech privatization methods on enterprise performance incorporating initial selection bias correction.
+\newblock Discussion Paper 1640, Centre for Economic Policy Research (CEPR).
+
+\bibitem[Mesl{\'e} and Vallin, 2002]{MesleVallin2002}
+Mesl{\'e}, F. and Vallin, J. (2002).
+\newblock Mortality in europe: The divergence between east and west.
+\newblock {\em Population}, 57(1):157--198.
+
+\bibitem[{Organisation for Economic Co-operation and Development}, 2026]{OECD_Alcohol}
+{Organisation for Economic Co-operation and Development} (2026).
+\newblock Alcohol consumption (litres per capita).
 \newblock OECD Data Explorer. Accessed: 2026-02-01.
 
-\bibitem[{UNICEF Regional Office for CEE/CIS}(2013)]{TransMONEE}
-{UNICEF Regional Office for CEE/CIS}.
-\newblock Transmonee 2013 database: Transformative monitoring for enhanced equity, 2013.
-\newblock URL \url{https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/YLJMLT}.
+\bibitem[Ramet, 2010]{A_Ramet2010}
+Ramet, S.~P., editor (2010).
+\newblock {\em Central and Southeast European Politics Since 1989}.
+\newblock Cambridge University Press, Cambridge.
+
+\bibitem[Roh{\'a}{\v{c}}, 2016]{Rohac2016}
+Roh{\'a}{\v{c}}, D. (2016).
+\newblock What are the lessons from post-communist transition?
+\newblock {\em Economic Affairs}, 36(3):324--334.
+
+\bibitem[Roland, 2000]{Roland2000}
+Roland, G. (2000).
+\newblock {\em Transition and Economics: Politics, Markets, and Firms}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[Roland, 2001]{Roland2001}
+Roland, G. (2001).
+\newblock Ten years after... transition and economics.
+\newblock {\em IMF Staff Papers}, 48(Special Issue):29--52.
+
+\bibitem[Scheiring et~al., 2019]{Scheiring2019}
+Scheiring, G., Irdam, D., and King, L.~P. (2019).
+\newblock Cross-country evidence on the social determinants of the post-socialist mortality crisis in europe: a review and performance-based hierarchy of variables.
+\newblock {\em Sociology of Health \& Illness}, 41(S1):36--56.
+
+\bibitem[Scheiring et~al., 2018]{Scheiring2018}
+Scheiring, G., Stefler, D., Irdam, D., Fazekas, M., Azarova, A., Kolesnikova, I., K{\"o}ll{\H{o}}, J., Popov, V., Szelenyi, I., and Marmot, M. (2018).
+\newblock The gendered effects of foreign investment and prolonged state ownership on mortality in hungary: an indirect demographic, retrospective cohort study.
+\newblock {\em The Lancet Global Health}, 6(1):e78--e88.
+
+\bibitem[Sheppard, 2021]{Sheppard2021}
+Sheppard, K. (2021).
+\newblock {\em linearmodels: Panel Data Econometrics for Python}.
+\newblock Python package.
+
+\bibitem[So{\'o}s, 1997]{Soos1997}
+So{\'o}s, K.~A. (1997).
+\newblock Primary and secondary privatisation in central europe: The case of hungary, poland, and the czech republic.
+\newblock In Frydman, R., Rapaczynski, A., and Turkewitz, J., editors, {\em Privatisation in the Visegrad Countries}. Central European University Press, London.
+
+\bibitem[Stiglitz, 1999]{Stiglitz1999}
+Stiglitz, J.~E. (1999).
+\newblock Whither reform: Ten years of the transition.
+\newblock In {\em Annual World Bank Conference on Development Economics}, Washington, DC.
+
+\bibitem[Stuckler et~al., 2009]{Stuckler2009}
+Stuckler, D., King, L., and McKee, M. (2009).
+\newblock Mass privatisation and the post-communist mortality crisis: a cross-national analysis.
+\newblock {\em The Lancet}, 373(9661):399--407.
+
+\bibitem[{The World Bank}, 2026]{WB_GovExpenditure}
+{The World Bank} (2026).
+\newblock General government final consumption expenditure (\% of gdp).
+\newblock World Development Indicators. Accessed: 2026-02-01.
+
+\bibitem[Treisman, 2010]{Treisman2010}
+Treisman, D. (2010).
+\newblock Death and prices: The political economy of russia's alcohol crisis.
+\newblock {\em Economics of Transition}, 18(2):281--331.
+
+\bibitem[{UNICEF Regional Office for CEE/CIS}, 2013]{TransMONEE}
+{UNICEF Regional Office for CEE/CIS} (2013).
+\newblock Transmonee 2013 database: Transformative monitoring for enhanced equity.
 \newblock Dataset. Accessed: 2026-02-01.
 
-\bibitem[{United Nations Economic Commission for Europe}(2004)]{UNECE2004}
-{United Nations Economic Commission for Europe}.
-\newblock \emph{Economic Survey of Europe 2004 No. 1}.
-\newblock United Nations, Geneva, 2004.
-\newblock ISBN 92-1-116891-0.
-\newblock URL \url{https://digitallibrary.un.org/record/532687}.
+\bibitem[{United Nations Economic Commission for Europe}, 2004]{UNECE2004}
+{United Nations Economic Commission for Europe} (2004).
+\newblock {\em Economic Survey of Europe 2004 No. 1}.
+\newblock United Nations, Geneva.
 
-\bibitem[{European Bank for Reconstruction and Development}(2004)]{EBRD2004}
-{European Bank for Reconstruction and Development}.
-\newblock \emph{Transition Report 2004: Infrastructure}.
-\newblock European Bank for Reconstruction and Development, London, 2004.
-\newblock ISBN 978-1898802289.
+\bibitem[Van~Rossum and Drake, 2009]{Python3}
+Van~Rossum, G. and Drake, F.~L. (2009).
+\newblock {\em Python 3 Reference Manual}.
+\newblock CreateSpace, Scotts Valley, CA.
 
-\bibitem[{World Health Organization}(1977)]{WHO1977}
-{World Health Organization}.
-\newblock \emph{Manual of the International Statistical Classification of Diseases, Injuries, and Causes of Death: Based on the Recommendations of the Ninth Revision Conference, 1975}.
-\newblock World Health Organization, Geneva, 1977.
+\bibitem[Wiatr, 2020]{Wiatr2020}
+Wiatr, J.~J. (2020).
+\newblock The crisis of democracy: An east-central european perspective.
+\newblock {\em Politics in Central Europe}, 16(2):353--365.
+
+\bibitem[Wooldridge, 2010]{Wooldridge2010}
+Wooldridge, J.~M. (2010).
+\newblock {\em Econometric Analysis of Cross Section and Panel Data}.
+\newblock MIT Press, Cambridge, MA, 2nd edition.
+
+\bibitem[{World Health Organization}, 1977]{WHO1977}
+{World Health Organization} (1977).
+\newblock {\em Manual of the International Statistical Classification of Diseases, Injuries, and Causes of Death: Based on the Recommendations of the Ninth Revision Conference, 1975}.
+\newblock World Health Organization, Geneva.
 \newblock ICD-9.
 
-\bibitem[{World Health Organization}(1992)]{WHO1992}
-{World Health Organization}.
-\newblock \emph{International Statistical Classification of Diseases and Related Health Problems: Tenth Revision}.
-\newblock World Health Organization, Geneva, 1992.
+\bibitem[{World Health Organization}, 1992]{WHO1992}
+{World Health Organization} (1992).
+\newblock {\em International Statistical Classification of Diseases and Related Health Problems: Tenth Revision}.
+\newblock World Health Organization, Geneva.
 \newblock ICD-10.
 
-\bibitem[Gerry et~al.(2010)Gerry, Mickiewicz, and Nikoloski]{Gerry2010}
-Christopher~J. Gerry, Tomasz~M. Mickiewicz, and Zlatko Nikoloski.
-\newblock Did mass privatisation really increase post-communist mortality?
-\newblock \emph{The Lancet}, 375\penalty0 (9712):\penalty0 371, 2010.
-\newblock \doi{10.1016/S0140-6736(10)60158-4}.
+\bibitem[{World Health Organization Regional Office for Europe}, 2026]{WHO_HFA}
+{World Health Organization Regional Office for Europe} (2026).
+\newblock European health for all database (hfa-db).
+\newblock Accessed: 2026-02-01.
 
-\bibitem[Bennett et~al.(2007)Bennett, Estrin, and Urga]{Bennett2007}
-John Bennett, Saul Estrin, and Giovanni Urga.
-\newblock Methods of privatization and economic growth in transition economies.
-\newblock \emph{Economics of Transition}, 15:\penalty0 661--683, 2007.
-
-\bibitem[Roland(2000)]{Roland2000}
-G{\'{e}}rard Roland.
-\newblock \emph{Transition and Economics: Politics, Markets, and Firms}.
-\newblock MIT Press, Cambridge, MA, 2000.
-
-\bibitem[King(2001)]{King2001}
-Lawrence~P. King.
-\newblock \emph{The Basic Features of Postcommunist Capitalism in Eastern Europe: Firms in Hungary, The Czech Republic, and Slovakia}.
-\newblock Praeger, Westport, CT, 2001.
-
-\bibitem[Brainerd(2006)]{Brainerd2006}
-Elizabeth Brainerd.
-\newblock Autopsy on an empire: Understanding mortality in russia and the former soviet union.
-\newblock \emph{Journal of Economic Perspectives}, 20\penalty0 (1):\penalty0 97--118, 2006.
-\newblock \doi{10.1257/089533006776526148}.
+\bibitem[Zaridze et~al., 2009]{Zaridze2009}
+Zaridze, D., Brennan, P., Boreham, S., Boroda, A., Karpov, R., Lazarev, A., Konobeevskaya, I., Igitov, V., Terechova, T., Boffetta, P., and Peto, R. (2009).
+\newblock Alcohol and cause-specific mortality in russia: a retrospective case-control study of 48,557 adult deaths.
+\newblock {\em The Lancet}, 373(9682):2201--2214.
 
 \end{thebibliography}
