@@ -91,7 +91,7 @@
 			\thispagestyle{plain}
 			\noindent \textit{Declaration of the supervisor} \\[0.5cm]
 			I declare that the following thesis was written under my supervision and I state that it meets all criteria to be submitted for the procedure of academic degree award. \\[0.3cm]
-			*I declare that my participation in the scientific article, which is a part of this thesis is \dots\dots\%, while the supplement to the thesis was written independently by the graduate(s). \\[0.3cm]
+			*I declare that my participation in the scientific article, which is a part of this thesis is 5\%, while the supplement to the thesis was written independently by the graduate(s). \\[0.3cm]
 			{\small * cross out if not applicable} \\[0.8cm]
 			\begin{tabular}{p{5cm} p{8cm}}
 			Date & \dotfill \\
@@ -104,7 +104,7 @@
 			Aware of the legal responsibility, I declare that I am the sole author of the following thesis and that the thesis is free from any content that constitutes copyright infringement or has been acquired contrary to applicable laws and regulations. \\[0.3cm]
 			I also declare that the thesis has never been a subject of degree-awarding procedures in any higher education institution. \\[0.3cm]
 			Moreover I declare that the attached version of the thesis is identical with the enclosed electronic version. \\[0.3cm]
-			*I declare that my participation in the scientific article, which is part of this thesis is \dots\dots\% (not less than 60\%), while the supplement to the thesis was written by me. \\[0.3cm]
+			*I declare that my participation in the scientific article, which is part of this thesis is 95\% (not less than 60\%), while the supplement to the thesis was written by me. \\[0.3cm]
 			{\small * cross out if not applicable} \\[0.8cm]
 			\begin{tabular}{p{5cm} p{8cm}}
 			Date & \dotfill \\

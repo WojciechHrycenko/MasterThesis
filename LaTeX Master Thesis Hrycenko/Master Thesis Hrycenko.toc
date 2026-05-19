@@ -1,21 +1,21 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Introduction}{5}{section*.2}%
-\contentsline {section}{\numberline {1}Relevant Literature}{6}{section.1}%
+\contentsline {section}{\numberline {1}Relevant Literature}{7}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Transition Types}{7}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Economic Transformation and the Privatization Debate}{8}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Mortality and Health Outcomes}{10}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Identification Strategy}{13}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Main Analysis}{13}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Identification Strategy}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Main Analysis}{14}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Robustness Checks and Analytical Software}{16}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Data and Measures}{17}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Data Sources and Sample Selection}{17}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Measures}{18}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Results}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Descriptive Statistics and Data Diagnostics}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.2}Measures}{19}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Results}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Statistics and Data Diagnostics}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Exploratory Data Analysis and Stylized Facts}{24}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Model Refinement: From Naive Estimated to Staggered TWFE}{27}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Model Refinement: From Naive Estimated to Staggered TWFE}{28}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Institutional Buffers and Gender Heterogeneity}{32}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Robustness and Placebo Tests}{35}{subsection.4.5}%
-\contentsline {section}{Conclusions}{38}{section*.18}%
-\contentsline {section}{Bibliography}{41}{section*.18}%
-\contentsline {section}{List of appendices}{51}{section*.29}%
+\contentsline {section}{Conclusions}{39}{section*.19}%
+\contentsline {section}{Bibliography}{43}{section*.19}%
+\contentsline {section}{List of appendices}{53}{section*.30}%

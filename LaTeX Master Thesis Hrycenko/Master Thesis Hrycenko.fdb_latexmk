@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex Master Thesis Hrycenko"] 1778915589.89396 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1778915659.58468 0
+["bibtex Master Thesis Hrycenko"] 1779170681.2033 "Master Thesis Hrycenko.aux" "Master Thesis Hrycenko.bbl" "Master Thesis Hrycenko" 1779170684.30321 0
   "./myreferences.bib" 1776609440 24520 9b11e2695d191ff50d1755bfbfe64f45 ""
-  "Master Thesis Hrycenko.aux" 1778915658 15626 08ea589f4b16ed22bac03273cc265758 "pdflatex"
+  "Master Thesis Hrycenko.aux" 1779170683 15899 fa3c29c934e349d74b8c3f330394ba6a "pdflatex"
   "c:/texlive/2025/texmf-dist/bibtex/bst/base/apalike.bst" 1759953215 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   (generated)
   "Master Thesis Hrycenko.bbl"
   "Master Thesis Hrycenko.blg"
   (rewritten before read)
-["pdflatex"] 1778915656.79436 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1778915659.5854 0
-  "Master Thesis Hrycenko.aux" 1778915658 15626 08ea589f4b16ed22bac03273cc265758 "pdflatex"
-  "Master Thesis Hrycenko.bbl" 1778915590 16718 0f73625b049551636d759faad0fb24ca "bibtex Master Thesis Hrycenko"
-  "Master Thesis Hrycenko.lof" 1778915658 617 c277c0941dd766c950a21f9d33be5736 "pdflatex"
-  "Master Thesis Hrycenko.lot" 1778915658 1655 776f2a637dc99ed856bbf4b1cc6a89bb "pdflatex"
-  "Master Thesis Hrycenko.out" 1778915658 3827 7c7b6b29cd3535ef431e0b1c2143df25 "pdflatex"
-  "Master Thesis Hrycenko.tex" 1778915656 99713 2e507dae8760a566b3628f8cc0c77141 ""
-  "Master Thesis Hrycenko.toc" 1778915658 1761 36862ec29a5daffad2733fdd15c861a7 "pdflatex"
-  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1778915656 99713 2e507dae8760a566b3628f8cc0c77141 ""
+["pdflatex"] 1779170681.57655 "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" "Master Thesis Hrycenko.pdf" "Master Thesis Hrycenko" 1779170684.30369 0
+  "Master Thesis Hrycenko.aux" 1779170683 15899 fa3c29c934e349d74b8c3f330394ba6a "pdflatex"
+  "Master Thesis Hrycenko.bbl" 1779170681 16718 0f73625b049551636d759faad0fb24ca "bibtex Master Thesis Hrycenko"
+  "Master Thesis Hrycenko.lof" 1779170683 617 958d5456f52b6507b600225cfa0159fa "pdflatex"
+  "Master Thesis Hrycenko.lot" 1779170683 1781 1ef6d6aa2846475050dda159d7afdcfb "pdflatex"
+  "Master Thesis Hrycenko.out" 1779170683 3827 38a4d0e2d6a7bca03e577a223bd7932c "pdflatex"
+  "Master Thesis Hrycenko.tex" 1779170677 104461 2d712932e2d25dff7570331ccb1fb5b9 ""
+  "Master Thesis Hrycenko.toc" 1779170683 1761 c0199ba32feefc2bddd2b26e9441fcc0 "pdflatex"
+  "c:/Users/wojci/Desktop/MasterThesis/LaTeX Master Thesis Hrycenko/Master Thesis Hrycenko.tex" 1779170677 104461 2d712932e2d25dff7570331ccb1fb5b9 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1759959685 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1759961863 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1759972854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -261,9 +261,9 @@
   "c:/texlive/2025/texmf.cnf" 1759975317 713 e69b156964470283e0530f5060668171 ""
   "fig_equal_vs_unequal.png" 1772964040 238166 20484818b2acfd7343bddb7203506d3c ""
   "fig_institutional_void.png" 1772137976 52213 aadd177a58cada385cb96d3e3ea282e2 ""
-  "fig_life_expectancy.png" 1772125422 77176 f90645f04b88f43fab33657884b2d670 ""
+  "fig_life_expectancy.png" 1779136583 75786 a619f19a7e8c67b07e7864cf6de00378 ""
   "forest_plot_model_e.png" 1774569742 30656 03ffbe6b9434907a9e37d6ab53f8ffff ""
-  "pracamgr.cls" 1778562368 11971 619662122e7113db7184dff5bcb33cf9 ""
+  "pracamgr.cls" 1779135470 11954 1fdba2365d69ec3eecacec2065f94bbc ""
   (generated)
   "Master Thesis Hrycenko.aux"
   "Master Thesis Hrycenko.lof"
