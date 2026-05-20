@@ -160,14 +160,14 @@ the specific implementation of mass voucher privatization in the Former Soviet U
 strong state capacity, through government expenditure, and robust social capital effectively mitigated this mortality shock, particularly reducing 
 deaths from cardiovascular and external causes among men.
 
-Furthermore, advanced robustness checks confirm the highly specific and contextual nature of this crisis. By disaggregating the transition strategy into a categorical shock index, the analysis 
-reveals that while mass privatization in Central Europe yielded no statistically significant demographic harm, the exact same policy mechanism executed within the institutional void'' of the Former Soviet Union 
-drove the demographic collapse. Finally, applying an inverse hyperbolic sine (ArcSinh) transformation to mathematically smooth the extreme velocity of property transfers completely eliminates the mortality penalty's 
-statistical significance. This demonstrates that the Unequal Toll'' of the transition was not a linear consequence of moving towards private ownership, but a direct result of chaotic policy execution in an unbuffered environment.
+Furthermore, advanced robustness checks confirm the highly specific and contextual nature of this crisis. By disaggregating the transition strategy into a categorical shock index, 
+the analysis reveals that while mass privatization in Central Europe yielded no statistically significant demographic harm, the exact same policy mechanism executed within the ``institutional void'' 
+of the Former Soviet Union drove the demographic collapse. This demonstrates that the ``Unequal Toll'' of the transition was not an inherent consequence of moving towards private ownership, but a 
+direct result of chaotic policy execution in an unbuffered environment.
 
-The remainder of the paper is structured as follows: the next section reviews the existing literature on transition types and academic debate on the association between privatization and mortality. The 
-subsequent section details the data and methodology, including the Staggered Two-Way Fixed Effects estimation strategy. Finally, the empirical results 
-and robustness checks are presented, followed by the concluding remarks.
+The remainder of the paper is structured as follows: the next section reviews the existing literature on transition types and academic debate on the association between privatization and mortality. 
+The subsequent section details the data and methodology, including the Staggered Two-Way Fixed Effects estimation strategy. Finally, the empirical results and robustness checks are presented, 
+followed by the concluding remarks.
 
 \section{Relevant Literature}\
 \subsection{Transition Types}\
@@ -999,53 +999,44 @@ $R^2$ & 0.5479 (Within) & 0.9992 (Overall) \\
 \end{table}
 
 
-Furthermore, to rigorously validate the ``Institutional Void'' hypothesis and ensure the findings are robust to different operationalizations of the policy shock, 
-two additional extensions of Model I were estimated (Table \ref{tab:shock_proxy}). First, the transition strategy was disaggregated into a categorical variable to 
-distinguish between the intensities of the shock (Model J). While mass privatization executed in Central Europe (Shock Level 1) yielded a negative but statistically 
-insignificant penalty ($p = 0.349$), the exact same policy mechanism executed in the Former Soviet Union (Shock Level 2) generated a catastrophic and highly significant 
-penalty of 2.69 years ($\beta = -2.695$, $p < 0.05$). This proves that the mortality crisis was driven by the specific interaction of radical economic policy and an 
-institutional vacuum, rather than the mass privatization mechanism alone.
-
-Finally, Model K applies an inverse hyperbolic sine (ArcSinh) transformation to the continuous large-scale privatization index. This econometric specification smooths 
-out the extreme, sudden jumps in property transfer. In this TWFE framework, the smoothed privatization variable completely loses its statistical significance ($p = 0.163$). 
-This highly revealing null result indicates that the post-communist mortality crisis was not a linear function of transitioning to private ownership. When the acute extremes 
-of the shock are mathematically smoothed out, the lethality disappears. Together, these robustness checks confirm that the transition penalty was entirely non-linear; it was the 
-unbuffered, extreme velocity of the property transfer, rather than the general macroeconomic shift, that cost millions of years of human life.
+Furthermore, to rigorously validate the ``Institutional Void'' hypothesis and ensure the findings are robust to different operationalizations of the policy shock, an additional 
+extension of Model I was estimated (Table \ref{tab:shock_proxy}). The transition strategy was disaggregated into a categorical variable to distinguish between the intensities of 
+the shock (Model J). While mass privatization executed in Central Europe (Shock Level 1) yielded a negative but statistically insignificant penalty ($p = 0.349$), the exact same 
+policy mechanism executed in the Former Soviet Union (Shock Level 2) generated a catastrophic and highly significant penalty of 2.69 years ($\beta = -2.695$, $p < 0.05$). This proves 
+that the mortality crisis was driven by the specific interaction of radical economic policy and an institutional vacuum, rather than the mass privatization mechanism alone.
 
 \begin{table}[H]
 \centering
 \caption{Extended Robustness Checks: The FSU Shock Proxy}
 \label{tab:shock_proxy}
 \footnotesize
-\begin{tabular}{l c c c}
+\begin{tabular}{l c c}
 \toprule
- & \textbf{(1) 0-1 Dummy} & \textbf{(2) Categorical} & \textbf{(3) ArcSinh TWFE} \\
-\textbf{Dependent Variable: Life Expectancy} & (Model I) & (Model J) & (Model K) \\
+ & \textbf{(1) 0-1 Dummy} & \textbf{(2) Categorical} \\
+\textbf{Dependent Variable: Life Expectancy} & (Model I) & (Model J) \\
 \midrule
-Mass Privatization (FSU Dummy) & -2.545** & & \\
- & (1.040) & & \\
-Mass Privatization (CE: Shock Level 1) & & -0.620 & \\
- & & (0.661) & \\
-Mass Privatization (FSU: Shock Level 2) & & -2.695** & \\
- & & (1.121) & \\
-Privatization (ArcSinh) & & & 0.834 \\
- & & & (0.595) \\
-Log GDP per Capita & 7.722*** & 7.740*** & 4.199*** \\
- & (0.051) & (0.068) & (0.693) \\
-Inflation Rate & 0.000 & 0.000 & 0.000 \\
- & (0.000) & (0.000) & (0.000) \\
-War (Dummy) & -3.027*** & -3.066*** & -1.464** \\
- & (1.096) & (1.076) & (0.738) \\
+Mass Privatization (FSU Dummy) & -2.545** & \\
+ & (1.040) & \\
+Mass Privatization (CE: Shock Level 1) & & -0.620 \\
+ & & (0.661) \\
+Mass Privatization (FSU: Shock Level 2) & & -2.695** \\
+ & & (1.121) \\
+Log GDP per Capita & 7.722*** & 7.740*** \\
+ & (0.051) & (0.068) \\
+Inflation Rate & 0.000 & 0.000 \\
+ & (0.000) & (0.000) \\
+War (Dummy) & -3.027*** & -3.066*** \\
+ & (1.096) & (1.076) \\
 \midrule
-Country Fixed Effects & No & No & Yes \\
-Time Fixed Effects & No & No & Yes \\
-Observations & 210 & 210 & 210 \\
-Estimator & Pooled OLS & Pooled OLS & Panel OLS \\
-$R^2$ & 0.9992 (Overall) & 0.9993 (Overall) & 0.5830 (Within) \\
+Country Fixed Effects & No & No \\
+Time Fixed Effects & No & No \\
+Observations & 210 & 210 \\
+Estimator & Pooled OLS & Pooled OLS \\
+$R^2$ (Overall) & 0.9992 & 0.9993 \\
 \bottomrule
-\multicolumn{4}{l}{\scriptsize Notes: Robust standard errors clustered at the country level in parentheses.} \\
-\multicolumn{4}{l}{\scriptsize * $p < 0.1$, ** $p < 0.05$, *** $p < 0.01$} \\
-\multicolumn{4}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, Maddison Project, WB WDI.}} \\
+\multicolumn{3}{l}{\scriptsize Notes: Robust standard errors clustered at the country level in parentheses.} \\
+\multicolumn{3}{l}{\scriptsize * $p < 0.1$, ** $p < 0.05$, *** $p < 0.01$} \\
+\multicolumn{3}{l}{\scriptsize \textit{Source: Author's own tabulation based on WHO HFA-DB, EBRD, Maddison Project, WB WDI.}} \\
 \end{tabular}
 \end{table}
 
@@ -1069,11 +1060,10 @@ The empirical evidence formally validates the three core hypotheses formulated a
 \end{itemize}
 
 Importantly, these conclusions were validated through stringent robustness and falsification tests. The catastrophic mortality penalty associated with unbuffered privatization remained highly significant 
-even after strictly excluding all interpolated control covariates, proving the core findings are not artifacts of missing data treatments. Furthermore, alternative operationalizations of the shock variable definitively proved 
-the non-linear, contextual nature of the crisis. Categorical disaggregation revealed that while mass privatization in Central Europe yielded no statistically significant mortality penalty, the identical policy mechanism executed 
-within the institutional vacuum of the Former Soviet Union drove the demographic collapse. Similarly, when the acute extremes of the privatization index were mathematically smoothed via an inverse hyperbolic sine (ArcSinh) transformation, 
-the statistical lethality of the variable disappeared. Ultimately, the data demonstrates that the final macroeconomic 
-destination of a privatized economy did not harm population health (as evidenced by the objective private sector share of GDP); it was the unbuffered, extreme velocity of the chaotic journey that exacted the ``Unequal Toll''.
+even after strictly excluding all interpolated control covariates, proving the core findings are not artifacts of missing data treatments. Furthermore, alternative operationalizations of the shock variable 
+definitively proved the highly contextual nature of the crisis. Categorical disaggregation revealed that while mass privatization in Central Europe yielded no statistically significant mortality penalty, 
+the identical policy mechanism executed within the institutional vacuum of the Former Soviet Union drove the demographic collapse. Ultimately, the data demonstrates that the final macroeconomic destination 
+of a privatized economy did not harm population health (as evidenced by the objective private sector share of GDP); it was the unbuffered, extreme velocity of the chaotic journey that exacted the ``Unequal Toll''.
 
 The findings of this study offer critical lessons for contemporary policymakers overseeing macroeconomic restructuring, structural adjustment programs (e.g., IMF interventions), or post-conflict economic 
 rebuilding. 

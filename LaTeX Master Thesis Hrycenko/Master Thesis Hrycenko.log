@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  19 MAY 2026 08:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  20 MAY 2026 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,22 +1146,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 [22]
 
 [23]
-
-[24]
-<fig_life_expectancy.png, id=658, 723.4227pt x 451.6875pt>
+<fig_life_expectancy.png, id=656, 723.4227pt x 451.6875pt>
 File: fig_life_expectancy.png Graphic file (type png)
 <use fig_life_expectancy.png>
 Package pdftex.def Info: fig_life_expectancy.png  used on input line 576.
 (pdftex.def)             Requested size: 386.96027pt x 241.6125pt.
 
 
-[25 <./fig_life_expectancy.png>]
-<fig_equal_vs_unequal.png, id=674, 1076.1003pt x 645.3711pt>
+[24]
+<fig_equal_vs_unequal.png, id=671, 1076.1003pt x 645.3711pt>
 File: fig_equal_vs_unequal.png Graphic file (type png)
 <use fig_equal_vs_unequal.png>
 Package pdftex.def Info: fig_equal_vs_unequal.png  used on input line 596.
 (pdftex.def)             Requested size: 386.96027pt x 232.06754pt.
-<fig_institutional_void.png, id=677, 708.9687pt x 426.393pt>
+
+
+[25 <./fig_life_expectancy.png>]
+<fig_institutional_void.png, id=680, 708.9687pt x 426.393pt>
 File: fig_institutional_void.png Graphic file (type png)
 <use fig_institutional_void.png>
 Package pdftex.def Info: fig_institutional_void.png  used on input line 613.
@@ -1183,7 +1184,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
 
 [29]
-<forest_plot_model_e.png, id=719, 714.7503pt x 426.393pt>
+<forest_plot_model_e.png, id=722, 714.7503pt x 426.393pt>
 File: forest_plot_model_e.png Graphic file (type png)
 <use forest_plot_model_e.png>
 Package pdftex.def Info: forest_plot_model_e.png  used on input line 715.
@@ -1217,38 +1218,36 @@ Overfull \hbox (23.96173pt too wide) in paragraph at lines 833--858
 
 [40]
 
-[41]
+[41] (./Master Thesis Hrycenko.bbl
 
-[42] (./Master Thesis Hrycenko.bbl
-
-[43
+[42
 
 
 ]
 
+[43]
+
 [44]
 
-[45]
+[45])
 
-[46])
+[46]
 
-[47]
+[47
+
+]
 
 [48
 
 ]
 
-[49
-
-]
+[49]
 
 [50]
 
-[51]
+[51] (./Master Thesis Hrycenko.lot
 
-[52] (./Master Thesis Hrycenko.lot
-
-[53
+[52
 
 ])
 \tf@lot=\write7
@@ -1260,7 +1259,7 @@ Overfull \hbox (23.96173pt too wide) in paragraph at lines 833--858
 
 
 
-[54] (./Master Thesis Hrycenko.aux)
+[53] (./Master Thesis Hrycenko.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1273,18 +1272,18 @@ Package rerunfilecheck Info: File `"Master Thesis Hrycenko".out' has not changed
 (rerunfilecheck)             Checksum: 38A4D0E2D6A7BCA03E577A223BD7932C;3827.
  ) 
 Here is how much of TeX's memory you used:
- 33805 strings out of 467748
- 649373 string characters out of 5431138
- 1059998 words of memory out of 5000000
+ 33804 strings out of 467748
+ 649366 string characters out of 5431138
+ 1059999 words of memory out of 5000000
  61689 multiletter control sequences out of 15000+600000
  717655 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,117p,3321b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Master Thesis Hrycenko.pdf" (55 pages, 559292 bytes).
+Output written on "Master Thesis Hrycenko.pdf" (54 pages, 558173 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 894 compressed objects within 9 object streams
- 176 named destinations out of 1000 (max. 500000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 893 compressed objects within 9 object streams
+ 175 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
