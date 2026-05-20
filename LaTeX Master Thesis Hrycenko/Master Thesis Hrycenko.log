@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  20 MAY 2026 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.9)  20 MAY 2026 22:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,11 +943,7 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [en,magisterska].
 
-(./Master Thesis Hrycenko.aux
-
-LaTeX Warning: Label `tab:desc_stats' multiply defined.
-
-)
+(./Master Thesis Hrycenko.aux)
 \openout1 = `"Master Thesis Hrycenko.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -1146,7 +1142,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 [22]
 
 [23]
-<fig_life_expectancy.png, id=656, 723.4227pt x 451.6875pt>
+<fig_life_expectancy.png, id=655, 723.4227pt x 451.6875pt>
 File: fig_life_expectancy.png Graphic file (type png)
 <use fig_life_expectancy.png>
 Package pdftex.def Info: fig_life_expectancy.png  used on input line 576.
@@ -1154,7 +1150,7 @@ Package pdftex.def Info: fig_life_expectancy.png  used on input line 576.
 
 
 [24]
-<fig_equal_vs_unequal.png, id=671, 1076.1003pt x 645.3711pt>
+<fig_equal_vs_unequal.png, id=670, 1076.1003pt x 645.3711pt>
 File: fig_equal_vs_unequal.png Graphic file (type png)
 <use fig_equal_vs_unequal.png>
 Package pdftex.def Info: fig_equal_vs_unequal.png  used on input line 596.
@@ -1162,7 +1158,7 @@ Package pdftex.def Info: fig_equal_vs_unequal.png  used on input line 596.
 
 
 [25 <./fig_life_expectancy.png>]
-<fig_institutional_void.png, id=680, 708.9687pt x 426.393pt>
+<fig_institutional_void.png, id=679, 708.9687pt x 426.393pt>
 File: fig_institutional_void.png Graphic file (type png)
 <use fig_institutional_void.png>
 Package pdftex.def Info: fig_institutional_void.png  used on input line 613.
@@ -1184,7 +1180,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
 
 [29]
-<forest_plot_model_e.png, id=722, 714.7503pt x 426.393pt>
+<forest_plot_model_e.png, id=721, 714.7503pt x 426.393pt>
 File: forest_plot_model_e.png Graphic file (type png)
 <use forest_plot_model_e.png>
 Package pdftex.def Info: forest_plot_model_e.png  used on input line 715.
@@ -1264,23 +1260,19 @@ Overfull \hbox (23.96173pt too wide) in paragraph at lines 833--858
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `"Master Thesis Hrycenko".out' has not changed.
-(rerunfilecheck)             Checksum: 38A4D0E2D6A7BCA03E577A223BD7932C;3827.
+(rerunfilecheck)             Checksum: EF28F4AE1688F9F8A9A1B627F1B3C8CF;3827.
  ) 
 Here is how much of TeX's memory you used:
- 33804 strings out of 467748
- 649366 string characters out of 5431138
- 1059999 words of memory out of 5000000
- 61689 multiletter control sequences out of 15000+600000
+ 33805 strings out of 467748
+ 649381 string characters out of 5431138
+ 1060025 words of memory out of 5000000
+ 61690 multiletter control sequences out of 15000+600000
  717655 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,117p,3321b,1278s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Master Thesis Hrycenko.pdf" (54 pages, 558173 bytes).
+Output written on "Master Thesis Hrycenko.pdf" (54 pages, 558210 bytes).
 PDF statistics:
  982 PDF objects out of 1000 (max. 8388607)
  893 compressed objects within 9 object streams
