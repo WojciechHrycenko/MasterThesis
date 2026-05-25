@@ -28,6 +28,9 @@
 \usepackage{changepage}
 \usepackage{indentfirst}
 \usepackage[titles]{tocloft}
+\usepackage{pdfpages}
+
+
 
 %  -  CYTOWANIA I LINKI  - 
 % ZMIANA 1: natbib z opcją numbers
@@ -73,6 +76,7 @@
 \opiekun{The thesis written under the supervision of \\ dr hab. Anna Nicińska\\ from  Department of Digital Economics \\ WNE UW}
 \date{May 2026}
 
+
 % Metadane do abstractu
 \dziedzina{Economics (14300)}
 \klasyfikacja{}
@@ -98,11 +102,12 @@
 
 %  -  TREŚĆ  - 
 \begin{document}
+
 \renewcommand{\contentsname}{Table of Contents}
 
 \maketitle % Ta komenda generuje stronę tytułową
-
-
+\includepdf[pages={1}]{Declaration_Magisterska.pdf}
+\includepdf[pages={1}]{Declaration_AI.pdf}
 \begin{abstract}
 \setcounter{page}{2}
 The thesis covers the health impact of large-scale privatization during the post-communist transition (1989-2014), which triggered divergent demographic 
